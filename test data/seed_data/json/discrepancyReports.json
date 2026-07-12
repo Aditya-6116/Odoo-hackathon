@@ -1,0 +1,168 @@
+[
+  {
+    "id": "disc_0001",
+    "auditCycleId": "audit_0001",
+    "flaggedItems": [
+      {
+        "assetId": "asset_0159",
+        "assetTag": "AF-0159",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0161",
+        "assetTag": "AF-0161",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0210",
+        "assetTag": "AF-0210",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0077",
+        "assetTag": "AF-0077",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0243",
+        "assetTag": "AF-0243",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0170",
+        "assetTag": "AF-0170",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0144",
+        "assetTag": "AF-0144",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0035",
+        "assetTag": "AF-0035",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0228",
+        "assetTag": "AF-0228",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0187",
+        "assetTag": "AF-0187",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0244",
+        "assetTag": "AF-0244",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0225",
+        "assetTag": "AF-0225",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0232",
+        "assetTag": "AF-0232",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0091",
+        "assetTag": "AF-0091",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      }
+    ],
+    "generatedAt": "2026-01-03T06:22:00Z",
+    "resolutionStatus": "open"
+  },
+  {
+    "id": "disc_0002",
+    "auditCycleId": "audit_0002",
+    "flaggedItems": [
+      {
+        "assetId": "asset_0220",
+        "assetTag": "AF-0220",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0066",
+        "assetTag": "AF-0066",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0115",
+        "assetTag": "AF-0115",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0207",
+        "assetTag": "AF-0207",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0201",
+        "assetTag": "AF-0201",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0088",
+        "assetTag": "AF-0088",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0038",
+        "assetTag": "AF-0038",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0211",
+        "assetTag": "AF-0211",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      },
+      {
+        "assetId": "asset_0106",
+        "assetTag": "AF-0106",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0170",
+        "assetTag": "AF-0170",
+        "result": "Missing",
+        "notes": "Not found at last known location during audit."
+      },
+      {
+        "assetId": "asset_0181",
+        "assetTag": "AF-0181",
+        "result": "Damaged",
+        "notes": "Visible damage noted during physical inspection."
+      }
+    ],
+    "generatedAt": "2026-04-01T00:44:00Z",
+    "resolutionStatus": "open"
+  }
+]

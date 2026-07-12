@@ -1,0 +1,66 @@
+[
+  {
+    "id": "audit_0001",
+    "name": "Q1 2026 Engineering Audit",
+    "scopeType": "department",
+    "scopeValue": "Engineering",
+    "dateRangeStart": "2025-12-13T19:32:00Z",
+    "dateRangeEnd": "2025-12-29T06:22:00Z",
+    "auditorIds": [
+      "uid_0011",
+      "uid_0002"
+    ],
+    "status": "Closed",
+    "createdByUserId": "uid_0002",
+    "createdAt": "2025-12-10T19:32:00Z",
+    "closedAt": "2026-01-03T06:22:00Z"
+  },
+  {
+    "id": "audit_0002",
+    "name": "Q2 2026 Warehouse Spot-Check",
+    "scopeType": "location",
+    "scopeValue": "Warehouse A",
+    "dateRangeStart": "2026-03-13T16:56:00Z",
+    "dateRangeEnd": "2026-03-29T00:44:00Z",
+    "auditorIds": [
+      "uid_0004",
+      "uid_0011"
+    ],
+    "status": "Closed",
+    "createdByUserId": "uid_0003",
+    "createdAt": "2026-03-10T16:56:00Z",
+    "closedAt": "2026-04-01T00:44:00Z"
+  },
+  {
+    "id": "audit_0003",
+    "name": "Q3 2026 Facilities Audit",
+    "scopeType": "department",
+    "scopeValue": "Facilities",
+    "dateRangeStart": "2026-06-01T15:49:00Z",
+    "dateRangeEnd": "2026-06-17T03:10:00Z",
+    "auditorIds": [
+      "uid_0002",
+      "uid_0009"
+    ],
+    "status": "Open",
+    "createdByUserId": "uid_0005",
+    "createdAt": "2026-05-29T15:49:00Z",
+    "closedAt": null
+  },
+  {
+    "id": "audit_0004",
+    "name": "Annual HQ-Wide Audit 2026",
+    "scopeType": "location",
+    "scopeValue": "1st Floor, Bay 1",
+    "dateRangeStart": "2026-07-01T12:19:00Z",
+    "dateRangeEnd": "2026-07-17T09:00:00Z",
+    "auditorIds": [
+      "uid_0014",
+      "uid_0007"
+    ],
+    "status": "Open",
+    "createdByUserId": "uid_0004",
+    "createdAt": "2026-06-28T12:19:00Z",
+    "closedAt": null
+  }
+]

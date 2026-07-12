@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "notif_0001",
+    "userId": "uid_0047",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0132 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0034",
+    "isRead": true,
+    "createdAt": "2026-02-15T08:06:00Z"
+  },
+  {
+    "id": "notif_0002",
+    "userId": "uid_0021",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0038.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0046",
+    "isRead": true,
+    "createdAt": "2026-03-15T10:52:00Z"
+  },
+  {
+    "id": "notif_0003",
+    "userId": "uid_0027",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0093 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0038",
+    "isRead": true,
+    "createdAt": "2026-01-30T21:57:00Z"
+  },
+  {
+    "id": "notif_0004",
+    "userId": "uid_0013",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0132 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0013",
+    "isRead": true,
+    "createdAt": "2025-12-27T12:49:00Z"
+  },
+  {
+    "id": "notif_0005",
+    "userId": "uid_0021",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0140 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0088",
+    "isRead": false,
+    "createdAt": "2025-11-30T22:08:00Z"
+  },
+  {
+    "id": "notif_0006",
+    "userId": "uid_0045",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0176 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0069",
+    "isRead": true,
+    "createdAt": "2026-01-16T21:54:00Z"
+  },
+  {
+    "id": "notif_0007",
+    "userId": "uid_0009",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0004 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0063",
+    "isRead": true,
+    "createdAt": "2026-03-01T23:37:00Z"
+  },
+  {
+    "id": "notif_0008",
+    "userId": "uid_0014",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0027 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0025",
+    "isRead": false,
+    "createdAt": "2026-06-02T16:46:00Z"
+  },
+  {
+    "id": "notif_0009",
+    "userId": "uid_0045",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0158 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0069",
+    "isRead": false,
+    "createdAt": "2025-12-11T16:06:00Z"
+  },
+  {
+    "id": "notif_0010",
+    "userId": "uid_0030",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0107 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0017",
+    "isRead": false,
+    "createdAt": "2025-11-20T06:53:00Z"
+  },
+  {
+    "id": "notif_0011",
+    "userId": "uid_0020",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0090 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0057",
+    "isRead": false,
+    "createdAt": "2026-01-16T21:52:00Z"
+  },
+  {
+    "id": "notif_0012",
+    "userId": "uid_0022",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0196 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0004",
+    "isRead": false,
+    "createdAt": "2026-05-28T10:41:00Z"
+  },
+  {
+    "id": "notif_0013",
+    "userId": "uid_0009",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0057 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0089",
+    "isRead": true,
+    "createdAt": "2025-12-04T10:51:00Z"
+  },
+  {
+    "id": "notif_0014",
+    "userId": "uid_0009",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0054 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0015",
+    "isRead": true,
+    "createdAt": "2026-06-21T19:16:00Z"
+  },
+  {
+    "id": "notif_0015",
+    "userId": "uid_0028",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0194 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0005",
+    "isRead": false,
+    "createdAt": "2026-07-02T02:54:00Z"
+  },
+  {
+    "id": "notif_0016",
+    "userId": "uid_0004",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0152 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0033",
+    "isRead": true,
+    "createdAt": "2026-03-14T05:02:00Z"
+  },
+  {
+    "id": "notif_0017",
+    "userId": "uid_0001",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0171 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0016",
+    "isRead": false,
+    "createdAt": "2025-12-31T05:10:00Z"
+  },
+  {
+    "id": "notif_0018",
+    "userId": "uid_0013",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0151 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0004",
+    "isRead": true,
+    "createdAt": "2026-05-25T11:38:00Z"
+  },
+  {
+    "id": "notif_0019",
+    "userId": "uid_0038",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0243 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0065",
+    "isRead": false,
+    "createdAt": "2026-04-13T21:50:00Z"
+  },
+  {
+    "id": "notif_0020",
+    "userId": "uid_0037",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0130 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0075",
+    "isRead": false,
+    "createdAt": "2026-06-25T05:08:00Z"
+  },
+  {
+    "id": "notif_0021",
+    "userId": "uid_0046",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0056 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0069",
+    "isRead": true,
+    "createdAt": "2026-05-23T23:50:00Z"
+  },
+  {
+    "id": "notif_0022",
+    "userId": "uid_0014",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0237 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0061",
+    "isRead": true,
+    "createdAt": "2025-11-18T16:06:00Z"
+  },
+  {
+    "id": "notif_0023",
+    "userId": "uid_0044",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0113 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0046",
+    "isRead": false,
+    "createdAt": "2025-11-09T05:49:00Z"
+  },
+  {
+    "id": "notif_0024",
+    "userId": "uid_0033",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0055 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0041",
+    "isRead": true,
+    "createdAt": "2026-05-14T19:53:00Z"
+  },
+  {
+    "id": "notif_0025",
+    "userId": "uid_0009",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0134 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0037",
+    "isRead": true,
+    "createdAt": "2026-03-07T21:15:00Z"
+  },
+  {
+    "id": "notif_0026",
+    "userId": "uid_0021",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0022.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0037",
+    "isRead": true,
+    "createdAt": "2026-03-08T05:36:00Z"
+  },
+  {
+    "id": "notif_0027",
+    "userId": "uid_0029",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0176 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0038",
+    "isRead": false,
+    "createdAt": "2026-05-15T15:34:00Z"
+  },
+  {
+    "id": "notif_0028",
+    "userId": "uid_0005",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0049 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0048",
+    "isRead": true,
+    "createdAt": "2025-11-24T17:17:00Z"
+  },
+  {
+    "id": "notif_0029",
+    "userId": "uid_0007",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0173 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0085",
+    "isRead": false,
+    "createdAt": "2026-04-01T18:27:00Z"
+  },
+  {
+    "id": "notif_0030",
+    "userId": "uid_0026",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0037 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0014",
+    "isRead": false,
+    "createdAt": "2026-03-31T10:23:00Z"
+  },
+  {
+    "id": "notif_0031",
+    "userId": "uid_0024",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0017 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0026",
+    "isRead": true,
+    "createdAt": "2025-11-05T02:39:00Z"
+  },
+  {
+    "id": "notif_0032",
+    "userId": "uid_0015",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0032 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0064",
+    "isRead": true,
+    "createdAt": "2025-12-09T19:14:00Z"
+  },
+  {
+    "id": "notif_0033",
+    "userId": "uid_0042",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0194 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0061",
+    "isRead": false,
+    "createdAt": "2025-11-12T20:38:00Z"
+  },
+  {
+    "id": "notif_0034",
+    "userId": "uid_0033",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0125 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0059",
+    "isRead": true,
+    "createdAt": "2026-05-02T04:11:00Z"
+  },
+  {
+    "id": "notif_0035",
+    "userId": "uid_0032",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0126 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0004",
+    "isRead": true,
+    "createdAt": "2026-05-13T12:52:00Z"
+  },
+  {
+    "id": "notif_0036",
+    "userId": "uid_0005",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0213.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0023",
+    "isRead": true,
+    "createdAt": "2026-03-06T11:59:00Z"
+  },
+  {
+    "id": "notif_0037",
+    "userId": "uid_0020",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0040 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0010",
+    "isRead": false,
+    "createdAt": "2026-02-02T13:54:00Z"
+  },
+  {
+    "id": "notif_0038",
+    "userId": "uid_0032",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0197 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0038",
+    "isRead": false,
+    "createdAt": "2025-12-21T18:48:00Z"
+  },
+  {
+    "id": "notif_0039",
+    "userId": "uid_0017",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0130 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0070",
+    "isRead": true,
+    "createdAt": "2026-02-23T22:09:00Z"
+  },
+  {
+    "id": "notif_0040",
+    "userId": "uid_0008",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0111.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0049",
+    "isRead": true,
+    "createdAt": "2026-04-04T18:40:00Z"
+  },
+  {
+    "id": "notif_0041",
+    "userId": "uid_0012",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0009.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0039",
+    "isRead": false,
+    "createdAt": "2026-02-19T11:05:00Z"
+  },
+  {
+    "id": "notif_0042",
+    "userId": "uid_0028",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0126 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0050",
+    "isRead": true,
+    "createdAt": "2026-06-07T23:15:00Z"
+  },
+  {
+    "id": "notif_0043",
+    "userId": "uid_0044",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0146 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0088",
+    "isRead": true,
+    "createdAt": "2026-03-08T11:25:00Z"
+  },
+  {
+    "id": "notif_0044",
+    "userId": "uid_0036",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0122 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0008",
+    "isRead": true,
+    "createdAt": "2025-12-06T03:28:00Z"
+  },
+  {
+    "id": "notif_0045",
+    "userId": "uid_0025",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0152 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0037",
+    "isRead": true,
+    "createdAt": "2026-02-04T11:38:00Z"
+  },
+  {
+    "id": "notif_0046",
+    "userId": "uid_0003",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0152.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0075",
+    "isRead": true,
+    "createdAt": "2026-06-09T21:38:00Z"
+  },
+  {
+    "id": "notif_0047",
+    "userId": "uid_0007",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0098 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0053",
+    "isRead": true,
+    "createdAt": "2026-03-24T21:38:00Z"
+  },
+  {
+    "id": "notif_0048",
+    "userId": "uid_0016",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0064 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0011",
+    "isRead": false,
+    "createdAt": "2026-01-27T23:23:00Z"
+  },
+  {
+    "id": "notif_0049",
+    "userId": "uid_0020",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0223 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0003",
+    "isRead": true,
+    "createdAt": "2026-06-12T22:50:00Z"
+  },
+  {
+    "id": "notif_0050",
+    "userId": "uid_0043",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0118.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0066",
+    "isRead": false,
+    "createdAt": "2025-12-02T19:24:00Z"
+  },
+  {
+    "id": "notif_0051",
+    "userId": "uid_0045",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0006 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0041",
+    "isRead": true,
+    "createdAt": "2026-03-13T14:59:00Z"
+  },
+  {
+    "id": "notif_0052",
+    "userId": "uid_0037",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0083 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0089",
+    "isRead": false,
+    "createdAt": "2026-06-16T17:54:00Z"
+  },
+  {
+    "id": "notif_0053",
+    "userId": "uid_0033",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0128 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0022",
+    "isRead": true,
+    "createdAt": "2025-12-16T11:39:00Z"
+  },
+  {
+    "id": "notif_0054",
+    "userId": "uid_0028",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0249 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0010",
+    "isRead": false,
+    "createdAt": "2026-05-21T17:20:00Z"
+  },
+  {
+    "id": "notif_0055",
+    "userId": "uid_0019",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0055 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0074",
+    "isRead": true,
+    "createdAt": "2026-05-06T07:41:00Z"
+  },
+  {
+    "id": "notif_0056",
+    "userId": "uid_0048",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0160 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0075",
+    "isRead": true,
+    "createdAt": "2025-11-09T06:15:00Z"
+  },
+  {
+    "id": "notif_0057",
+    "userId": "uid_0005",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0070 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0055",
+    "isRead": true,
+    "createdAt": "2026-02-16T16:30:00Z"
+  },
+  {
+    "id": "notif_0058",
+    "userId": "uid_0020",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0167 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0085",
+    "isRead": true,
+    "createdAt": "2026-03-04T23:33:00Z"
+  },
+  {
+    "id": "notif_0059",
+    "userId": "uid_0026",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0107 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0059",
+    "isRead": false,
+    "createdAt": "2026-05-08T13:28:00Z"
+  },
+  {
+    "id": "notif_0060",
+    "userId": "uid_0002",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0047 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0024",
+    "isRead": true,
+    "createdAt": "2026-02-01T10:27:00Z"
+  },
+  {
+    "id": "notif_0061",
+    "userId": "uid_0048",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0170 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0082",
+    "isRead": true,
+    "createdAt": "2025-11-13T18:43:00Z"
+  },
+  {
+    "id": "notif_0062",
+    "userId": "uid_0037",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0240 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0067",
+    "isRead": true,
+    "createdAt": "2026-01-06T12:57:00Z"
+  },
+  {
+    "id": "notif_0063",
+    "userId": "uid_0016",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0038 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0039",
+    "isRead": false,
+    "createdAt": "2026-06-03T09:17:00Z"
+  },
+  {
+    "id": "notif_0064",
+    "userId": "uid_0005",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0082 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0053",
+    "isRead": true,
+    "createdAt": "2026-01-31T02:06:00Z"
+  },
+  {
+    "id": "notif_0065",
+    "userId": "uid_0011",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0166 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0031",
+    "isRead": true,
+    "createdAt": "2026-05-07T11:22:00Z"
+  },
+  {
+    "id": "notif_0066",
+    "userId": "uid_0013",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0039 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0040",
+    "isRead": true,
+    "createdAt": "2026-07-05T01:09:00Z"
+  },
+  {
+    "id": "notif_0067",
+    "userId": "uid_0028",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0112 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0021",
+    "isRead": true,
+    "createdAt": "2026-01-28T07:48:00Z"
+  },
+  {
+    "id": "notif_0068",
+    "userId": "uid_0018",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0067.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0083",
+    "isRead": false,
+    "createdAt": "2026-01-24T15:49:00Z"
+  },
+  {
+    "id": "notif_0069",
+    "userId": "uid_0002",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0201 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0078",
+    "isRead": true,
+    "createdAt": "2026-06-28T06:40:00Z"
+  },
+  {
+    "id": "notif_0070",
+    "userId": "uid_0027",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0231 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0085",
+    "isRead": false,
+    "createdAt": "2025-11-24T21:18:00Z"
+  },
+  {
+    "id": "notif_0071",
+    "userId": "uid_0047",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0242 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0015",
+    "isRead": true,
+    "createdAt": "2025-12-09T04:45:00Z"
+  },
+  {
+    "id": "notif_0072",
+    "userId": "uid_0008",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0239 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0075",
+    "isRead": false,
+    "createdAt": "2026-02-28T11:07:00Z"
+  },
+  {
+    "id": "notif_0073",
+    "userId": "uid_0032",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0065 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0077",
+    "isRead": true,
+    "createdAt": "2025-11-28T06:45:00Z"
+  },
+  {
+    "id": "notif_0074",
+    "userId": "uid_0038",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0085 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0031",
+    "isRead": false,
+    "createdAt": "2026-01-04T20:09:00Z"
+  },
+  {
+    "id": "notif_0075",
+    "userId": "uid_0007",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0037 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0057",
+    "isRead": true,
+    "createdAt": "2026-05-29T02:43:00Z"
+  },
+  {
+    "id": "notif_0076",
+    "userId": "uid_0035",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0126.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0041",
+    "isRead": true,
+    "createdAt": "2026-04-07T10:53:00Z"
+  },
+  {
+    "id": "notif_0077",
+    "userId": "uid_0016",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0175 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0019",
+    "isRead": true,
+    "createdAt": "2025-11-08T00:04:00Z"
+  },
+  {
+    "id": "notif_0078",
+    "userId": "uid_0020",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0211 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0078",
+    "isRead": true,
+    "createdAt": "2026-07-06T12:03:00Z"
+  },
+  {
+    "id": "notif_0079",
+    "userId": "uid_0043",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0177.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0050",
+    "isRead": true,
+    "createdAt": "2026-05-12T00:25:00Z"
+  },
+  {
+    "id": "notif_0080",
+    "userId": "uid_0044",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0232 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0031",
+    "isRead": false,
+    "createdAt": "2026-06-10T15:05:00Z"
+  },
+  {
+    "id": "notif_0081",
+    "userId": "uid_0026",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0003 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0012",
+    "isRead": false,
+    "createdAt": "2025-11-17T00:41:00Z"
+  },
+  {
+    "id": "notif_0082",
+    "userId": "uid_0014",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0077 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0057",
+    "isRead": false,
+    "createdAt": "2025-12-04T03:02:00Z"
+  },
+  {
+    "id": "notif_0083",
+    "userId": "uid_0003",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0203 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0063",
+    "isRead": true,
+    "createdAt": "2026-05-03T06:08:00Z"
+  },
+  {
+    "id": "notif_0084",
+    "userId": "uid_0022",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0238 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0013",
+    "isRead": false,
+    "createdAt": "2026-01-09T19:04:00Z"
+  },
+  {
+    "id": "notif_0085",
+    "userId": "uid_0005",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0130 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0071",
+    "isRead": false,
+    "createdAt": "2026-04-12T19:22:00Z"
+  },
+  {
+    "id": "notif_0086",
+    "userId": "uid_0002",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0178 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0083",
+    "isRead": true,
+    "createdAt": "2025-12-29T07:19:00Z"
+  },
+  {
+    "id": "notif_0087",
+    "userId": "uid_0042",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0203 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0026",
+    "isRead": false,
+    "createdAt": "2026-06-08T08:35:00Z"
+  },
+  {
+    "id": "notif_0088",
+    "userId": "uid_0006",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0148 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0067",
+    "isRead": false,
+    "createdAt": "2026-06-14T03:45:00Z"
+  },
+  {
+    "id": "notif_0089",
+    "userId": "uid_0039",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0217 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0041",
+    "isRead": true,
+    "createdAt": "2026-01-17T19:10:00Z"
+  },
+  {
+    "id": "notif_0090",
+    "userId": "uid_0012",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0067 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0042",
+    "isRead": false,
+    "createdAt": "2026-01-17T14:08:00Z"
+  },
+  {
+    "id": "notif_0091",
+    "userId": "uid_0027",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0022 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0049",
+    "isRead": false,
+    "createdAt": "2026-04-09T03:35:00Z"
+  },
+  {
+    "id": "notif_0092",
+    "userId": "uid_0002",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0006 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0079",
+    "isRead": false,
+    "createdAt": "2025-11-17T15:19:00Z"
+  },
+  {
+    "id": "notif_0093",
+    "userId": "uid_0030",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0250 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0022",
+    "isRead": true,
+    "createdAt": "2026-05-23T00:16:00Z"
+  },
+  {
+    "id": "notif_0094",
+    "userId": "uid_0017",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0154 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0022",
+    "isRead": false,
+    "createdAt": "2026-06-04T06:37:00Z"
+  },
+  {
+    "id": "notif_0095",
+    "userId": "uid_0046",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0004 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0059",
+    "isRead": false,
+    "createdAt": "2026-02-27T19:11:00Z"
+  },
+  {
+    "id": "notif_0096",
+    "userId": "uid_0015",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0031 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0035",
+    "isRead": true,
+    "createdAt": "2026-01-11T02:48:00Z"
+  },
+  {
+    "id": "notif_0097",
+    "userId": "uid_0009",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0098 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0028",
+    "isRead": false,
+    "createdAt": "2026-03-24T02:22:00Z"
+  },
+  {
+    "id": "notif_0098",
+    "userId": "uid_0044",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0187 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0053",
+    "isRead": false,
+    "createdAt": "2026-05-24T19:49:00Z"
+  },
+  {
+    "id": "notif_0099",
+    "userId": "uid_0017",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0075.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0032",
+    "isRead": true,
+    "createdAt": "2026-05-12T13:32:00Z"
+  },
+  {
+    "id": "notif_0100",
+    "userId": "uid_0001",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0022 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0042",
+    "isRead": false,
+    "createdAt": "2026-03-14T04:05:00Z"
+  },
+  {
+    "id": "notif_0101",
+    "userId": "uid_0014",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0176 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0055",
+    "isRead": false,
+    "createdAt": "2026-01-10T20:15:00Z"
+  },
+  {
+    "id": "notif_0102",
+    "userId": "uid_0007",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0019 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0043",
+    "isRead": false,
+    "createdAt": "2026-02-20T07:57:00Z"
+  },
+  {
+    "id": "notif_0103",
+    "userId": "uid_0023",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0233 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0077",
+    "isRead": false,
+    "createdAt": "2026-02-06T11:09:00Z"
+  },
+  {
+    "id": "notif_0104",
+    "userId": "uid_0017",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0002.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0039",
+    "isRead": false,
+    "createdAt": "2026-03-04T13:36:00Z"
+  },
+  {
+    "id": "notif_0105",
+    "userId": "uid_0036",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0034 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0034",
+    "isRead": true,
+    "createdAt": "2026-07-01T14:49:00Z"
+  },
+  {
+    "id": "notif_0106",
+    "userId": "uid_0022",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0239 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0012",
+    "isRead": true,
+    "createdAt": "2025-11-29T18:52:00Z"
+  },
+  {
+    "id": "notif_0107",
+    "userId": "uid_0010",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0111 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0006",
+    "isRead": false,
+    "createdAt": "2026-05-07T05:40:00Z"
+  },
+  {
+    "id": "notif_0108",
+    "userId": "uid_0018",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0224 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0056",
+    "isRead": true,
+    "createdAt": "2026-01-01T21:01:00Z"
+  },
+  {
+    "id": "notif_0109",
+    "userId": "uid_0049",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0157 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0041",
+    "isRead": true,
+    "createdAt": "2025-11-17T00:27:00Z"
+  },
+  {
+    "id": "notif_0110",
+    "userId": "uid_0048",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0081 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0085",
+    "isRead": false,
+    "createdAt": "2026-03-09T04:25:00Z"
+  },
+  {
+    "id": "notif_0111",
+    "userId": "uid_0013",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0014 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0024",
+    "isRead": true,
+    "createdAt": "2026-06-04T07:46:00Z"
+  },
+  {
+    "id": "notif_0112",
+    "userId": "uid_0046",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0042 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0064",
+    "isRead": true,
+    "createdAt": "2026-03-14T19:53:00Z"
+  },
+  {
+    "id": "notif_0113",
+    "userId": "uid_0036",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0182 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0015",
+    "isRead": false,
+    "createdAt": "2026-03-09T18:29:00Z"
+  },
+  {
+    "id": "notif_0114",
+    "userId": "uid_0023",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0032 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0037",
+    "isRead": true,
+    "createdAt": "2026-06-19T02:05:00Z"
+  },
+  {
+    "id": "notif_0115",
+    "userId": "uid_0033",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0192 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0085",
+    "isRead": true,
+    "createdAt": "2025-12-14T00:24:00Z"
+  },
+  {
+    "id": "notif_0116",
+    "userId": "uid_0050",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0135.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0010",
+    "isRead": true,
+    "createdAt": "2026-02-16T03:34:00Z"
+  },
+  {
+    "id": "notif_0117",
+    "userId": "uid_0007",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0174 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0037",
+    "isRead": false,
+    "createdAt": "2025-11-26T22:59:00Z"
+  },
+  {
+    "id": "notif_0118",
+    "userId": "uid_0024",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0101 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0042",
+    "isRead": true,
+    "createdAt": "2026-02-11T05:07:00Z"
+  },
+  {
+    "id": "notif_0119",
+    "userId": "uid_0046",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0118 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0081",
+    "isRead": false,
+    "createdAt": "2026-01-24T17:31:00Z"
+  },
+  {
+    "id": "notif_0120",
+    "userId": "uid_0003",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0085.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0042",
+    "isRead": false,
+    "createdAt": "2026-01-25T13:32:00Z"
+  },
+  {
+    "id": "notif_0121",
+    "userId": "uid_0004",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0055 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0042",
+    "isRead": false,
+    "createdAt": "2025-12-18T12:42:00Z"
+  },
+  {
+    "id": "notif_0122",
+    "userId": "uid_0039",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0141 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0033",
+    "isRead": true,
+    "createdAt": "2026-04-06T06:35:00Z"
+  },
+  {
+    "id": "notif_0123",
+    "userId": "uid_0002",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0023 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0050",
+    "isRead": false,
+    "createdAt": "2025-12-06T02:50:00Z"
+  },
+  {
+    "id": "notif_0124",
+    "userId": "uid_0049",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0166 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0016",
+    "isRead": true,
+    "createdAt": "2025-11-09T12:51:00Z"
+  },
+  {
+    "id": "notif_0125",
+    "userId": "uid_0020",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0189 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0017",
+    "isRead": true,
+    "createdAt": "2025-11-22T11:22:00Z"
+  },
+  {
+    "id": "notif_0126",
+    "userId": "uid_0024",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0214 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0058",
+    "isRead": false,
+    "createdAt": "2026-03-03T02:29:00Z"
+  },
+  {
+    "id": "notif_0127",
+    "userId": "uid_0037",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0069 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0055",
+    "isRead": false,
+    "createdAt": "2026-02-08T19:55:00Z"
+  },
+  {
+    "id": "notif_0128",
+    "userId": "uid_0041",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0112 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0066",
+    "isRead": true,
+    "createdAt": "2026-03-25T06:58:00Z"
+  },
+  {
+    "id": "notif_0129",
+    "userId": "uid_0015",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0174 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0020",
+    "isRead": false,
+    "createdAt": "2026-01-27T11:15:00Z"
+  },
+  {
+    "id": "notif_0130",
+    "userId": "uid_0042",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0162 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0060",
+    "isRead": true,
+    "createdAt": "2026-02-28T06:42:00Z"
+  },
+  {
+    "id": "notif_0131",
+    "userId": "uid_0010",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0077 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0039",
+    "isRead": false,
+    "createdAt": "2026-06-09T11:03:00Z"
+  },
+  {
+    "id": "notif_0132",
+    "userId": "uid_0019",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0110 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0010",
+    "isRead": false,
+    "createdAt": "2026-02-17T07:25:00Z"
+  },
+  {
+    "id": "notif_0133",
+    "userId": "uid_0033",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0028 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0060",
+    "isRead": false,
+    "createdAt": "2026-03-25T19:54:00Z"
+  },
+  {
+    "id": "notif_0134",
+    "userId": "uid_0017",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0091 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0065",
+    "isRead": true,
+    "createdAt": "2026-02-13T06:11:00Z"
+  },
+  {
+    "id": "notif_0135",
+    "userId": "uid_0012",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0046 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0011",
+    "isRead": true,
+    "createdAt": "2025-12-08T20:58:00Z"
+  },
+  {
+    "id": "notif_0136",
+    "userId": "uid_0038",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0081 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0086",
+    "isRead": true,
+    "createdAt": "2026-01-07T18:12:00Z"
+  },
+  {
+    "id": "notif_0137",
+    "userId": "uid_0012",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0088 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0078",
+    "isRead": true,
+    "createdAt": "2026-05-19T03:55:00Z"
+  },
+  {
+    "id": "notif_0138",
+    "userId": "uid_0035",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0112 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0015",
+    "isRead": true,
+    "createdAt": "2026-07-08T08:35:00Z"
+  },
+  {
+    "id": "notif_0139",
+    "userId": "uid_0045",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0118 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0078",
+    "isRead": false,
+    "createdAt": "2026-03-30T11:13:00Z"
+  },
+  {
+    "id": "notif_0140",
+    "userId": "uid_0040",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0159 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0089",
+    "isRead": false,
+    "createdAt": "2026-04-10T10:17:00Z"
+  },
+  {
+    "id": "notif_0141",
+    "userId": "uid_0009",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0023 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0015",
+    "isRead": false,
+    "createdAt": "2026-06-08T08:48:00Z"
+  },
+  {
+    "id": "notif_0142",
+    "userId": "uid_0002",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0220 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0019",
+    "isRead": false,
+    "createdAt": "2026-05-19T17:19:00Z"
+  },
+  {
+    "id": "notif_0143",
+    "userId": "uid_0041",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0216 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0012",
+    "isRead": true,
+    "createdAt": "2025-12-04T15:48:00Z"
+  },
+  {
+    "id": "notif_0144",
+    "userId": "uid_0031",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0038 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0022",
+    "isRead": false,
+    "createdAt": "2026-03-26T08:53:00Z"
+  },
+  {
+    "id": "notif_0145",
+    "userId": "uid_0032",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0247 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0058",
+    "isRead": true,
+    "createdAt": "2026-03-14T08:05:00Z"
+  },
+  {
+    "id": "notif_0146",
+    "userId": "uid_0037",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0076 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0043",
+    "isRead": true,
+    "createdAt": "2025-12-11T20:57:00Z"
+  },
+  {
+    "id": "notif_0147",
+    "userId": "uid_0032",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0107 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0071",
+    "isRead": false,
+    "createdAt": "2026-01-04T14:22:00Z"
+  },
+  {
+    "id": "notif_0148",
+    "userId": "uid_0026",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0125.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0079",
+    "isRead": false,
+    "createdAt": "2026-03-09T16:23:00Z"
+  },
+  {
+    "id": "notif_0149",
+    "userId": "uid_0046",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0060 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0055",
+    "isRead": true,
+    "createdAt": "2026-06-26T16:59:00Z"
+  },
+  {
+    "id": "notif_0150",
+    "userId": "uid_0018",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0017 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0061",
+    "isRead": true,
+    "createdAt": "2025-11-25T12:34:00Z"
+  },
+  {
+    "id": "notif_0151",
+    "userId": "uid_0045",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0115 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0037",
+    "isRead": false,
+    "createdAt": "2026-03-23T08:50:00Z"
+  },
+  {
+    "id": "notif_0152",
+    "userId": "uid_0029",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0089 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0076",
+    "isRead": false,
+    "createdAt": "2026-05-13T16:46:00Z"
+  },
+  {
+    "id": "notif_0153",
+    "userId": "uid_0039",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0236 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0060",
+    "isRead": true,
+    "createdAt": "2025-12-05T10:18:00Z"
+  },
+  {
+    "id": "notif_0154",
+    "userId": "uid_0046",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0186 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0087",
+    "isRead": false,
+    "createdAt": "2026-04-03T19:07:00Z"
+  },
+  {
+    "id": "notif_0155",
+    "userId": "uid_0031",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0204 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0027",
+    "isRead": true,
+    "createdAt": "2025-12-20T03:21:00Z"
+  },
+  {
+    "id": "notif_0156",
+    "userId": "uid_0031",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0171 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0021",
+    "isRead": true,
+    "createdAt": "2026-06-09T03:48:00Z"
+  },
+  {
+    "id": "notif_0157",
+    "userId": "uid_0027",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0204 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0031",
+    "isRead": true,
+    "createdAt": "2025-11-12T17:41:00Z"
+  },
+  {
+    "id": "notif_0158",
+    "userId": "uid_0023",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0005.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0087",
+    "isRead": true,
+    "createdAt": "2025-11-29T00:38:00Z"
+  },
+  {
+    "id": "notif_0159",
+    "userId": "uid_0005",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0009 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0080",
+    "isRead": true,
+    "createdAt": "2026-04-16T19:53:00Z"
+  },
+  {
+    "id": "notif_0160",
+    "userId": "uid_0032",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0058 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0046",
+    "isRead": false,
+    "createdAt": "2026-05-06T22:10:00Z"
+  },
+  {
+    "id": "notif_0161",
+    "userId": "uid_0010",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0069 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0066",
+    "isRead": true,
+    "createdAt": "2025-12-05T10:05:00Z"
+  },
+  {
+    "id": "notif_0162",
+    "userId": "uid_0004",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0181 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0059",
+    "isRead": false,
+    "createdAt": "2025-11-16T18:09:00Z"
+  },
+  {
+    "id": "notif_0163",
+    "userId": "uid_0007",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0250 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0014",
+    "isRead": false,
+    "createdAt": "2025-12-23T13:21:00Z"
+  },
+  {
+    "id": "notif_0164",
+    "userId": "uid_0007",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0130.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0027",
+    "isRead": false,
+    "createdAt": "2026-05-30T12:53:00Z"
+  },
+  {
+    "id": "notif_0165",
+    "userId": "uid_0019",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0187 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0065",
+    "isRead": true,
+    "createdAt": "2026-01-11T18:12:00Z"
+  },
+  {
+    "id": "notif_0166",
+    "userId": "uid_0042",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0040 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0018",
+    "isRead": true,
+    "createdAt": "2026-04-09T22:08:00Z"
+  },
+  {
+    "id": "notif_0167",
+    "userId": "uid_0027",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0113 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0061",
+    "isRead": true,
+    "createdAt": "2025-12-28T08:45:00Z"
+  },
+  {
+    "id": "notif_0168",
+    "userId": "uid_0006",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0044 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0054",
+    "isRead": true,
+    "createdAt": "2026-05-04T21:15:00Z"
+  },
+  {
+    "id": "notif_0169",
+    "userId": "uid_0049",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0039 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0030",
+    "isRead": true,
+    "createdAt": "2025-12-31T16:34:00Z"
+  },
+  {
+    "id": "notif_0170",
+    "userId": "uid_0027",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0106 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0067",
+    "isRead": false,
+    "createdAt": "2025-11-24T18:06:00Z"
+  },
+  {
+    "id": "notif_0171",
+    "userId": "uid_0002",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0242 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0002",
+    "isRead": false,
+    "createdAt": "2026-03-21T04:11:00Z"
+  },
+  {
+    "id": "notif_0172",
+    "userId": "uid_0005",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0242 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0052",
+    "isRead": false,
+    "createdAt": "2026-06-20T22:40:00Z"
+  },
+  {
+    "id": "notif_0173",
+    "userId": "uid_0004",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0112 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0083",
+    "isRead": true,
+    "createdAt": "2026-04-03T07:18:00Z"
+  },
+  {
+    "id": "notif_0174",
+    "userId": "uid_0046",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0162.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0067",
+    "isRead": false,
+    "createdAt": "2025-12-19T11:04:00Z"
+  },
+  {
+    "id": "notif_0175",
+    "userId": "uid_0044",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0103 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0039",
+    "isRead": false,
+    "createdAt": "2026-01-13T15:05:00Z"
+  },
+  {
+    "id": "notif_0176",
+    "userId": "uid_0023",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0233 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0068",
+    "isRead": true,
+    "createdAt": "2026-07-10T00:03:00Z"
+  },
+  {
+    "id": "notif_0177",
+    "userId": "uid_0026",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0180 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0070",
+    "isRead": false,
+    "createdAt": "2026-03-19T12:47:00Z"
+  },
+  {
+    "id": "notif_0178",
+    "userId": "uid_0023",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0179 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0026",
+    "isRead": false,
+    "createdAt": "2025-11-26T12:35:00Z"
+  },
+  {
+    "id": "notif_0179",
+    "userId": "uid_0035",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0010 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0017",
+    "isRead": true,
+    "createdAt": "2026-04-17T20:14:00Z"
+  },
+  {
+    "id": "notif_0180",
+    "userId": "uid_0014",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0073 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0040",
+    "isRead": true,
+    "createdAt": "2026-06-18T16:25:00Z"
+  },
+  {
+    "id": "notif_0181",
+    "userId": "uid_0002",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0006 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0034",
+    "isRead": true,
+    "createdAt": "2025-11-26T15:23:00Z"
+  },
+  {
+    "id": "notif_0182",
+    "userId": "uid_0028",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0186 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0008",
+    "isRead": false,
+    "createdAt": "2026-03-05T05:14:00Z"
+  },
+  {
+    "id": "notif_0183",
+    "userId": "uid_0033",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0161 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0084",
+    "isRead": false,
+    "createdAt": "2026-04-13T05:57:00Z"
+  },
+  {
+    "id": "notif_0184",
+    "userId": "uid_0037",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0077 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0044",
+    "isRead": false,
+    "createdAt": "2026-01-05T08:31:00Z"
+  },
+  {
+    "id": "notif_0185",
+    "userId": "uid_0039",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0217 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0037",
+    "isRead": false,
+    "createdAt": "2026-05-13T21:41:00Z"
+  },
+  {
+    "id": "notif_0186",
+    "userId": "uid_0025",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0183 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0014",
+    "isRead": true,
+    "createdAt": "2026-02-28T09:45:00Z"
+  },
+  {
+    "id": "notif_0187",
+    "userId": "uid_0050",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0211 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0019",
+    "isRead": false,
+    "createdAt": "2026-04-10T18:54:00Z"
+  },
+  {
+    "id": "notif_0188",
+    "userId": "uid_0006",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0021 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0017",
+    "isRead": true,
+    "createdAt": "2026-06-26T19:04:00Z"
+  },
+  {
+    "id": "notif_0189",
+    "userId": "uid_0024",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0020 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0076",
+    "isRead": true,
+    "createdAt": "2026-01-19T16:35:00Z"
+  },
+  {
+    "id": "notif_0190",
+    "userId": "uid_0017",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0224 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0055",
+    "isRead": false,
+    "createdAt": "2026-02-12T17:20:00Z"
+  },
+  {
+    "id": "notif_0191",
+    "userId": "uid_0027",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0188 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0065",
+    "isRead": true,
+    "createdAt": "2025-12-14T03:51:00Z"
+  },
+  {
+    "id": "notif_0192",
+    "userId": "uid_0046",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0034 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0089",
+    "isRead": true,
+    "createdAt": "2026-03-02T16:53:00Z"
+  },
+  {
+    "id": "notif_0193",
+    "userId": "uid_0048",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0009 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0016",
+    "isRead": true,
+    "createdAt": "2026-06-01T15:37:00Z"
+  },
+  {
+    "id": "notif_0194",
+    "userId": "uid_0008",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0029 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0006",
+    "isRead": true,
+    "createdAt": "2026-04-08T14:42:00Z"
+  },
+  {
+    "id": "notif_0195",
+    "userId": "uid_0020",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0096 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0063",
+    "isRead": true,
+    "createdAt": "2026-04-07T23:42:00Z"
+  },
+  {
+    "id": "notif_0196",
+    "userId": "uid_0038",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0037 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0040",
+    "isRead": false,
+    "createdAt": "2026-03-27T07:01:00Z"
+  },
+  {
+    "id": "notif_0197",
+    "userId": "uid_0048",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0047 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0071",
+    "isRead": true,
+    "createdAt": "2026-03-09T08:53:00Z"
+  },
+  {
+    "id": "notif_0198",
+    "userId": "uid_0031",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0107.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0058",
+    "isRead": false,
+    "createdAt": "2026-02-15T23:24:00Z"
+  },
+  {
+    "id": "notif_0199",
+    "userId": "uid_0047",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0122 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0018",
+    "isRead": true,
+    "createdAt": "2025-12-10T13:52:00Z"
+  },
+  {
+    "id": "notif_0200",
+    "userId": "uid_0029",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0195 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0042",
+    "isRead": true,
+    "createdAt": "2026-01-22T18:51:00Z"
+  },
+  {
+    "id": "notif_0201",
+    "userId": "uid_0015",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0100 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0070",
+    "isRead": true,
+    "createdAt": "2025-11-23T20:39:00Z"
+  },
+  {
+    "id": "notif_0202",
+    "userId": "uid_0018",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0189 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0022",
+    "isRead": false,
+    "createdAt": "2026-01-28T06:05:00Z"
+  },
+  {
+    "id": "notif_0203",
+    "userId": "uid_0042",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0144 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0011",
+    "isRead": true,
+    "createdAt": "2026-06-10T12:25:00Z"
+  },
+  {
+    "id": "notif_0204",
+    "userId": "uid_0049",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0148 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0025",
+    "isRead": false,
+    "createdAt": "2026-06-28T14:27:00Z"
+  },
+  {
+    "id": "notif_0205",
+    "userId": "uid_0002",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0230 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0069",
+    "isRead": true,
+    "createdAt": "2026-06-11T11:01:00Z"
+  },
+  {
+    "id": "notif_0206",
+    "userId": "uid_0014",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0071.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0075",
+    "isRead": true,
+    "createdAt": "2026-05-10T10:07:00Z"
+  },
+  {
+    "id": "notif_0207",
+    "userId": "uid_0021",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0156 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0063",
+    "isRead": false,
+    "createdAt": "2026-03-31T14:58:00Z"
+  },
+  {
+    "id": "notif_0208",
+    "userId": "uid_0028",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0088.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0068",
+    "isRead": true,
+    "createdAt": "2026-05-26T19:59:00Z"
+  },
+  {
+    "id": "notif_0209",
+    "userId": "uid_0008",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0024 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0022",
+    "isRead": true,
+    "createdAt": "2025-11-04T05:26:00Z"
+  },
+  {
+    "id": "notif_0210",
+    "userId": "uid_0050",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0066 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0053",
+    "isRead": false,
+    "createdAt": "2026-06-20T04:41:00Z"
+  },
+  {
+    "id": "notif_0211",
+    "userId": "uid_0021",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0158.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0008",
+    "isRead": true,
+    "createdAt": "2026-05-27T08:15:00Z"
+  },
+  {
+    "id": "notif_0212",
+    "userId": "uid_0010",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0082 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0049",
+    "isRead": false,
+    "createdAt": "2026-03-28T22:44:00Z"
+  },
+  {
+    "id": "notif_0213",
+    "userId": "uid_0013",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0014 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0031",
+    "isRead": true,
+    "createdAt": "2026-05-11T13:23:00Z"
+  },
+  {
+    "id": "notif_0214",
+    "userId": "uid_0008",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0099 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0060",
+    "isRead": true,
+    "createdAt": "2026-05-05T07:40:00Z"
+  },
+  {
+    "id": "notif_0215",
+    "userId": "uid_0002",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0124 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0003",
+    "isRead": true,
+    "createdAt": "2026-03-29T12:46:00Z"
+  },
+  {
+    "id": "notif_0216",
+    "userId": "uid_0049",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0064 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0017",
+    "isRead": true,
+    "createdAt": "2026-02-19T12:10:00Z"
+  },
+  {
+    "id": "notif_0217",
+    "userId": "uid_0006",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0115 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0027",
+    "isRead": false,
+    "createdAt": "2025-12-07T12:28:00Z"
+  },
+  {
+    "id": "notif_0218",
+    "userId": "uid_0035",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0096 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0055",
+    "isRead": false,
+    "createdAt": "2026-05-30T01:26:00Z"
+  },
+  {
+    "id": "notif_0219",
+    "userId": "uid_0003",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0116 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0080",
+    "isRead": true,
+    "createdAt": "2026-07-11T18:07:00Z"
+  },
+  {
+    "id": "notif_0220",
+    "userId": "uid_0004",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0001 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0077",
+    "isRead": true,
+    "createdAt": "2025-11-15T17:43:00Z"
+  },
+  {
+    "id": "notif_0221",
+    "userId": "uid_0041",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0090 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0066",
+    "isRead": true,
+    "createdAt": "2026-05-18T14:07:00Z"
+  },
+  {
+    "id": "notif_0222",
+    "userId": "uid_0035",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0190 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0012",
+    "isRead": true,
+    "createdAt": "2026-02-18T06:41:00Z"
+  },
+  {
+    "id": "notif_0223",
+    "userId": "uid_0009",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0213 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0056",
+    "isRead": true,
+    "createdAt": "2026-01-07T15:43:00Z"
+  },
+  {
+    "id": "notif_0224",
+    "userId": "uid_0021",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0246 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0082",
+    "isRead": true,
+    "createdAt": "2025-11-27T11:39:00Z"
+  },
+  {
+    "id": "notif_0225",
+    "userId": "uid_0016",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0070 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0027",
+    "isRead": true,
+    "createdAt": "2026-01-23T22:39:00Z"
+  },
+  {
+    "id": "notif_0226",
+    "userId": "uid_0045",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0005 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0001",
+    "isRead": true,
+    "createdAt": "2026-06-07T12:01:00Z"
+  },
+  {
+    "id": "notif_0227",
+    "userId": "uid_0001",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0231.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0072",
+    "isRead": false,
+    "createdAt": "2026-01-21T03:34:00Z"
+  },
+  {
+    "id": "notif_0228",
+    "userId": "uid_0026",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0196 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0084",
+    "isRead": false,
+    "createdAt": "2026-02-25T06:10:00Z"
+  },
+  {
+    "id": "notif_0229",
+    "userId": "uid_0043",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0008 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0046",
+    "isRead": false,
+    "createdAt": "2026-03-20T11:53:00Z"
+  },
+  {
+    "id": "notif_0230",
+    "userId": "uid_0039",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0212 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0090",
+    "isRead": false,
+    "createdAt": "2026-04-11T20:49:00Z"
+  },
+  {
+    "id": "notif_0231",
+    "userId": "uid_0024",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0119 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0002",
+    "isRead": true,
+    "createdAt": "2025-11-15T02:32:00Z"
+  },
+  {
+    "id": "notif_0232",
+    "userId": "uid_0018",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0195.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0025",
+    "isRead": true,
+    "createdAt": "2026-01-18T10:38:00Z"
+  },
+  {
+    "id": "notif_0233",
+    "userId": "uid_0046",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0207 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0047",
+    "isRead": true,
+    "createdAt": "2026-05-17T01:29:00Z"
+  },
+  {
+    "id": "notif_0234",
+    "userId": "uid_0046",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0232 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0001",
+    "isRead": true,
+    "createdAt": "2026-01-12T13:47:00Z"
+  },
+  {
+    "id": "notif_0235",
+    "userId": "uid_0018",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0029 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0022",
+    "isRead": true,
+    "createdAt": "2026-02-16T16:29:00Z"
+  },
+  {
+    "id": "notif_0236",
+    "userId": "uid_0038",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0017 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0017",
+    "isRead": true,
+    "createdAt": "2026-06-09T09:56:00Z"
+  },
+  {
+    "id": "notif_0237",
+    "userId": "uid_0034",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0226 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0087",
+    "isRead": true,
+    "createdAt": "2026-01-07T00:48:00Z"
+  },
+  {
+    "id": "notif_0238",
+    "userId": "uid_0017",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0158 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0059",
+    "isRead": true,
+    "createdAt": "2026-01-18T15:04:00Z"
+  },
+  {
+    "id": "notif_0239",
+    "userId": "uid_0044",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0165 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0042",
+    "isRead": true,
+    "createdAt": "2025-11-12T12:57:00Z"
+  },
+  {
+    "id": "notif_0240",
+    "userId": "uid_0008",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0071 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0064",
+    "isRead": true,
+    "createdAt": "2026-01-18T16:31:00Z"
+  },
+  {
+    "id": "notif_0241",
+    "userId": "uid_0047",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0227.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0054",
+    "isRead": true,
+    "createdAt": "2026-05-16T07:43:00Z"
+  },
+  {
+    "id": "notif_0242",
+    "userId": "uid_0026",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0002 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0074",
+    "isRead": false,
+    "createdAt": "2026-05-23T22:55:00Z"
+  },
+  {
+    "id": "notif_0243",
+    "userId": "uid_0028",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0177 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0032",
+    "isRead": true,
+    "createdAt": "2025-11-09T06:02:00Z"
+  },
+  {
+    "id": "notif_0244",
+    "userId": "uid_0005",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0080 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0004",
+    "isRead": true,
+    "createdAt": "2026-02-01T12:54:00Z"
+  },
+  {
+    "id": "notif_0245",
+    "userId": "uid_0041",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0152.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0033",
+    "isRead": true,
+    "createdAt": "2025-11-14T22:07:00Z"
+  },
+  {
+    "id": "notif_0246",
+    "userId": "uid_0022",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0062 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0043",
+    "isRead": true,
+    "createdAt": "2025-12-11T07:08:00Z"
+  },
+  {
+    "id": "notif_0247",
+    "userId": "uid_0005",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0242 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0057",
+    "isRead": false,
+    "createdAt": "2025-12-25T13:21:00Z"
+  },
+  {
+    "id": "notif_0248",
+    "userId": "uid_0008",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0149 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0005",
+    "isRead": true,
+    "createdAt": "2026-06-21T07:02:00Z"
+  },
+  {
+    "id": "notif_0249",
+    "userId": "uid_0009",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0201 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0039",
+    "isRead": true,
+    "createdAt": "2026-06-26T18:57:00Z"
+  },
+  {
+    "id": "notif_0250",
+    "userId": "uid_0007",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0017 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0007",
+    "isRead": true,
+    "createdAt": "2026-01-20T07:25:00Z"
+  },
+  {
+    "id": "notif_0251",
+    "userId": "uid_0007",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0103 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0077",
+    "isRead": false,
+    "createdAt": "2026-02-03T19:46:00Z"
+  },
+  {
+    "id": "notif_0252",
+    "userId": "uid_0025",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0117.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0080",
+    "isRead": true,
+    "createdAt": "2026-03-15T19:04:00Z"
+  },
+  {
+    "id": "notif_0253",
+    "userId": "uid_0044",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0167 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0067",
+    "isRead": true,
+    "createdAt": "2025-12-24T08:31:00Z"
+  },
+  {
+    "id": "notif_0254",
+    "userId": "uid_0007",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0028 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0009",
+    "isRead": true,
+    "createdAt": "2026-07-08T13:15:00Z"
+  },
+  {
+    "id": "notif_0255",
+    "userId": "uid_0037",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0232 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0033",
+    "isRead": true,
+    "createdAt": "2026-06-09T12:28:00Z"
+  },
+  {
+    "id": "notif_0256",
+    "userId": "uid_0040",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0186 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0018",
+    "isRead": false,
+    "createdAt": "2026-03-21T03:45:00Z"
+  },
+  {
+    "id": "notif_0257",
+    "userId": "uid_0020",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0033.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0084",
+    "isRead": false,
+    "createdAt": "2026-02-12T19:28:00Z"
+  },
+  {
+    "id": "notif_0258",
+    "userId": "uid_0035",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0150 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0061",
+    "isRead": true,
+    "createdAt": "2025-12-26T04:51:00Z"
+  },
+  {
+    "id": "notif_0259",
+    "userId": "uid_0024",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0075 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0076",
+    "isRead": false,
+    "createdAt": "2025-11-06T08:27:00Z"
+  },
+  {
+    "id": "notif_0260",
+    "userId": "uid_0016",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0015 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0007",
+    "isRead": true,
+    "createdAt": "2026-03-04T15:06:00Z"
+  },
+  {
+    "id": "notif_0261",
+    "userId": "uid_0013",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0250 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0009",
+    "isRead": true,
+    "createdAt": "2026-01-30T02:10:00Z"
+  },
+  {
+    "id": "notif_0262",
+    "userId": "uid_0045",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0178 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0043",
+    "isRead": false,
+    "createdAt": "2026-03-14T13:16:00Z"
+  },
+  {
+    "id": "notif_0263",
+    "userId": "uid_0020",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0158 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0014",
+    "isRead": true,
+    "createdAt": "2026-03-26T22:50:00Z"
+  },
+  {
+    "id": "notif_0264",
+    "userId": "uid_0015",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0127.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0029",
+    "isRead": false,
+    "createdAt": "2025-11-19T08:20:00Z"
+  },
+  {
+    "id": "notif_0265",
+    "userId": "uid_0014",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0160 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0043",
+    "isRead": false,
+    "createdAt": "2026-05-11T17:13:00Z"
+  },
+  {
+    "id": "notif_0266",
+    "userId": "uid_0026",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0053 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0002",
+    "isRead": true,
+    "createdAt": "2026-05-26T08:37:00Z"
+  },
+  {
+    "id": "notif_0267",
+    "userId": "uid_0008",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0143.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0025",
+    "isRead": false,
+    "createdAt": "2026-06-05T23:32:00Z"
+  },
+  {
+    "id": "notif_0268",
+    "userId": "uid_0002",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0012 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0023",
+    "isRead": true,
+    "createdAt": "2026-05-23T02:42:00Z"
+  },
+  {
+    "id": "notif_0269",
+    "userId": "uid_0012",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0185 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0023",
+    "isRead": true,
+    "createdAt": "2026-04-16T15:45:00Z"
+  },
+  {
+    "id": "notif_0270",
+    "userId": "uid_0017",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0216 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0087",
+    "isRead": true,
+    "createdAt": "2025-11-21T05:59:00Z"
+  },
+  {
+    "id": "notif_0271",
+    "userId": "uid_0014",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0087 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0048",
+    "isRead": false,
+    "createdAt": "2026-04-24T18:45:00Z"
+  },
+  {
+    "id": "notif_0272",
+    "userId": "uid_0034",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0241 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0056",
+    "isRead": false,
+    "createdAt": "2025-11-03T13:04:00Z"
+  },
+  {
+    "id": "notif_0273",
+    "userId": "uid_0010",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0031 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0025",
+    "isRead": true,
+    "createdAt": "2025-11-29T04:10:00Z"
+  },
+  {
+    "id": "notif_0274",
+    "userId": "uid_0024",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0178 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0082",
+    "isRead": true,
+    "createdAt": "2026-04-21T13:33:00Z"
+  },
+  {
+    "id": "notif_0275",
+    "userId": "uid_0040",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0196.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0069",
+    "isRead": true,
+    "createdAt": "2026-02-12T02:06:00Z"
+  },
+  {
+    "id": "notif_0276",
+    "userId": "uid_0016",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0084 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0036",
+    "isRead": false,
+    "createdAt": "2026-06-28T12:10:00Z"
+  },
+  {
+    "id": "notif_0277",
+    "userId": "uid_0038",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0248 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0011",
+    "isRead": false,
+    "createdAt": "2025-11-27T17:47:00Z"
+  },
+  {
+    "id": "notif_0278",
+    "userId": "uid_0033",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0043 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0066",
+    "isRead": true,
+    "createdAt": "2026-04-03T12:12:00Z"
+  },
+  {
+    "id": "notif_0279",
+    "userId": "uid_0012",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0119 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0068",
+    "isRead": false,
+    "createdAt": "2026-04-20T10:37:00Z"
+  },
+  {
+    "id": "notif_0280",
+    "userId": "uid_0018",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0122 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0075",
+    "isRead": false,
+    "createdAt": "2026-02-13T20:20:00Z"
+  },
+  {
+    "id": "notif_0281",
+    "userId": "uid_0013",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0057 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0028",
+    "isRead": true,
+    "createdAt": "2026-03-19T01:35:00Z"
+  },
+  {
+    "id": "notif_0282",
+    "userId": "uid_0011",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0147 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0071",
+    "isRead": true,
+    "createdAt": "2025-11-14T21:44:00Z"
+  },
+  {
+    "id": "notif_0283",
+    "userId": "uid_0029",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0076 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0075",
+    "isRead": true,
+    "createdAt": "2026-03-01T21:46:00Z"
+  },
+  {
+    "id": "notif_0284",
+    "userId": "uid_0022",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0160 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0056",
+    "isRead": true,
+    "createdAt": "2026-03-24T18:31:00Z"
+  },
+  {
+    "id": "notif_0285",
+    "userId": "uid_0018",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0082 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0057",
+    "isRead": true,
+    "createdAt": "2026-04-06T08:49:00Z"
+  },
+  {
+    "id": "notif_0286",
+    "userId": "uid_0006",
+    "type": "MaintenanceApproved",
+    "message": "Your maintenance request for AF-0092 has been approved.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0070",
+    "isRead": false,
+    "createdAt": "2026-04-27T16:28:00Z"
+  },
+  {
+    "id": "notif_0287",
+    "userId": "uid_0015",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0238 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0047",
+    "isRead": true,
+    "createdAt": "2026-06-17T05:56:00Z"
+  },
+  {
+    "id": "notif_0288",
+    "userId": "uid_0013",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0086 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0039",
+    "isRead": false,
+    "createdAt": "2026-01-20T22:44:00Z"
+  },
+  {
+    "id": "notif_0289",
+    "userId": "uid_0046",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0049 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0070",
+    "isRead": false,
+    "createdAt": "2026-02-08T04:06:00Z"
+  },
+  {
+    "id": "notif_0290",
+    "userId": "uid_0020",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0198.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0052",
+    "isRead": false,
+    "createdAt": "2026-04-30T21:10:00Z"
+  },
+  {
+    "id": "notif_0291",
+    "userId": "uid_0042",
+    "type": "AssetAssigned",
+    "message": "A new asset has been allocated to you: AF-0121.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0051",
+    "isRead": true,
+    "createdAt": "2026-03-03T04:05:00Z"
+  },
+  {
+    "id": "notif_0292",
+    "userId": "uid_0015",
+    "type": "BookingConfirmed",
+    "message": "Your booking for AF-0122 has been confirmed.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0071",
+    "isRead": false,
+    "createdAt": "2026-03-01T14:10:00Z"
+  },
+  {
+    "id": "notif_0293",
+    "userId": "uid_0006",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0088 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0090",
+    "isRead": true,
+    "createdAt": "2026-04-23T02:33:00Z"
+  },
+  {
+    "id": "notif_0294",
+    "userId": "uid_0036",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0116 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0074",
+    "isRead": false,
+    "createdAt": "2026-07-04T21:52:00Z"
+  },
+  {
+    "id": "notif_0295",
+    "userId": "uid_0048",
+    "type": "BookingCancelled",
+    "message": "Your booking for AF-0242 has been cancelled.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0085",
+    "isRead": false,
+    "createdAt": "2026-07-09T17:09:00Z"
+  },
+  {
+    "id": "notif_0296",
+    "userId": "uid_0027",
+    "type": "BookingReminder",
+    "message": "Reminder: your booking for AF-0058 starts soon.",
+    "relatedEntityType": "booking",
+    "relatedEntityId": "booki_0052",
+    "isRead": false,
+    "createdAt": "2026-03-25T11:12:00Z"
+  },
+  {
+    "id": "notif_0297",
+    "userId": "uid_0021",
+    "type": "AuditDiscrepancyFlagged",
+    "message": "Asset AF-0077 was flagged during an audit cycle.",
+    "relatedEntityType": "auditItem",
+    "relatedEntityId": "audit_0005",
+    "isRead": false,
+    "createdAt": "2026-02-12T08:24:00Z"
+  },
+  {
+    "id": "notif_0298",
+    "userId": "uid_0022",
+    "type": "MaintenanceRejected",
+    "message": "Your maintenance request for AF-0244 was rejected.",
+    "relatedEntityType": "maintenanceRequest",
+    "relatedEntityId": "maint_0078",
+    "isRead": false,
+    "createdAt": "2026-02-16T12:09:00Z"
+  },
+  {
+    "id": "notif_0299",
+    "userId": "uid_0014",
+    "type": "TransferApproved",
+    "message": "Your transfer request for AF-0098 has been approved.",
+    "relatedEntityType": "transferRequest",
+    "relatedEntityId": "trans_0069",
+    "isRead": true,
+    "createdAt": "2025-11-11T20:56:00Z"
+  },
+  {
+    "id": "notif_0300",
+    "userId": "uid_0022",
+    "type": "OverdueReturn",
+    "message": "Return for AF-0028 is overdue. Please return it as soon as possible.",
+    "relatedEntityType": "allocation",
+    "relatedEntityId": "alloc_0039",
+    "isRead": true,
+    "createdAt": "2026-02-16T18:20:00Z"
+  }
+]

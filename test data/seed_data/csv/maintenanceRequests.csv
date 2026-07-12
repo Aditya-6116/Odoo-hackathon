@@ -1,0 +1,36 @@
+id,assetId,assetTag,raisedByUserId,issueDescription,priority,photos,status,approvedByUserId,technicianId,resolutionNotes,createdAt,resolvedAt
+mr_0001,asset_0010,AF-0010,uid_0024,Won't power on,Medium,[],Technician Assigned,uid_0005,Vendor: AutoServ Garage,,2026-06-28T23:50:00Z,
+mr_0002,asset_0019,AF-0019,uid_0015,Screen flickering intermittently,High,[],Approved,uid_0002,,,2026-03-30T11:37:00Z,
+mr_0003,asset_0056,AF-0056,uid_0016,Software crashes repeatedly,Medium,[],Technician Assigned,uid_0002,Vendor: FixIt Solutions,,2026-04-27T00:00:00Z,
+mr_0004,asset_0067,AF-0067,uid_0023,Charging port loose,Medium,[],Approved,uid_0003,,,2026-03-25T09:26:00Z,
+mr_0005,asset_0069,AF-0069,uid_0018,Physical damage to casing,Medium,[],In Progress,uid_0003,Internal - IT Support,,2025-10-03T17:21:00Z,
+mr_0006,asset_0083,AF-0083,uid_0046,Keyboard keys unresponsive,Low,[],Approved,uid_0002,,,2025-10-15T07:44:00Z,
+mr_0007,asset_0123,AF-0123,uid_0048,Physical damage to casing,High,[],In Progress,uid_0002,Internal - IT Support,,2026-02-23T07:31:00Z,
+mr_0008,asset_0124,AF-0124,uid_0046,Physical damage to casing,Medium,[],Technician Assigned,uid_0005,Internal - Facilities,,2026-01-08T05:59:00Z,
+mr_0009,asset_0136,AF-0136,uid_0049,Unusual noise during operation,Medium,[],In Progress,uid_0002,Internal - Facilities,,2026-05-21T22:29:00Z,
+mr_0010,asset_0148,AF-0148,uid_0032,Charging port loose,Medium,[],Approved,uid_0003,,,2025-09-26T10:59:00Z,
+mr_0011,asset_0152,AF-0152,uid_0035,Brakes need inspection (vehicle),Medium,[],Approved,uid_0004,,,2025-12-21T09:50:00Z,
+mr_0012,asset_0154,AF-0154,uid_0044,Physical damage to casing,High,[],Technician Assigned,uid_0002,Vendor: FixIt Solutions,,2026-02-07T01:28:00Z,
+mr_0013,asset_0174,AF-0174,uid_0002,Physical damage to casing,High,[],Approved,uid_0004,,,2025-09-30T00:46:00Z,
+mr_0014,asset_0177,AF-0177,uid_0006,Unusual noise during operation,Medium,[],In Progress,uid_0003,Vendor: TechCare Ltd.,,2025-12-27T16:17:00Z,
+mr_0015,asset_0185,AF-0185,uid_0030,Brakes need inspection (vehicle),Low,[],Technician Assigned,uid_0003,Internal - Facilities,,2026-02-01T13:39:00Z,
+mr_0016,asset_0191,AF-0191,uid_0038,Projector bulb dim/flickering,Low,[],In Progress,uid_0003,Vendor: TechCare Ltd.,,2026-03-30T04:41:00Z,
+mr_0017,asset_0202,AF-0202,uid_0040,Overheating under load,High,[],In Progress,uid_0002,Internal - Facilities,,2026-04-21T22:56:00Z,
+mr_0018,asset_0212,AF-0212,uid_0010,Software crashes repeatedly,High,[],Technician Assigned,uid_0005,Vendor: FixIt Solutions,,2026-06-25T22:04:00Z,
+mr_0019,asset_0217,AF-0217,uid_0044,Won't power on,Low,[],Approved,uid_0002,,,2026-02-21T04:11:00Z,
+mr_0020,asset_0245,AF-0245,uid_0043,Unusual noise during operation,Low,[],In Progress,uid_0003,Vendor: AutoServ Garage,,2026-02-24T13:24:00Z,
+mr_0021,asset_0074,AF-0074,uid_0002,AC unit not cooling,Medium,[],Resolved,uid_0003,Vendor: AutoServ Garage,"Software reinstalled, issue resolved.",2026-01-09T06:16:00Z,2026-01-29T06:16:00Z
+mr_0022,asset_0218,AF-0218,uid_0012,Unusual noise during operation,Low,[],Approved,uid_0003,,,2025-12-24T17:30:00Z,
+mr_0023,asset_0117,AF-0117,uid_0001,Software crashes repeatedly,High,[],Resolved,uid_0003,Internal - Facilities,Repaired under warranty.,2026-02-22T19:46:00Z,2026-02-25T19:46:00Z
+mr_0024,asset_0089,AF-0089,uid_0035,Projector bulb dim/flickering,Low,[],Rejected,uid_0005,,,2026-01-25T18:04:00Z,
+mr_0025,asset_0192,AF-0192,uid_0027,Software crashes repeatedly,High,[],Resolved,uid_0002,Vendor: AutoServ Garage,"Software reinstalled, issue resolved.",2026-01-31T20:21:00Z,2026-02-04T20:21:00Z
+mr_0026,asset_0160,AF-0160,uid_0003,Physical damage to casing,Medium,[],Technician Assigned,uid_0002,Vendor: AutoServ Garage,,2026-03-07T16:26:00Z,
+mr_0027,asset_0025,AF-0025,uid_0044,Software crashes repeatedly,Low,[],In Progress,uid_0004,Vendor: FixIt Solutions,,2026-06-16T02:42:00Z,
+mr_0028,asset_0031,AF-0031,uid_0020,Won't power on,High,[],Resolved,uid_0005,Vendor: TechCare Ltd.,"Replaced faulty part, tested working.",2026-06-13T10:27:00Z,2026-06-16T10:27:00Z
+mr_0029,asset_0187,AF-0187,uid_0048,Won't power on,Medium,[],In Progress,uid_0005,Internal - IT Support,,2025-10-05T04:35:00Z,
+mr_0030,asset_0112,AF-0112,uid_0049,AC unit not cooling,High,[],Rejected,uid_0003,,,2026-03-29T18:55:00Z,
+mr_0031,asset_0115,AF-0115,uid_0006,Physical damage to casing,Medium,[],Resolved,uid_0002,Vendor: AutoServ Garage,Repaired under warranty.,2026-05-13T10:32:00Z,2026-05-26T10:32:00Z
+mr_0032,asset_0100,AF-0100,uid_0003,Projector bulb dim/flickering,High,[],Resolved,uid_0003,Internal - Facilities,Repaired under warranty.,2026-04-14T22:24:00Z,2026-04-19T22:24:00Z
+mr_0033,asset_0096,AF-0096,uid_0029,Screen flickering intermittently,High,[],Resolved,uid_0005,Vendor: FixIt Solutions,Repaired under warranty.,2026-02-03T23:14:00Z,2026-02-24T23:14:00Z
+mr_0034,asset_0051,AF-0051,uid_0013,Software crashes repeatedly,High,[],Rejected,uid_0005,,,2026-07-09T13:12:00Z,
+mr_0035,asset_0089,AF-0089,uid_0038,Brakes need inspection (vehicle),Medium,[],In Progress,uid_0003,Vendor: AutoServ Garage,,2026-07-08T13:04:00Z,

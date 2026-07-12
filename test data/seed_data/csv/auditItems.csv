@@ -1,0 +1,251 @@
+id,auditCycleId,assetId,assetTag,auditorId,result,notes,verifiedAt
+auditItem_0001,audit_0001,asset_0072,AF-0072,uid_0002,Verified,,2025-12-28T19:32:00Z
+auditItem_0002,audit_0001,asset_0159,AF-0159,uid_0011,Missing,Not found at last known location during audit.,2025-12-22T19:32:00Z
+auditItem_0003,audit_0001,asset_0161,AF-0161,uid_0011,Damaged,Visible damage noted during physical inspection.,2025-12-16T19:32:00Z
+auditItem_0004,audit_0001,asset_0143,AF-0143,uid_0011,Verified,,2025-12-19T19:32:00Z
+auditItem_0005,audit_0001,asset_0210,AF-0210,uid_0002,Damaged,Visible damage noted during physical inspection.,2025-12-14T19:32:00Z
+auditItem_0006,audit_0001,asset_0212,AF-0212,uid_0011,Verified,,2025-12-13T19:32:00Z
+auditItem_0007,audit_0001,asset_0054,AF-0054,uid_0002,Verified,Confirmed present and matches records.,2025-12-15T19:32:00Z
+auditItem_0008,audit_0001,asset_0013,AF-0013,uid_0002,Verified,Confirmed present and matches records.,2025-12-13T19:32:00Z
+auditItem_0009,audit_0001,asset_0048,AF-0048,uid_0002,Verified,,2025-12-13T19:32:00Z
+auditItem_0010,audit_0001,asset_0038,AF-0038,uid_0002,Verified,,2025-12-28T19:32:00Z
+auditItem_0011,audit_0001,asset_0015,AF-0015,uid_0011,Verified,Confirmed present and matches records.,2025-12-28T19:32:00Z
+auditItem_0012,audit_0001,asset_0168,AF-0168,uid_0002,Verified,,2025-12-27T19:32:00Z
+auditItem_0013,audit_0001,asset_0090,AF-0090,uid_0011,Verified,,2025-12-22T19:32:00Z
+auditItem_0014,audit_0001,asset_0010,AF-0010,uid_0011,Verified,,2025-12-19T19:32:00Z
+auditItem_0015,audit_0001,asset_0241,AF-0241,uid_0002,Verified,,2025-12-15T19:32:00Z
+auditItem_0016,audit_0001,asset_0219,AF-0219,uid_0011,Verified,,2025-12-23T19:32:00Z
+auditItem_0017,audit_0001,asset_0009,AF-0009,uid_0011,Verified,Confirmed present and matches records.,2025-12-25T19:32:00Z
+auditItem_0018,audit_0001,asset_0171,AF-0171,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0019,audit_0001,asset_0148,AF-0148,uid_0011,Verified,,2025-12-28T19:32:00Z
+auditItem_0020,audit_0001,asset_0215,AF-0215,uid_0002,Verified,,2025-12-19T19:32:00Z
+auditItem_0021,audit_0001,asset_0155,AF-0155,uid_0002,Verified,,2025-12-14T19:32:00Z
+auditItem_0022,audit_0001,asset_0077,AF-0077,uid_0002,Damaged,Visible damage noted during physical inspection.,2025-12-13T19:32:00Z
+auditItem_0023,audit_0001,asset_0085,AF-0085,uid_0011,Verified,Confirmed present and matches records.,2025-12-19T19:32:00Z
+auditItem_0024,audit_0001,asset_0023,AF-0023,uid_0002,Verified,Confirmed present and matches records.,2025-12-23T19:32:00Z
+auditItem_0025,audit_0001,asset_0243,AF-0243,uid_0011,Missing,Not found at last known location during audit.,2025-12-19T19:32:00Z
+auditItem_0026,audit_0001,asset_0028,AF-0028,uid_0002,Verified,,2025-12-25T19:32:00Z
+auditItem_0027,audit_0001,asset_0107,AF-0107,uid_0011,Verified,,2025-12-22T19:32:00Z
+auditItem_0028,audit_0001,asset_0046,AF-0046,uid_0011,Verified,,2025-12-23T19:32:00Z
+auditItem_0029,audit_0001,asset_0042,AF-0042,uid_0002,Verified,,2025-12-13T19:32:00Z
+auditItem_0030,audit_0001,asset_0173,AF-0173,uid_0011,Verified,Confirmed present and matches records.,2025-12-23T19:32:00Z
+auditItem_0031,audit_0001,asset_0073,AF-0073,uid_0002,Verified,,2025-12-27T19:32:00Z
+auditItem_0032,audit_0001,asset_0157,AF-0157,uid_0011,Verified,Confirmed present and matches records.,2025-12-21T19:32:00Z
+auditItem_0033,audit_0001,asset_0170,AF-0170,uid_0011,Damaged,Visible damage noted during physical inspection.,2025-12-19T19:32:00Z
+auditItem_0034,audit_0001,asset_0178,AF-0178,uid_0002,Verified,Confirmed present and matches records.,2025-12-21T19:32:00Z
+auditItem_0035,audit_0001,asset_0180,AF-0180,uid_0002,Verified,Confirmed present and matches records.,2025-12-20T19:32:00Z
+auditItem_0036,audit_0001,asset_0153,AF-0153,uid_0002,Verified,Confirmed present and matches records.,2025-12-27T19:32:00Z
+auditItem_0037,audit_0001,asset_0147,AF-0147,uid_0011,Verified,Confirmed present and matches records.,2025-12-16T19:32:00Z
+auditItem_0038,audit_0001,asset_0202,AF-0202,uid_0002,Verified,,2025-12-18T19:32:00Z
+auditItem_0039,audit_0001,asset_0144,AF-0144,uid_0002,Missing,Not found at last known location during audit.,2025-12-24T19:32:00Z
+auditItem_0040,audit_0001,asset_0223,AF-0223,uid_0011,Verified,,2025-12-15T19:32:00Z
+auditItem_0041,audit_0001,asset_0117,AF-0117,uid_0002,Verified,Confirmed present and matches records.,2025-12-17T19:32:00Z
+auditItem_0042,audit_0001,asset_0192,AF-0192,uid_0002,Verified,,2025-12-16T19:32:00Z
+auditItem_0043,audit_0001,asset_0149,AF-0149,uid_0002,Verified,Confirmed present and matches records.,2025-12-28T19:32:00Z
+auditItem_0044,audit_0001,asset_0093,AF-0093,uid_0002,Verified,Confirmed present and matches records.,2025-12-24T19:32:00Z
+auditItem_0045,audit_0001,asset_0237,AF-0237,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0046,audit_0001,asset_0024,AF-0024,uid_0002,Verified,Confirmed present and matches records.,2025-12-16T19:32:00Z
+auditItem_0047,audit_0001,asset_0197,AF-0197,uid_0011,Verified,,2025-12-22T19:32:00Z
+auditItem_0048,audit_0001,asset_0229,AF-0229,uid_0011,Verified,,2025-12-16T19:32:00Z
+auditItem_0049,audit_0001,asset_0083,AF-0083,uid_0011,Verified,,2025-12-23T19:32:00Z
+auditItem_0050,audit_0001,asset_0095,AF-0095,uid_0002,Verified,,2025-12-27T19:32:00Z
+auditItem_0051,audit_0001,asset_0098,AF-0098,uid_0011,Verified,,2025-12-18T19:32:00Z
+auditItem_0052,audit_0001,asset_0018,AF-0018,uid_0002,Verified,,2025-12-19T19:32:00Z
+auditItem_0053,audit_0001,asset_0195,AF-0195,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0054,audit_0001,asset_0110,AF-0110,uid_0011,Verified,Confirmed present and matches records.,2025-12-28T19:32:00Z
+auditItem_0055,audit_0001,asset_0141,AF-0141,uid_0002,Verified,,2025-12-16T19:32:00Z
+auditItem_0056,audit_0001,asset_0017,AF-0017,uid_0002,Verified,,2025-12-15T19:32:00Z
+auditItem_0057,audit_0001,asset_0075,AF-0075,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0058,audit_0001,asset_0121,AF-0121,uid_0011,Verified,,2025-12-19T19:32:00Z
+auditItem_0059,audit_0001,asset_0035,AF-0035,uid_0011,Missing,Not found at last known location during audit.,2025-12-17T19:32:00Z
+auditItem_0060,audit_0001,asset_0032,AF-0032,uid_0002,Verified,Confirmed present and matches records.,2025-12-22T19:32:00Z
+auditItem_0061,audit_0001,asset_0217,AF-0217,uid_0011,Verified,,2025-12-19T19:32:00Z
+auditItem_0062,audit_0001,asset_0071,AF-0071,uid_0002,Verified,,2025-12-26T19:32:00Z
+auditItem_0063,audit_0001,asset_0228,AF-0228,uid_0011,Damaged,Visible damage noted during physical inspection.,2025-12-13T19:32:00Z
+auditItem_0064,audit_0001,asset_0135,AF-0135,uid_0002,Verified,,2025-12-17T19:32:00Z
+auditItem_0065,audit_0001,asset_0106,AF-0106,uid_0011,Verified,,2025-12-13T19:32:00Z
+auditItem_0066,audit_0001,asset_0187,AF-0187,uid_0002,Missing,Not found at last known location during audit.,2025-12-16T19:32:00Z
+auditItem_0067,audit_0001,asset_0244,AF-0244,uid_0011,Missing,Not found at last known location during audit.,2025-12-20T19:32:00Z
+auditItem_0068,audit_0001,asset_0179,AF-0179,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0069,audit_0001,asset_0184,AF-0184,uid_0002,Verified,,2025-12-19T19:32:00Z
+auditItem_0070,audit_0001,asset_0235,AF-0235,uid_0011,Verified,,2025-12-25T19:32:00Z
+auditItem_0071,audit_0001,asset_0240,AF-0240,uid_0002,Verified,Confirmed present and matches records.,2025-12-17T19:32:00Z
+auditItem_0072,audit_0001,asset_0225,AF-0225,uid_0011,Missing,Not found at last known location during audit.,2025-12-17T19:32:00Z
+auditItem_0073,audit_0001,asset_0214,AF-0214,uid_0011,Verified,,2025-12-17T19:32:00Z
+auditItem_0074,audit_0001,asset_0162,AF-0162,uid_0002,Verified,Confirmed present and matches records.,2025-12-17T19:32:00Z
+auditItem_0075,audit_0001,asset_0136,AF-0136,uid_0002,Verified,,2025-12-27T19:32:00Z
+auditItem_0076,audit_0001,asset_0227,AF-0227,uid_0002,Verified,,2025-12-18T19:32:00Z
+auditItem_0077,audit_0001,asset_0124,AF-0124,uid_0002,Verified,Confirmed present and matches records.,2025-12-25T19:32:00Z
+auditItem_0078,audit_0001,asset_0230,AF-0230,uid_0011,Verified,,2025-12-28T19:32:00Z
+auditItem_0079,audit_0001,asset_0074,AF-0074,uid_0002,Verified,,2025-12-26T19:32:00Z
+auditItem_0080,audit_0001,asset_0204,AF-0204,uid_0011,Verified,,2025-12-14T19:32:00Z
+auditItem_0081,audit_0001,asset_0156,AF-0156,uid_0011,Verified,,2025-12-28T19:32:00Z
+auditItem_0082,audit_0001,asset_0082,AF-0082,uid_0002,Verified,,2025-12-27T19:32:00Z
+auditItem_0083,audit_0001,asset_0067,AF-0067,uid_0011,Verified,,2025-12-20T19:32:00Z
+auditItem_0084,audit_0001,asset_0185,AF-0185,uid_0011,Verified,,2025-12-22T19:32:00Z
+auditItem_0085,audit_0001,asset_0232,AF-0232,uid_0011,Damaged,Visible damage noted during physical inspection.,2025-12-28T19:32:00Z
+auditItem_0086,audit_0001,asset_0160,AF-0160,uid_0002,Verified,,2025-12-23T19:32:00Z
+auditItem_0087,audit_0001,asset_0091,AF-0091,uid_0002,Damaged,Visible damage noted during physical inspection.,2025-12-22T19:32:00Z
+auditItem_0088,audit_0001,asset_0034,AF-0034,uid_0002,Verified,Confirmed present and matches records.,2025-12-21T19:32:00Z
+auditItem_0089,audit_0001,asset_0158,AF-0158,uid_0011,Verified,,2025-12-14T19:32:00Z
+auditItem_0090,audit_0001,asset_0145,AF-0145,uid_0011,Verified,,2025-12-22T19:32:00Z
+auditItem_0091,audit_0002,asset_0220,AF-0220,uid_0004,Missing,Not found at last known location during audit.,2026-03-22T16:56:00Z
+auditItem_0092,audit_0002,asset_0066,AF-0066,uid_0011,Damaged,Visible damage noted during physical inspection.,2026-03-25T16:56:00Z
+auditItem_0093,audit_0002,asset_0004,AF-0004,uid_0004,Verified,,2026-03-16T16:56:00Z
+auditItem_0094,audit_0002,asset_0190,AF-0190,uid_0011,Verified,Confirmed present and matches records.,2026-03-21T16:56:00Z
+auditItem_0095,audit_0002,asset_0029,AF-0029,uid_0004,Verified,,2026-03-21T16:56:00Z
+auditItem_0096,audit_0002,asset_0155,AF-0155,uid_0004,Verified,,2026-03-19T16:56:00Z
+auditItem_0097,audit_0002,asset_0045,AF-0045,uid_0004,Verified,,2026-03-23T16:56:00Z
+auditItem_0098,audit_0002,asset_0233,AF-0233,uid_0004,Verified,,2026-03-13T16:56:00Z
+auditItem_0099,audit_0002,asset_0152,AF-0152,uid_0011,Verified,Confirmed present and matches records.,2026-03-24T16:56:00Z
+auditItem_0100,audit_0002,asset_0247,AF-0247,uid_0004,Verified,Confirmed present and matches records.,2026-03-14T16:56:00Z
+auditItem_0101,audit_0002,asset_0039,AF-0039,uid_0004,Verified,,2026-03-16T16:56:00Z
+auditItem_0102,audit_0002,asset_0169,AF-0169,uid_0004,Verified,,2026-03-25T16:56:00Z
+auditItem_0103,audit_0002,asset_0115,AF-0115,uid_0004,Missing,Not found at last known location during audit.,2026-03-16T16:56:00Z
+auditItem_0104,audit_0002,asset_0095,AF-0095,uid_0011,Verified,,2026-03-22T16:56:00Z
+auditItem_0105,audit_0002,asset_0207,AF-0207,uid_0011,Damaged,Visible damage noted during physical inspection.,2026-03-21T16:56:00Z
+auditItem_0106,audit_0002,asset_0244,AF-0244,uid_0011,Verified,Confirmed present and matches records.,2026-03-21T16:56:00Z
+auditItem_0107,audit_0002,asset_0067,AF-0067,uid_0004,Verified,Confirmed present and matches records.,2026-03-25T16:56:00Z
+auditItem_0108,audit_0002,asset_0201,AF-0201,uid_0011,Damaged,Visible damage noted during physical inspection.,2026-03-21T16:56:00Z
+auditItem_0109,audit_0002,asset_0180,AF-0180,uid_0004,Verified,,2026-03-28T16:56:00Z
+auditItem_0110,audit_0002,asset_0061,AF-0061,uid_0011,Verified,,2026-03-18T16:56:00Z
+auditItem_0111,audit_0002,asset_0125,AF-0125,uid_0011,Verified,,2026-03-19T16:56:00Z
+auditItem_0112,audit_0002,asset_0047,AF-0047,uid_0011,Verified,Confirmed present and matches records.,2026-03-21T16:56:00Z
+auditItem_0113,audit_0002,asset_0205,AF-0205,uid_0011,Verified,Confirmed present and matches records.,2026-03-27T16:56:00Z
+auditItem_0114,audit_0002,asset_0136,AF-0136,uid_0004,Verified,,2026-03-14T16:56:00Z
+auditItem_0115,audit_0002,asset_0221,AF-0221,uid_0011,Verified,,2026-03-25T16:56:00Z
+auditItem_0116,audit_0002,asset_0009,AF-0009,uid_0011,Verified,,2026-03-28T16:56:00Z
+auditItem_0117,audit_0002,asset_0088,AF-0088,uid_0004,Missing,Not found at last known location during audit.,2026-03-20T16:56:00Z
+auditItem_0118,audit_0002,asset_0022,AF-0022,uid_0011,Verified,,2026-03-16T16:56:00Z
+auditItem_0119,audit_0002,asset_0038,AF-0038,uid_0011,Damaged,Visible damage noted during physical inspection.,2026-03-23T16:56:00Z
+auditItem_0120,audit_0002,asset_0153,AF-0153,uid_0011,Verified,,2026-03-14T16:56:00Z
+auditItem_0121,audit_0002,asset_0211,AF-0211,uid_0004,Damaged,Visible damage noted during physical inspection.,2026-03-24T16:56:00Z
+auditItem_0122,audit_0002,asset_0040,AF-0040,uid_0011,Verified,,2026-03-15T16:56:00Z
+auditItem_0123,audit_0002,asset_0215,AF-0215,uid_0011,Verified,Confirmed present and matches records.,2026-03-19T16:56:00Z
+auditItem_0124,audit_0002,asset_0127,AF-0127,uid_0011,Verified,Confirmed present and matches records.,2026-03-19T16:56:00Z
+auditItem_0125,audit_0002,asset_0193,AF-0193,uid_0004,Verified,,2026-03-24T16:56:00Z
+auditItem_0126,audit_0002,asset_0106,AF-0106,uid_0011,Missing,Not found at last known location during audit.,2026-03-19T16:56:00Z
+auditItem_0127,audit_0002,asset_0198,AF-0198,uid_0004,Verified,,2026-03-13T16:56:00Z
+auditItem_0128,audit_0002,asset_0099,AF-0099,uid_0011,Verified,Confirmed present and matches records.,2026-03-25T16:56:00Z
+auditItem_0129,audit_0002,asset_0231,AF-0231,uid_0011,Verified,,2026-03-28T16:56:00Z
+auditItem_0130,audit_0002,asset_0170,AF-0170,uid_0011,Missing,Not found at last known location during audit.,2026-03-13T16:56:00Z
+auditItem_0131,audit_0002,asset_0113,AF-0113,uid_0004,Verified,,2026-03-23T16:56:00Z
+auditItem_0132,audit_0002,asset_0186,AF-0186,uid_0004,Verified,,2026-03-19T16:56:00Z
+auditItem_0133,audit_0002,asset_0164,AF-0164,uid_0011,Verified,,2026-03-17T16:56:00Z
+auditItem_0134,audit_0002,asset_0043,AF-0043,uid_0004,Verified,,2026-03-14T16:56:00Z
+auditItem_0135,audit_0002,asset_0054,AF-0054,uid_0004,Verified,,2026-03-28T16:56:00Z
+auditItem_0136,audit_0002,asset_0148,AF-0148,uid_0004,Verified,Confirmed present and matches records.,2026-03-17T16:56:00Z
+auditItem_0137,audit_0002,asset_0188,AF-0188,uid_0011,Verified,,2026-03-16T16:56:00Z
+auditItem_0138,audit_0002,asset_0089,AF-0089,uid_0004,Verified,Confirmed present and matches records.,2026-03-16T16:56:00Z
+auditItem_0139,audit_0002,asset_0014,AF-0014,uid_0004,Verified,,2026-03-15T16:56:00Z
+auditItem_0140,audit_0002,asset_0165,AF-0165,uid_0011,Verified,Confirmed present and matches records.,2026-03-23T16:56:00Z
+auditItem_0141,audit_0002,asset_0068,AF-0068,uid_0004,Verified,,2026-03-23T16:56:00Z
+auditItem_0142,audit_0002,asset_0194,AF-0194,uid_0004,Verified,Confirmed present and matches records.,2026-03-18T16:56:00Z
+auditItem_0143,audit_0002,asset_0030,AF-0030,uid_0004,Verified,Confirmed present and matches records.,2026-03-26T16:56:00Z
+auditItem_0144,audit_0002,asset_0202,AF-0202,uid_0004,Verified,Confirmed present and matches records.,2026-03-27T16:56:00Z
+auditItem_0145,audit_0002,asset_0236,AF-0236,uid_0004,Verified,,2026-03-16T16:56:00Z
+auditItem_0146,audit_0002,asset_0119,AF-0119,uid_0011,Verified,Confirmed present and matches records.,2026-03-18T16:56:00Z
+auditItem_0147,audit_0002,asset_0103,AF-0103,uid_0004,Verified,Confirmed present and matches records.,2026-03-13T16:56:00Z
+auditItem_0148,audit_0002,asset_0122,AF-0122,uid_0011,Verified,,2026-03-26T16:56:00Z
+auditItem_0149,audit_0002,asset_0078,AF-0078,uid_0011,Verified,Confirmed present and matches records.,2026-03-17T16:56:00Z
+auditItem_0150,audit_0002,asset_0216,AF-0216,uid_0011,Verified,Confirmed present and matches records.,2026-03-26T16:56:00Z
+auditItem_0151,audit_0002,asset_0137,AF-0137,uid_0004,Verified,,2026-03-18T16:56:00Z
+auditItem_0152,audit_0002,asset_0060,AF-0060,uid_0004,Verified,Confirmed present and matches records.,2026-03-22T16:56:00Z
+auditItem_0153,audit_0002,asset_0098,AF-0098,uid_0004,Verified,Confirmed present and matches records.,2026-03-19T16:56:00Z
+auditItem_0154,audit_0002,asset_0175,AF-0175,uid_0004,Verified,,2026-03-24T16:56:00Z
+auditItem_0155,audit_0002,asset_0181,AF-0181,uid_0004,Damaged,Visible damage noted during physical inspection.,2026-03-27T16:56:00Z
+auditItem_0156,audit_0002,asset_0100,AF-0100,uid_0004,Verified,Confirmed present and matches records.,2026-03-21T16:56:00Z
+auditItem_0157,audit_0002,asset_0191,AF-0191,uid_0004,Verified,,2026-03-28T16:56:00Z
+auditItem_0158,audit_0002,asset_0200,AF-0200,uid_0004,Verified,,2026-03-14T16:56:00Z
+auditItem_0159,audit_0002,asset_0222,AF-0222,uid_0011,Verified,Confirmed present and matches records.,2026-03-21T16:56:00Z
+auditItem_0160,audit_0002,asset_0227,AF-0227,uid_0011,Verified,Confirmed present and matches records.,2026-03-14T16:56:00Z
+auditItem_0161,audit_0003,asset_0030,AF-0030,uid_0002,Verified,Confirmed present and matches records.,2026-06-09T15:49:00Z
+auditItem_0162,audit_0003,asset_0019,AF-0019,uid_0009,Pending,,
+auditItem_0163,audit_0003,asset_0230,AF-0230,uid_0009,Damaged,Visible damage noted during physical inspection.,2026-06-08T15:49:00Z
+auditItem_0164,audit_0003,asset_0061,AF-0061,uid_0002,Pending,,
+auditItem_0165,audit_0003,asset_0185,AF-0185,uid_0002,Pending,,
+auditItem_0166,audit_0003,asset_0114,AF-0114,uid_0002,Pending,,
+auditItem_0167,audit_0003,asset_0152,AF-0152,uid_0009,Verified,,2026-06-07T15:49:00Z
+auditItem_0168,audit_0003,asset_0149,AF-0149,uid_0009,Pending,,
+auditItem_0169,audit_0003,asset_0084,AF-0084,uid_0009,Verified,Confirmed present and matches records.,2026-06-08T15:49:00Z
+auditItem_0170,audit_0003,asset_0108,AF-0108,uid_0002,Pending,,
+auditItem_0171,audit_0003,asset_0051,AF-0051,uid_0002,Pending,,
+auditItem_0172,audit_0003,asset_0192,AF-0192,uid_0002,Pending,,
+auditItem_0173,audit_0003,asset_0174,AF-0174,uid_0002,Damaged,Visible damage noted during physical inspection.,2026-06-02T15:49:00Z
+auditItem_0174,audit_0003,asset_0248,AF-0248,uid_0002,Pending,,
+auditItem_0175,audit_0003,asset_0242,AF-0242,uid_0009,Damaged,Visible damage noted during physical inspection.,2026-06-16T15:49:00Z
+auditItem_0176,audit_0003,asset_0059,AF-0059,uid_0002,Pending,,
+auditItem_0177,audit_0003,asset_0200,AF-0200,uid_0002,Pending,,
+auditItem_0178,audit_0003,asset_0029,AF-0029,uid_0002,Verified,,2026-06-14T15:49:00Z
+auditItem_0179,audit_0003,asset_0236,AF-0236,uid_0009,Verified,,2026-06-08T15:49:00Z
+auditItem_0180,audit_0003,asset_0235,AF-0235,uid_0009,Verified,Confirmed present and matches records.,2026-06-10T15:49:00Z
+auditItem_0181,audit_0003,asset_0026,AF-0026,uid_0002,Pending,,
+auditItem_0182,audit_0003,asset_0247,AF-0247,uid_0009,Pending,,
+auditItem_0183,audit_0003,asset_0189,AF-0189,uid_0009,Pending,,
+auditItem_0184,audit_0003,asset_0106,AF-0106,uid_0009,Verified,,2026-06-15T15:49:00Z
+auditItem_0185,audit_0003,asset_0223,AF-0223,uid_0002,Verified,,2026-06-13T15:49:00Z
+auditItem_0186,audit_0003,asset_0052,AF-0052,uid_0002,Verified,,2026-06-10T15:49:00Z
+auditItem_0187,audit_0003,asset_0097,AF-0097,uid_0002,Verified,,2026-06-03T15:49:00Z
+auditItem_0188,audit_0003,asset_0057,AF-0057,uid_0002,Verified,,2026-06-12T15:49:00Z
+auditItem_0189,audit_0003,asset_0249,AF-0249,uid_0009,Verified,,2026-06-15T15:49:00Z
+auditItem_0190,audit_0003,asset_0121,AF-0121,uid_0002,Missing,Not found at last known location during audit.,2026-06-03T15:49:00Z
+auditItem_0191,audit_0003,asset_0150,AF-0150,uid_0002,Pending,,
+auditItem_0192,audit_0003,asset_0125,AF-0125,uid_0009,Verified,,2026-06-08T15:49:00Z
+auditItem_0193,audit_0003,asset_0014,AF-0014,uid_0002,Pending,,
+auditItem_0194,audit_0003,asset_0112,AF-0112,uid_0002,Pending,,
+auditItem_0195,audit_0003,asset_0038,AF-0038,uid_0009,Verified,Confirmed present and matches records.,2026-06-14T15:49:00Z
+auditItem_0196,audit_0003,asset_0056,AF-0056,uid_0009,Verified,,2026-06-15T15:49:00Z
+auditItem_0197,audit_0003,asset_0157,AF-0157,uid_0002,Pending,,
+auditItem_0198,audit_0003,asset_0117,AF-0117,uid_0009,Pending,,
+auditItem_0199,audit_0003,asset_0046,AF-0046,uid_0009,Pending,,
+auditItem_0200,audit_0003,asset_0100,AF-0100,uid_0002,Pending,,
+auditItem_0201,audit_0003,asset_0096,AF-0096,uid_0009,Verified,Confirmed present and matches records.,2026-06-03T15:49:00Z
+auditItem_0202,audit_0003,asset_0035,AF-0035,uid_0009,Pending,,
+auditItem_0203,audit_0003,asset_0118,AF-0118,uid_0002,Pending,,
+auditItem_0204,audit_0003,asset_0246,AF-0246,uid_0009,Verified,,2026-06-04T15:49:00Z
+auditItem_0205,audit_0003,asset_0050,AF-0050,uid_0002,Pending,,
+auditItem_0206,audit_0003,asset_0162,AF-0162,uid_0002,Pending,,
+auditItem_0207,audit_0003,asset_0092,AF-0092,uid_0002,Verified,Confirmed present and matches records.,2026-06-16T15:49:00Z
+auditItem_0208,audit_0003,asset_0070,AF-0070,uid_0002,Pending,,
+auditItem_0209,audit_0003,asset_0225,AF-0225,uid_0002,Verified,,2026-06-01T15:49:00Z
+auditItem_0210,audit_0003,asset_0086,AF-0086,uid_0009,Verified,,2026-06-14T15:49:00Z
+auditItem_0211,audit_0004,asset_0152,AF-0152,uid_0014,Verified,Confirmed present and matches records.,2026-07-04T12:19:00Z
+auditItem_0212,audit_0004,asset_0171,AF-0171,uid_0014,Verified,Confirmed present and matches records.,2026-07-15T12:19:00Z
+auditItem_0213,audit_0004,asset_0179,AF-0179,uid_0014,Verified,,2026-07-11T12:19:00Z
+auditItem_0214,audit_0004,asset_0136,AF-0136,uid_0007,Verified,,2026-07-06T12:19:00Z
+auditItem_0215,audit_0004,asset_0216,AF-0216,uid_0014,Verified,,2026-07-13T12:19:00Z
+auditItem_0216,audit_0004,asset_0141,AF-0141,uid_0007,Pending,,
+auditItem_0217,audit_0004,asset_0114,AF-0114,uid_0014,Pending,,
+auditItem_0218,audit_0004,asset_0118,AF-0118,uid_0007,Verified,,2026-07-10T12:19:00Z
+auditItem_0219,audit_0004,asset_0078,AF-0078,uid_0014,Verified,Confirmed present and matches records.,2026-07-15T12:19:00Z
+auditItem_0220,audit_0004,asset_0146,AF-0146,uid_0007,Verified,Confirmed present and matches records.,2026-07-02T12:19:00Z
+auditItem_0221,audit_0004,asset_0034,AF-0034,uid_0007,Pending,,
+auditItem_0222,audit_0004,asset_0230,AF-0230,uid_0014,Verified,Confirmed present and matches records.,2026-07-15T12:19:00Z
+auditItem_0223,audit_0004,asset_0203,AF-0203,uid_0014,Verified,,2026-07-08T12:19:00Z
+auditItem_0224,audit_0004,asset_0079,AF-0079,uid_0014,Pending,,
+auditItem_0225,audit_0004,asset_0044,AF-0044,uid_0007,Verified,,2026-07-03T12:19:00Z
+auditItem_0226,audit_0004,asset_0238,AF-0238,uid_0007,Damaged,Visible damage noted during physical inspection.,2026-07-11T12:19:00Z
+auditItem_0227,audit_0004,asset_0067,AF-0067,uid_0014,Pending,,
+auditItem_0228,audit_0004,asset_0059,AF-0059,uid_0007,Pending,,
+auditItem_0229,audit_0004,asset_0124,AF-0124,uid_0007,Damaged,Visible damage noted during physical inspection.,2026-07-12T12:19:00Z
+auditItem_0230,audit_0004,asset_0096,AF-0096,uid_0014,Damaged,Visible damage noted during physical inspection.,2026-07-10T12:19:00Z
+auditItem_0231,audit_0004,asset_0074,AF-0074,uid_0007,Verified,,2026-07-15T12:19:00Z
+auditItem_0232,audit_0004,asset_0198,AF-0198,uid_0007,Verified,,2026-07-14T12:19:00Z
+auditItem_0233,audit_0004,asset_0217,AF-0217,uid_0007,Verified,Confirmed present and matches records.,2026-07-14T12:19:00Z
+auditItem_0234,audit_0004,asset_0013,AF-0013,uid_0014,Pending,,
+auditItem_0235,audit_0004,asset_0038,AF-0038,uid_0007,Verified,,2026-07-16T12:19:00Z
+auditItem_0236,audit_0004,asset_0091,AF-0091,uid_0007,Pending,,
+auditItem_0237,audit_0004,asset_0073,AF-0073,uid_0007,Verified,Confirmed present and matches records.,2026-07-03T12:19:00Z
+auditItem_0238,audit_0004,asset_0117,AF-0117,uid_0007,Pending,,
+auditItem_0239,audit_0004,asset_0043,AF-0043,uid_0007,Damaged,Visible damage noted during physical inspection.,2026-07-05T12:19:00Z
+auditItem_0240,audit_0004,asset_0159,AF-0159,uid_0007,Verified,,2026-07-10T12:19:00Z
+auditItem_0241,audit_0004,asset_0042,AF-0042,uid_0007,Verified,,2026-07-10T12:19:00Z
+auditItem_0242,audit_0004,asset_0183,AF-0183,uid_0014,Pending,,
+auditItem_0243,audit_0004,asset_0138,AF-0138,uid_0014,Verified,Confirmed present and matches records.,2026-07-05T12:19:00Z
+auditItem_0244,audit_0004,asset_0239,AF-0239,uid_0007,Pending,,
+auditItem_0245,audit_0004,asset_0047,AF-0047,uid_0007,Verified,Confirmed present and matches records.,2026-07-14T12:19:00Z
+auditItem_0246,audit_0004,asset_0045,AF-0045,uid_0014,Pending,,
+auditItem_0247,audit_0004,asset_0182,AF-0182,uid_0007,Verified,,2026-07-16T12:19:00Z
+auditItem_0248,audit_0004,asset_0178,AF-0178,uid_0007,Verified,,2026-07-16T12:19:00Z
+auditItem_0249,audit_0004,asset_0249,AF-0249,uid_0007,Pending,,
+auditItem_0250,audit_0004,asset_0204,AF-0204,uid_0014,Pending,,

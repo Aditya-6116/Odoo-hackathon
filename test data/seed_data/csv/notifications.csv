@@ -1,0 +1,301 @@
+id,userId,type,message,relatedEntityType,relatedEntityId,isRead,createdAt
+notif_0001,uid_0047,BookingReminder,Reminder: your booking for AF-0132 starts soon.,booking,booki_0034,True,2026-02-15T08:06:00Z
+notif_0002,uid_0021,AssetAssigned,A new asset has been allocated to you: AF-0038.,allocation,alloc_0046,True,2026-03-15T10:52:00Z
+notif_0003,uid_0027,BookingCancelled,Your booking for AF-0093 has been cancelled.,booking,booki_0038,True,2026-01-30T21:57:00Z
+notif_0004,uid_0013,MaintenanceApproved,Your maintenance request for AF-0132 has been approved.,maintenanceRequest,maint_0013,True,2025-12-27T12:49:00Z
+notif_0005,uid_0021,MaintenanceRejected,Your maintenance request for AF-0140 was rejected.,maintenanceRequest,maint_0088,False,2025-11-30T22:08:00Z
+notif_0006,uid_0045,BookingCancelled,Your booking for AF-0176 has been cancelled.,booking,booki_0069,True,2026-01-16T21:54:00Z
+notif_0007,uid_0009,MaintenanceRejected,Your maintenance request for AF-0004 was rejected.,maintenanceRequest,maint_0063,True,2026-03-01T23:37:00Z
+notif_0008,uid_0014,MaintenanceRejected,Your maintenance request for AF-0027 was rejected.,maintenanceRequest,maint_0025,False,2026-06-02T16:46:00Z
+notif_0009,uid_0045,AuditDiscrepancyFlagged,Asset AF-0158 was flagged during an audit cycle.,auditItem,audit_0069,False,2025-12-11T16:06:00Z
+notif_0010,uid_0030,MaintenanceApproved,Your maintenance request for AF-0107 has been approved.,maintenanceRequest,maint_0017,False,2025-11-20T06:53:00Z
+notif_0011,uid_0020,OverdueReturn,Return for AF-0090 is overdue. Please return it as soon as possible.,allocation,alloc_0057,False,2026-01-16T21:52:00Z
+notif_0012,uid_0022,AuditDiscrepancyFlagged,Asset AF-0196 was flagged during an audit cycle.,auditItem,audit_0004,False,2026-05-28T10:41:00Z
+notif_0013,uid_0009,MaintenanceApproved,Your maintenance request for AF-0057 has been approved.,maintenanceRequest,maint_0089,True,2025-12-04T10:51:00Z
+notif_0014,uid_0009,MaintenanceRejected,Your maintenance request for AF-0054 was rejected.,maintenanceRequest,maint_0015,True,2026-06-21T19:16:00Z
+notif_0015,uid_0028,OverdueReturn,Return for AF-0194 is overdue. Please return it as soon as possible.,allocation,alloc_0005,False,2026-07-02T02:54:00Z
+notif_0016,uid_0004,AuditDiscrepancyFlagged,Asset AF-0152 was flagged during an audit cycle.,auditItem,audit_0033,True,2026-03-14T05:02:00Z
+notif_0017,uid_0001,BookingCancelled,Your booking for AF-0171 has been cancelled.,booking,booki_0016,False,2025-12-31T05:10:00Z
+notif_0018,uid_0013,BookingConfirmed,Your booking for AF-0151 has been confirmed.,booking,booki_0004,True,2026-05-25T11:38:00Z
+notif_0019,uid_0038,BookingCancelled,Your booking for AF-0243 has been cancelled.,booking,booki_0065,False,2026-04-13T21:50:00Z
+notif_0020,uid_0037,BookingConfirmed,Your booking for AF-0130 has been confirmed.,booking,booki_0075,False,2026-06-25T05:08:00Z
+notif_0021,uid_0046,AuditDiscrepancyFlagged,Asset AF-0056 was flagged during an audit cycle.,auditItem,audit_0069,True,2026-05-23T23:50:00Z
+notif_0022,uid_0014,MaintenanceApproved,Your maintenance request for AF-0237 has been approved.,maintenanceRequest,maint_0061,True,2025-11-18T16:06:00Z
+notif_0023,uid_0044,MaintenanceRejected,Your maintenance request for AF-0113 was rejected.,maintenanceRequest,maint_0046,False,2025-11-09T05:49:00Z
+notif_0024,uid_0033,TransferApproved,Your transfer request for AF-0055 has been approved.,transferRequest,trans_0041,True,2026-05-14T19:53:00Z
+notif_0025,uid_0009,MaintenanceApproved,Your maintenance request for AF-0134 has been approved.,maintenanceRequest,maint_0037,True,2026-03-07T21:15:00Z
+notif_0026,uid_0021,AssetAssigned,A new asset has been allocated to you: AF-0022.,allocation,alloc_0037,True,2026-03-08T05:36:00Z
+notif_0027,uid_0029,BookingCancelled,Your booking for AF-0176 has been cancelled.,booking,booki_0038,False,2026-05-15T15:34:00Z
+notif_0028,uid_0005,TransferApproved,Your transfer request for AF-0049 has been approved.,transferRequest,trans_0048,True,2025-11-24T17:17:00Z
+notif_0029,uid_0007,OverdueReturn,Return for AF-0173 is overdue. Please return it as soon as possible.,allocation,alloc_0085,False,2026-04-01T18:27:00Z
+notif_0030,uid_0026,MaintenanceApproved,Your maintenance request for AF-0037 has been approved.,maintenanceRequest,maint_0014,False,2026-03-31T10:23:00Z
+notif_0031,uid_0024,MaintenanceRejected,Your maintenance request for AF-0017 was rejected.,maintenanceRequest,maint_0026,True,2025-11-05T02:39:00Z
+notif_0032,uid_0015,TransferApproved,Your transfer request for AF-0032 has been approved.,transferRequest,trans_0064,True,2025-12-09T19:14:00Z
+notif_0033,uid_0042,BookingCancelled,Your booking for AF-0194 has been cancelled.,booking,booki_0061,False,2025-11-12T20:38:00Z
+notif_0034,uid_0033,TransferApproved,Your transfer request for AF-0125 has been approved.,transferRequest,trans_0059,True,2026-05-02T04:11:00Z
+notif_0035,uid_0032,BookingCancelled,Your booking for AF-0126 has been cancelled.,booking,booki_0004,True,2026-05-13T12:52:00Z
+notif_0036,uid_0005,AssetAssigned,A new asset has been allocated to you: AF-0213.,allocation,alloc_0023,True,2026-03-06T11:59:00Z
+notif_0037,uid_0020,BookingReminder,Reminder: your booking for AF-0040 starts soon.,booking,booki_0010,False,2026-02-02T13:54:00Z
+notif_0038,uid_0032,AuditDiscrepancyFlagged,Asset AF-0197 was flagged during an audit cycle.,auditItem,audit_0038,False,2025-12-21T18:48:00Z
+notif_0039,uid_0017,OverdueReturn,Return for AF-0130 is overdue. Please return it as soon as possible.,allocation,alloc_0070,True,2026-02-23T22:09:00Z
+notif_0040,uid_0008,AssetAssigned,A new asset has been allocated to you: AF-0111.,allocation,alloc_0049,True,2026-04-04T18:40:00Z
+notif_0041,uid_0012,AssetAssigned,A new asset has been allocated to you: AF-0009.,allocation,alloc_0039,False,2026-02-19T11:05:00Z
+notif_0042,uid_0028,MaintenanceRejected,Your maintenance request for AF-0126 was rejected.,maintenanceRequest,maint_0050,True,2026-06-07T23:15:00Z
+notif_0043,uid_0044,MaintenanceApproved,Your maintenance request for AF-0146 has been approved.,maintenanceRequest,maint_0088,True,2026-03-08T11:25:00Z
+notif_0044,uid_0036,OverdueReturn,Return for AF-0122 is overdue. Please return it as soon as possible.,allocation,alloc_0008,True,2025-12-06T03:28:00Z
+notif_0045,uid_0025,OverdueReturn,Return for AF-0152 is overdue. Please return it as soon as possible.,allocation,alloc_0037,True,2026-02-04T11:38:00Z
+notif_0046,uid_0003,AssetAssigned,A new asset has been allocated to you: AF-0152.,allocation,alloc_0075,True,2026-06-09T21:38:00Z
+notif_0047,uid_0007,BookingReminder,Reminder: your booking for AF-0098 starts soon.,booking,booki_0053,True,2026-03-24T21:38:00Z
+notif_0048,uid_0016,BookingConfirmed,Your booking for AF-0064 has been confirmed.,booking,booki_0011,False,2026-01-27T23:23:00Z
+notif_0049,uid_0020,MaintenanceApproved,Your maintenance request for AF-0223 has been approved.,maintenanceRequest,maint_0003,True,2026-06-12T22:50:00Z
+notif_0050,uid_0043,AssetAssigned,A new asset has been allocated to you: AF-0118.,allocation,alloc_0066,False,2025-12-02T19:24:00Z
+notif_0051,uid_0045,BookingCancelled,Your booking for AF-0006 has been cancelled.,booking,booki_0041,True,2026-03-13T14:59:00Z
+notif_0052,uid_0037,TransferApproved,Your transfer request for AF-0083 has been approved.,transferRequest,trans_0089,False,2026-06-16T17:54:00Z
+notif_0053,uid_0033,BookingReminder,Reminder: your booking for AF-0128 starts soon.,booking,booki_0022,True,2025-12-16T11:39:00Z
+notif_0054,uid_0028,BookingReminder,Reminder: your booking for AF-0249 starts soon.,booking,booki_0010,False,2026-05-21T17:20:00Z
+notif_0055,uid_0019,AuditDiscrepancyFlagged,Asset AF-0055 was flagged during an audit cycle.,auditItem,audit_0074,True,2026-05-06T07:41:00Z
+notif_0056,uid_0048,BookingConfirmed,Your booking for AF-0160 has been confirmed.,booking,booki_0075,True,2025-11-09T06:15:00Z
+notif_0057,uid_0005,BookingReminder,Reminder: your booking for AF-0070 starts soon.,booking,booki_0055,True,2026-02-16T16:30:00Z
+notif_0058,uid_0020,MaintenanceApproved,Your maintenance request for AF-0167 has been approved.,maintenanceRequest,maint_0085,True,2026-03-04T23:33:00Z
+notif_0059,uid_0026,BookingConfirmed,Your booking for AF-0107 has been confirmed.,booking,booki_0059,False,2026-05-08T13:28:00Z
+notif_0060,uid_0002,AuditDiscrepancyFlagged,Asset AF-0047 was flagged during an audit cycle.,auditItem,audit_0024,True,2026-02-01T10:27:00Z
+notif_0061,uid_0048,BookingConfirmed,Your booking for AF-0170 has been confirmed.,booking,booki_0082,True,2025-11-13T18:43:00Z
+notif_0062,uid_0037,TransferApproved,Your transfer request for AF-0240 has been approved.,transferRequest,trans_0067,True,2026-01-06T12:57:00Z
+notif_0063,uid_0016,OverdueReturn,Return for AF-0038 is overdue. Please return it as soon as possible.,allocation,alloc_0039,False,2026-06-03T09:17:00Z
+notif_0064,uid_0005,TransferApproved,Your transfer request for AF-0082 has been approved.,transferRequest,trans_0053,True,2026-01-31T02:06:00Z
+notif_0065,uid_0011,BookingCancelled,Your booking for AF-0166 has been cancelled.,booking,booki_0031,True,2026-05-07T11:22:00Z
+notif_0066,uid_0013,MaintenanceApproved,Your maintenance request for AF-0039 has been approved.,maintenanceRequest,maint_0040,True,2026-07-05T01:09:00Z
+notif_0067,uid_0028,AuditDiscrepancyFlagged,Asset AF-0112 was flagged during an audit cycle.,auditItem,audit_0021,True,2026-01-28T07:48:00Z
+notif_0068,uid_0018,AssetAssigned,A new asset has been allocated to you: AF-0067.,allocation,alloc_0083,False,2026-01-24T15:49:00Z
+notif_0069,uid_0002,OverdueReturn,Return for AF-0201 is overdue. Please return it as soon as possible.,allocation,alloc_0078,True,2026-06-28T06:40:00Z
+notif_0070,uid_0027,MaintenanceApproved,Your maintenance request for AF-0231 has been approved.,maintenanceRequest,maint_0085,False,2025-11-24T21:18:00Z
+notif_0071,uid_0047,TransferApproved,Your transfer request for AF-0242 has been approved.,transferRequest,trans_0015,True,2025-12-09T04:45:00Z
+notif_0072,uid_0008,AuditDiscrepancyFlagged,Asset AF-0239 was flagged during an audit cycle.,auditItem,audit_0075,False,2026-02-28T11:07:00Z
+notif_0073,uid_0032,AuditDiscrepancyFlagged,Asset AF-0065 was flagged during an audit cycle.,auditItem,audit_0077,True,2025-11-28T06:45:00Z
+notif_0074,uid_0038,BookingReminder,Reminder: your booking for AF-0085 starts soon.,booking,booki_0031,False,2026-01-04T20:09:00Z
+notif_0075,uid_0007,BookingConfirmed,Your booking for AF-0037 has been confirmed.,booking,booki_0057,True,2026-05-29T02:43:00Z
+notif_0076,uid_0035,AssetAssigned,A new asset has been allocated to you: AF-0126.,allocation,alloc_0041,True,2026-04-07T10:53:00Z
+notif_0077,uid_0016,OverdueReturn,Return for AF-0175 is overdue. Please return it as soon as possible.,allocation,alloc_0019,True,2025-11-08T00:04:00Z
+notif_0078,uid_0020,BookingReminder,Reminder: your booking for AF-0211 starts soon.,booking,booki_0078,True,2026-07-06T12:03:00Z
+notif_0079,uid_0043,AssetAssigned,A new asset has been allocated to you: AF-0177.,allocation,alloc_0050,True,2026-05-12T00:25:00Z
+notif_0080,uid_0044,BookingReminder,Reminder: your booking for AF-0232 starts soon.,booking,booki_0031,False,2026-06-10T15:05:00Z
+notif_0081,uid_0026,TransferApproved,Your transfer request for AF-0003 has been approved.,transferRequest,trans_0012,False,2025-11-17T00:41:00Z
+notif_0082,uid_0014,BookingConfirmed,Your booking for AF-0077 has been confirmed.,booking,booki_0057,False,2025-12-04T03:02:00Z
+notif_0083,uid_0003,TransferApproved,Your transfer request for AF-0203 has been approved.,transferRequest,trans_0063,True,2026-05-03T06:08:00Z
+notif_0084,uid_0022,TransferApproved,Your transfer request for AF-0238 has been approved.,transferRequest,trans_0013,False,2026-01-09T19:04:00Z
+notif_0085,uid_0005,BookingCancelled,Your booking for AF-0130 has been cancelled.,booking,booki_0071,False,2026-04-12T19:22:00Z
+notif_0086,uid_0002,OverdueReturn,Return for AF-0178 is overdue. Please return it as soon as possible.,allocation,alloc_0083,True,2025-12-29T07:19:00Z
+notif_0087,uid_0042,OverdueReturn,Return for AF-0203 is overdue. Please return it as soon as possible.,allocation,alloc_0026,False,2026-06-08T08:35:00Z
+notif_0088,uid_0006,BookingReminder,Reminder: your booking for AF-0148 starts soon.,booking,booki_0067,False,2026-06-14T03:45:00Z
+notif_0089,uid_0039,MaintenanceRejected,Your maintenance request for AF-0217 was rejected.,maintenanceRequest,maint_0041,True,2026-01-17T19:10:00Z
+notif_0090,uid_0012,MaintenanceRejected,Your maintenance request for AF-0067 was rejected.,maintenanceRequest,maint_0042,False,2026-01-17T14:08:00Z
+notif_0091,uid_0027,BookingConfirmed,Your booking for AF-0022 has been confirmed.,booking,booki_0049,False,2026-04-09T03:35:00Z
+notif_0092,uid_0002,BookingConfirmed,Your booking for AF-0006 has been confirmed.,booking,booki_0079,False,2025-11-17T15:19:00Z
+notif_0093,uid_0030,MaintenanceApproved,Your maintenance request for AF-0250 has been approved.,maintenanceRequest,maint_0022,True,2026-05-23T00:16:00Z
+notif_0094,uid_0017,TransferApproved,Your transfer request for AF-0154 has been approved.,transferRequest,trans_0022,False,2026-06-04T06:37:00Z
+notif_0095,uid_0046,MaintenanceApproved,Your maintenance request for AF-0004 has been approved.,maintenanceRequest,maint_0059,False,2026-02-27T19:11:00Z
+notif_0096,uid_0015,OverdueReturn,Return for AF-0031 is overdue. Please return it as soon as possible.,allocation,alloc_0035,True,2026-01-11T02:48:00Z
+notif_0097,uid_0009,OverdueReturn,Return for AF-0098 is overdue. Please return it as soon as possible.,allocation,alloc_0028,False,2026-03-24T02:22:00Z
+notif_0098,uid_0044,BookingCancelled,Your booking for AF-0187 has been cancelled.,booking,booki_0053,False,2026-05-24T19:49:00Z
+notif_0099,uid_0017,AssetAssigned,A new asset has been allocated to you: AF-0075.,allocation,alloc_0032,True,2026-05-12T13:32:00Z
+notif_0100,uid_0001,OverdueReturn,Return for AF-0022 is overdue. Please return it as soon as possible.,allocation,alloc_0042,False,2026-03-14T04:05:00Z
+notif_0101,uid_0014,TransferApproved,Your transfer request for AF-0176 has been approved.,transferRequest,trans_0055,False,2026-01-10T20:15:00Z
+notif_0102,uid_0007,BookingCancelled,Your booking for AF-0019 has been cancelled.,booking,booki_0043,False,2026-02-20T07:57:00Z
+notif_0103,uid_0023,OverdueReturn,Return for AF-0233 is overdue. Please return it as soon as possible.,allocation,alloc_0077,False,2026-02-06T11:09:00Z
+notif_0104,uid_0017,AssetAssigned,A new asset has been allocated to you: AF-0002.,allocation,alloc_0039,False,2026-03-04T13:36:00Z
+notif_0105,uid_0036,BookingReminder,Reminder: your booking for AF-0034 starts soon.,booking,booki_0034,True,2026-07-01T14:49:00Z
+notif_0106,uid_0022,OverdueReturn,Return for AF-0239 is overdue. Please return it as soon as possible.,allocation,alloc_0012,True,2025-11-29T18:52:00Z
+notif_0107,uid_0010,AuditDiscrepancyFlagged,Asset AF-0111 was flagged during an audit cycle.,auditItem,audit_0006,False,2026-05-07T05:40:00Z
+notif_0108,uid_0018,OverdueReturn,Return for AF-0224 is overdue. Please return it as soon as possible.,allocation,alloc_0056,True,2026-01-01T21:01:00Z
+notif_0109,uid_0049,BookingCancelled,Your booking for AF-0157 has been cancelled.,booking,booki_0041,True,2025-11-17T00:27:00Z
+notif_0110,uid_0048,MaintenanceRejected,Your maintenance request for AF-0081 was rejected.,maintenanceRequest,maint_0085,False,2026-03-09T04:25:00Z
+notif_0111,uid_0013,OverdueReturn,Return for AF-0014 is overdue. Please return it as soon as possible.,allocation,alloc_0024,True,2026-06-04T07:46:00Z
+notif_0112,uid_0046,BookingCancelled,Your booking for AF-0042 has been cancelled.,booking,booki_0064,True,2026-03-14T19:53:00Z
+notif_0113,uid_0036,BookingReminder,Reminder: your booking for AF-0182 starts soon.,booking,booki_0015,False,2026-03-09T18:29:00Z
+notif_0114,uid_0023,MaintenanceRejected,Your maintenance request for AF-0032 was rejected.,maintenanceRequest,maint_0037,True,2026-06-19T02:05:00Z
+notif_0115,uid_0033,MaintenanceRejected,Your maintenance request for AF-0192 was rejected.,maintenanceRequest,maint_0085,True,2025-12-14T00:24:00Z
+notif_0116,uid_0050,AssetAssigned,A new asset has been allocated to you: AF-0135.,allocation,alloc_0010,True,2026-02-16T03:34:00Z
+notif_0117,uid_0007,OverdueReturn,Return for AF-0174 is overdue. Please return it as soon as possible.,allocation,alloc_0037,False,2025-11-26T22:59:00Z
+notif_0118,uid_0024,MaintenanceApproved,Your maintenance request for AF-0101 has been approved.,maintenanceRequest,maint_0042,True,2026-02-11T05:07:00Z
+notif_0119,uid_0046,MaintenanceApproved,Your maintenance request for AF-0118 has been approved.,maintenanceRequest,maint_0081,False,2026-01-24T17:31:00Z
+notif_0120,uid_0003,AssetAssigned,A new asset has been allocated to you: AF-0085.,allocation,alloc_0042,False,2026-01-25T13:32:00Z
+notif_0121,uid_0004,MaintenanceRejected,Your maintenance request for AF-0055 was rejected.,maintenanceRequest,maint_0042,False,2025-12-18T12:42:00Z
+notif_0122,uid_0039,MaintenanceApproved,Your maintenance request for AF-0141 has been approved.,maintenanceRequest,maint_0033,True,2026-04-06T06:35:00Z
+notif_0123,uid_0002,TransferApproved,Your transfer request for AF-0023 has been approved.,transferRequest,trans_0050,False,2025-12-06T02:50:00Z
+notif_0124,uid_0049,BookingCancelled,Your booking for AF-0166 has been cancelled.,booking,booki_0016,True,2025-11-09T12:51:00Z
+notif_0125,uid_0020,TransferApproved,Your transfer request for AF-0189 has been approved.,transferRequest,trans_0017,True,2025-11-22T11:22:00Z
+notif_0126,uid_0024,MaintenanceApproved,Your maintenance request for AF-0214 has been approved.,maintenanceRequest,maint_0058,False,2026-03-03T02:29:00Z
+notif_0127,uid_0037,OverdueReturn,Return for AF-0069 is overdue. Please return it as soon as possible.,allocation,alloc_0055,False,2026-02-08T19:55:00Z
+notif_0128,uid_0041,MaintenanceRejected,Your maintenance request for AF-0112 was rejected.,maintenanceRequest,maint_0066,True,2026-03-25T06:58:00Z
+notif_0129,uid_0015,OverdueReturn,Return for AF-0174 is overdue. Please return it as soon as possible.,allocation,alloc_0020,False,2026-01-27T11:15:00Z
+notif_0130,uid_0042,AuditDiscrepancyFlagged,Asset AF-0162 was flagged during an audit cycle.,auditItem,audit_0060,True,2026-02-28T06:42:00Z
+notif_0131,uid_0010,OverdueReturn,Return for AF-0077 is overdue. Please return it as soon as possible.,allocation,alloc_0039,False,2026-06-09T11:03:00Z
+notif_0132,uid_0019,AuditDiscrepancyFlagged,Asset AF-0110 was flagged during an audit cycle.,auditItem,audit_0010,False,2026-02-17T07:25:00Z
+notif_0133,uid_0033,AuditDiscrepancyFlagged,Asset AF-0028 was flagged during an audit cycle.,auditItem,audit_0060,False,2026-03-25T19:54:00Z
+notif_0134,uid_0017,BookingCancelled,Your booking for AF-0091 has been cancelled.,booking,booki_0065,True,2026-02-13T06:11:00Z
+notif_0135,uid_0012,OverdueReturn,Return for AF-0046 is overdue. Please return it as soon as possible.,allocation,alloc_0011,True,2025-12-08T20:58:00Z
+notif_0136,uid_0038,BookingCancelled,Your booking for AF-0081 has been cancelled.,booking,booki_0086,True,2026-01-07T18:12:00Z
+notif_0137,uid_0012,BookingCancelled,Your booking for AF-0088 has been cancelled.,booking,booki_0078,True,2026-05-19T03:55:00Z
+notif_0138,uid_0035,MaintenanceApproved,Your maintenance request for AF-0112 has been approved.,maintenanceRequest,maint_0015,True,2026-07-08T08:35:00Z
+notif_0139,uid_0045,OverdueReturn,Return for AF-0118 is overdue. Please return it as soon as possible.,allocation,alloc_0078,False,2026-03-30T11:13:00Z
+notif_0140,uid_0040,BookingCancelled,Your booking for AF-0159 has been cancelled.,booking,booki_0089,False,2026-04-10T10:17:00Z
+notif_0141,uid_0009,BookingCancelled,Your booking for AF-0023 has been cancelled.,booking,booki_0015,False,2026-06-08T08:48:00Z
+notif_0142,uid_0002,BookingConfirmed,Your booking for AF-0220 has been confirmed.,booking,booki_0019,False,2026-05-19T17:19:00Z
+notif_0143,uid_0041,TransferApproved,Your transfer request for AF-0216 has been approved.,transferRequest,trans_0012,True,2025-12-04T15:48:00Z
+notif_0144,uid_0031,OverdueReturn,Return for AF-0038 is overdue. Please return it as soon as possible.,allocation,alloc_0022,False,2026-03-26T08:53:00Z
+notif_0145,uid_0032,OverdueReturn,Return for AF-0247 is overdue. Please return it as soon as possible.,allocation,alloc_0058,True,2026-03-14T08:05:00Z
+notif_0146,uid_0037,BookingConfirmed,Your booking for AF-0076 has been confirmed.,booking,booki_0043,True,2025-12-11T20:57:00Z
+notif_0147,uid_0032,TransferApproved,Your transfer request for AF-0107 has been approved.,transferRequest,trans_0071,False,2026-01-04T14:22:00Z
+notif_0148,uid_0026,AssetAssigned,A new asset has been allocated to you: AF-0125.,allocation,alloc_0079,False,2026-03-09T16:23:00Z
+notif_0149,uid_0046,OverdueReturn,Return for AF-0060 is overdue. Please return it as soon as possible.,allocation,alloc_0055,True,2026-06-26T16:59:00Z
+notif_0150,uid_0018,AuditDiscrepancyFlagged,Asset AF-0017 was flagged during an audit cycle.,auditItem,audit_0061,True,2025-11-25T12:34:00Z
+notif_0151,uid_0045,BookingReminder,Reminder: your booking for AF-0115 starts soon.,booking,booki_0037,False,2026-03-23T08:50:00Z
+notif_0152,uid_0029,OverdueReturn,Return for AF-0089 is overdue. Please return it as soon as possible.,allocation,alloc_0076,False,2026-05-13T16:46:00Z
+notif_0153,uid_0039,BookingReminder,Reminder: your booking for AF-0236 starts soon.,booking,booki_0060,True,2025-12-05T10:18:00Z
+notif_0154,uid_0046,BookingCancelled,Your booking for AF-0186 has been cancelled.,booking,booki_0087,False,2026-04-03T19:07:00Z
+notif_0155,uid_0031,BookingReminder,Reminder: your booking for AF-0204 starts soon.,booking,booki_0027,True,2025-12-20T03:21:00Z
+notif_0156,uid_0031,MaintenanceApproved,Your maintenance request for AF-0171 has been approved.,maintenanceRequest,maint_0021,True,2026-06-09T03:48:00Z
+notif_0157,uid_0027,MaintenanceApproved,Your maintenance request for AF-0204 has been approved.,maintenanceRequest,maint_0031,True,2025-11-12T17:41:00Z
+notif_0158,uid_0023,AssetAssigned,A new asset has been allocated to you: AF-0005.,allocation,alloc_0087,True,2025-11-29T00:38:00Z
+notif_0159,uid_0005,AuditDiscrepancyFlagged,Asset AF-0009 was flagged during an audit cycle.,auditItem,audit_0080,True,2026-04-16T19:53:00Z
+notif_0160,uid_0032,AuditDiscrepancyFlagged,Asset AF-0058 was flagged during an audit cycle.,auditItem,audit_0046,False,2026-05-06T22:10:00Z
+notif_0161,uid_0010,AuditDiscrepancyFlagged,Asset AF-0069 was flagged during an audit cycle.,auditItem,audit_0066,True,2025-12-05T10:05:00Z
+notif_0162,uid_0004,MaintenanceApproved,Your maintenance request for AF-0181 has been approved.,maintenanceRequest,maint_0059,False,2025-11-16T18:09:00Z
+notif_0163,uid_0007,MaintenanceApproved,Your maintenance request for AF-0250 has been approved.,maintenanceRequest,maint_0014,False,2025-12-23T13:21:00Z
+notif_0164,uid_0007,AssetAssigned,A new asset has been allocated to you: AF-0130.,allocation,alloc_0027,False,2026-05-30T12:53:00Z
+notif_0165,uid_0019,MaintenanceRejected,Your maintenance request for AF-0187 was rejected.,maintenanceRequest,maint_0065,True,2026-01-11T18:12:00Z
+notif_0166,uid_0042,MaintenanceApproved,Your maintenance request for AF-0040 has been approved.,maintenanceRequest,maint_0018,True,2026-04-09T22:08:00Z
+notif_0167,uid_0027,BookingConfirmed,Your booking for AF-0113 has been confirmed.,booking,booki_0061,True,2025-12-28T08:45:00Z
+notif_0168,uid_0006,AuditDiscrepancyFlagged,Asset AF-0044 was flagged during an audit cycle.,auditItem,audit_0054,True,2026-05-04T21:15:00Z
+notif_0169,uid_0049,BookingConfirmed,Your booking for AF-0039 has been confirmed.,booking,booki_0030,True,2025-12-31T16:34:00Z
+notif_0170,uid_0027,TransferApproved,Your transfer request for AF-0106 has been approved.,transferRequest,trans_0067,False,2025-11-24T18:06:00Z
+notif_0171,uid_0002,BookingReminder,Reminder: your booking for AF-0242 starts soon.,booking,booki_0002,False,2026-03-21T04:11:00Z
+notif_0172,uid_0005,AuditDiscrepancyFlagged,Asset AF-0242 was flagged during an audit cycle.,auditItem,audit_0052,False,2026-06-20T22:40:00Z
+notif_0173,uid_0004,MaintenanceRejected,Your maintenance request for AF-0112 was rejected.,maintenanceRequest,maint_0083,True,2026-04-03T07:18:00Z
+notif_0174,uid_0046,AssetAssigned,A new asset has been allocated to you: AF-0162.,allocation,alloc_0067,False,2025-12-19T11:04:00Z
+notif_0175,uid_0044,TransferApproved,Your transfer request for AF-0103 has been approved.,transferRequest,trans_0039,False,2026-01-13T15:05:00Z
+notif_0176,uid_0023,BookingReminder,Reminder: your booking for AF-0233 starts soon.,booking,booki_0068,True,2026-07-10T00:03:00Z
+notif_0177,uid_0026,MaintenanceRejected,Your maintenance request for AF-0180 was rejected.,maintenanceRequest,maint_0070,False,2026-03-19T12:47:00Z
+notif_0178,uid_0023,OverdueReturn,Return for AF-0179 is overdue. Please return it as soon as possible.,allocation,alloc_0026,False,2025-11-26T12:35:00Z
+notif_0179,uid_0035,MaintenanceApproved,Your maintenance request for AF-0010 has been approved.,maintenanceRequest,maint_0017,True,2026-04-17T20:14:00Z
+notif_0180,uid_0014,AuditDiscrepancyFlagged,Asset AF-0073 was flagged during an audit cycle.,auditItem,audit_0040,True,2026-06-18T16:25:00Z
+notif_0181,uid_0002,MaintenanceRejected,Your maintenance request for AF-0006 was rejected.,maintenanceRequest,maint_0034,True,2025-11-26T15:23:00Z
+notif_0182,uid_0028,BookingCancelled,Your booking for AF-0186 has been cancelled.,booking,booki_0008,False,2026-03-05T05:14:00Z
+notif_0183,uid_0033,BookingCancelled,Your booking for AF-0161 has been cancelled.,booking,booki_0084,False,2026-04-13T05:57:00Z
+notif_0184,uid_0037,OverdueReturn,Return for AF-0077 is overdue. Please return it as soon as possible.,allocation,alloc_0044,False,2026-01-05T08:31:00Z
+notif_0185,uid_0039,AuditDiscrepancyFlagged,Asset AF-0217 was flagged during an audit cycle.,auditItem,audit_0037,False,2026-05-13T21:41:00Z
+notif_0186,uid_0025,MaintenanceRejected,Your maintenance request for AF-0183 was rejected.,maintenanceRequest,maint_0014,True,2026-02-28T09:45:00Z
+notif_0187,uid_0050,BookingConfirmed,Your booking for AF-0211 has been confirmed.,booking,booki_0019,False,2026-04-10T18:54:00Z
+notif_0188,uid_0006,TransferApproved,Your transfer request for AF-0021 has been approved.,transferRequest,trans_0017,True,2026-06-26T19:04:00Z
+notif_0189,uid_0024,OverdueReturn,Return for AF-0020 is overdue. Please return it as soon as possible.,allocation,alloc_0076,True,2026-01-19T16:35:00Z
+notif_0190,uid_0017,TransferApproved,Your transfer request for AF-0224 has been approved.,transferRequest,trans_0055,False,2026-02-12T17:20:00Z
+notif_0191,uid_0027,OverdueReturn,Return for AF-0188 is overdue. Please return it as soon as possible.,allocation,alloc_0065,True,2025-12-14T03:51:00Z
+notif_0192,uid_0046,OverdueReturn,Return for AF-0034 is overdue. Please return it as soon as possible.,allocation,alloc_0089,True,2026-03-02T16:53:00Z
+notif_0193,uid_0048,OverdueReturn,Return for AF-0009 is overdue. Please return it as soon as possible.,allocation,alloc_0016,True,2026-06-01T15:37:00Z
+notif_0194,uid_0008,TransferApproved,Your transfer request for AF-0029 has been approved.,transferRequest,trans_0006,True,2026-04-08T14:42:00Z
+notif_0195,uid_0020,MaintenanceApproved,Your maintenance request for AF-0096 has been approved.,maintenanceRequest,maint_0063,True,2026-04-07T23:42:00Z
+notif_0196,uid_0038,MaintenanceRejected,Your maintenance request for AF-0037 was rejected.,maintenanceRequest,maint_0040,False,2026-03-27T07:01:00Z
+notif_0197,uid_0048,BookingConfirmed,Your booking for AF-0047 has been confirmed.,booking,booki_0071,True,2026-03-09T08:53:00Z
+notif_0198,uid_0031,AssetAssigned,A new asset has been allocated to you: AF-0107.,allocation,alloc_0058,False,2026-02-15T23:24:00Z
+notif_0199,uid_0047,TransferApproved,Your transfer request for AF-0122 has been approved.,transferRequest,trans_0018,True,2025-12-10T13:52:00Z
+notif_0200,uid_0029,OverdueReturn,Return for AF-0195 is overdue. Please return it as soon as possible.,allocation,alloc_0042,True,2026-01-22T18:51:00Z
+notif_0201,uid_0015,TransferApproved,Your transfer request for AF-0100 has been approved.,transferRequest,trans_0070,True,2025-11-23T20:39:00Z
+notif_0202,uid_0018,OverdueReturn,Return for AF-0189 is overdue. Please return it as soon as possible.,allocation,alloc_0022,False,2026-01-28T06:05:00Z
+notif_0203,uid_0042,BookingCancelled,Your booking for AF-0144 has been cancelled.,booking,booki_0011,True,2026-06-10T12:25:00Z
+notif_0204,uid_0049,AuditDiscrepancyFlagged,Asset AF-0148 was flagged during an audit cycle.,auditItem,audit_0025,False,2026-06-28T14:27:00Z
+notif_0205,uid_0002,AuditDiscrepancyFlagged,Asset AF-0230 was flagged during an audit cycle.,auditItem,audit_0069,True,2026-06-11T11:01:00Z
+notif_0206,uid_0014,AssetAssigned,A new asset has been allocated to you: AF-0071.,allocation,alloc_0075,True,2026-05-10T10:07:00Z
+notif_0207,uid_0021,AuditDiscrepancyFlagged,Asset AF-0156 was flagged during an audit cycle.,auditItem,audit_0063,False,2026-03-31T14:58:00Z
+notif_0208,uid_0028,AssetAssigned,A new asset has been allocated to you: AF-0088.,allocation,alloc_0068,True,2026-05-26T19:59:00Z
+notif_0209,uid_0008,BookingCancelled,Your booking for AF-0024 has been cancelled.,booking,booki_0022,True,2025-11-04T05:26:00Z
+notif_0210,uid_0050,MaintenanceRejected,Your maintenance request for AF-0066 was rejected.,maintenanceRequest,maint_0053,False,2026-06-20T04:41:00Z
+notif_0211,uid_0021,AssetAssigned,A new asset has been allocated to you: AF-0158.,allocation,alloc_0008,True,2026-05-27T08:15:00Z
+notif_0212,uid_0010,MaintenanceApproved,Your maintenance request for AF-0082 has been approved.,maintenanceRequest,maint_0049,False,2026-03-28T22:44:00Z
+notif_0213,uid_0013,MaintenanceApproved,Your maintenance request for AF-0014 has been approved.,maintenanceRequest,maint_0031,True,2026-05-11T13:23:00Z
+notif_0214,uid_0008,AuditDiscrepancyFlagged,Asset AF-0099 was flagged during an audit cycle.,auditItem,audit_0060,True,2026-05-05T07:40:00Z
+notif_0215,uid_0002,MaintenanceApproved,Your maintenance request for AF-0124 has been approved.,maintenanceRequest,maint_0003,True,2026-03-29T12:46:00Z
+notif_0216,uid_0049,MaintenanceApproved,Your maintenance request for AF-0064 has been approved.,maintenanceRequest,maint_0017,True,2026-02-19T12:10:00Z
+notif_0217,uid_0006,TransferApproved,Your transfer request for AF-0115 has been approved.,transferRequest,trans_0027,False,2025-12-07T12:28:00Z
+notif_0218,uid_0035,MaintenanceRejected,Your maintenance request for AF-0096 was rejected.,maintenanceRequest,maint_0055,False,2026-05-30T01:26:00Z
+notif_0219,uid_0003,AuditDiscrepancyFlagged,Asset AF-0116 was flagged during an audit cycle.,auditItem,audit_0080,True,2026-07-11T18:07:00Z
+notif_0220,uid_0004,MaintenanceRejected,Your maintenance request for AF-0001 was rejected.,maintenanceRequest,maint_0077,True,2025-11-15T17:43:00Z
+notif_0221,uid_0041,TransferApproved,Your transfer request for AF-0090 has been approved.,transferRequest,trans_0066,True,2026-05-18T14:07:00Z
+notif_0222,uid_0035,MaintenanceRejected,Your maintenance request for AF-0190 was rejected.,maintenanceRequest,maint_0012,True,2026-02-18T06:41:00Z
+notif_0223,uid_0009,MaintenanceApproved,Your maintenance request for AF-0213 has been approved.,maintenanceRequest,maint_0056,True,2026-01-07T15:43:00Z
+notif_0224,uid_0021,AuditDiscrepancyFlagged,Asset AF-0246 was flagged during an audit cycle.,auditItem,audit_0082,True,2025-11-27T11:39:00Z
+notif_0225,uid_0016,OverdueReturn,Return for AF-0070 is overdue. Please return it as soon as possible.,allocation,alloc_0027,True,2026-01-23T22:39:00Z
+notif_0226,uid_0045,BookingReminder,Reminder: your booking for AF-0005 starts soon.,booking,booki_0001,True,2026-06-07T12:01:00Z
+notif_0227,uid_0001,AssetAssigned,A new asset has been allocated to you: AF-0231.,allocation,alloc_0072,False,2026-01-21T03:34:00Z
+notif_0228,uid_0026,OverdueReturn,Return for AF-0196 is overdue. Please return it as soon as possible.,allocation,alloc_0084,False,2026-02-25T06:10:00Z
+notif_0229,uid_0043,AuditDiscrepancyFlagged,Asset AF-0008 was flagged during an audit cycle.,auditItem,audit_0046,False,2026-03-20T11:53:00Z
+notif_0230,uid_0039,TransferApproved,Your transfer request for AF-0212 has been approved.,transferRequest,trans_0090,False,2026-04-11T20:49:00Z
+notif_0231,uid_0024,MaintenanceApproved,Your maintenance request for AF-0119 has been approved.,maintenanceRequest,maint_0002,True,2025-11-15T02:32:00Z
+notif_0232,uid_0018,AssetAssigned,A new asset has been allocated to you: AF-0195.,allocation,alloc_0025,True,2026-01-18T10:38:00Z
+notif_0233,uid_0046,BookingCancelled,Your booking for AF-0207 has been cancelled.,booking,booki_0047,True,2026-05-17T01:29:00Z
+notif_0234,uid_0046,OverdueReturn,Return for AF-0232 is overdue. Please return it as soon as possible.,allocation,alloc_0001,True,2026-01-12T13:47:00Z
+notif_0235,uid_0018,TransferApproved,Your transfer request for AF-0029 has been approved.,transferRequest,trans_0022,True,2026-02-16T16:29:00Z
+notif_0236,uid_0038,MaintenanceRejected,Your maintenance request for AF-0017 was rejected.,maintenanceRequest,maint_0017,True,2026-06-09T09:56:00Z
+notif_0237,uid_0034,BookingConfirmed,Your booking for AF-0226 has been confirmed.,booking,booki_0087,True,2026-01-07T00:48:00Z
+notif_0238,uid_0017,AuditDiscrepancyFlagged,Asset AF-0158 was flagged during an audit cycle.,auditItem,audit_0059,True,2026-01-18T15:04:00Z
+notif_0239,uid_0044,TransferApproved,Your transfer request for AF-0165 has been approved.,transferRequest,trans_0042,True,2025-11-12T12:57:00Z
+notif_0240,uid_0008,TransferApproved,Your transfer request for AF-0071 has been approved.,transferRequest,trans_0064,True,2026-01-18T16:31:00Z
+notif_0241,uid_0047,AssetAssigned,A new asset has been allocated to you: AF-0227.,allocation,alloc_0054,True,2026-05-16T07:43:00Z
+notif_0242,uid_0026,BookingReminder,Reminder: your booking for AF-0002 starts soon.,booking,booki_0074,False,2026-05-23T22:55:00Z
+notif_0243,uid_0028,BookingConfirmed,Your booking for AF-0177 has been confirmed.,booking,booki_0032,True,2025-11-09T06:02:00Z
+notif_0244,uid_0005,BookingReminder,Reminder: your booking for AF-0080 starts soon.,booking,booki_0004,True,2026-02-01T12:54:00Z
+notif_0245,uid_0041,AssetAssigned,A new asset has been allocated to you: AF-0152.,allocation,alloc_0033,True,2025-11-14T22:07:00Z
+notif_0246,uid_0022,OverdueReturn,Return for AF-0062 is overdue. Please return it as soon as possible.,allocation,alloc_0043,True,2025-12-11T07:08:00Z
+notif_0247,uid_0005,BookingConfirmed,Your booking for AF-0242 has been confirmed.,booking,booki_0057,False,2025-12-25T13:21:00Z
+notif_0248,uid_0008,OverdueReturn,Return for AF-0149 is overdue. Please return it as soon as possible.,allocation,alloc_0005,True,2026-06-21T07:02:00Z
+notif_0249,uid_0009,MaintenanceApproved,Your maintenance request for AF-0201 has been approved.,maintenanceRequest,maint_0039,True,2026-06-26T18:57:00Z
+notif_0250,uid_0007,TransferApproved,Your transfer request for AF-0017 has been approved.,transferRequest,trans_0007,True,2026-01-20T07:25:00Z
+notif_0251,uid_0007,TransferApproved,Your transfer request for AF-0103 has been approved.,transferRequest,trans_0077,False,2026-02-03T19:46:00Z
+notif_0252,uid_0025,AssetAssigned,A new asset has been allocated to you: AF-0117.,allocation,alloc_0080,True,2026-03-15T19:04:00Z
+notif_0253,uid_0044,BookingReminder,Reminder: your booking for AF-0167 starts soon.,booking,booki_0067,True,2025-12-24T08:31:00Z
+notif_0254,uid_0007,BookingConfirmed,Your booking for AF-0028 has been confirmed.,booking,booki_0009,True,2026-07-08T13:15:00Z
+notif_0255,uid_0037,BookingConfirmed,Your booking for AF-0232 has been confirmed.,booking,booki_0033,True,2026-06-09T12:28:00Z
+notif_0256,uid_0040,OverdueReturn,Return for AF-0186 is overdue. Please return it as soon as possible.,allocation,alloc_0018,False,2026-03-21T03:45:00Z
+notif_0257,uid_0020,AssetAssigned,A new asset has been allocated to you: AF-0033.,allocation,alloc_0084,False,2026-02-12T19:28:00Z
+notif_0258,uid_0035,BookingCancelled,Your booking for AF-0150 has been cancelled.,booking,booki_0061,True,2025-12-26T04:51:00Z
+notif_0259,uid_0024,BookingReminder,Reminder: your booking for AF-0075 starts soon.,booking,booki_0076,False,2025-11-06T08:27:00Z
+notif_0260,uid_0016,MaintenanceRejected,Your maintenance request for AF-0015 was rejected.,maintenanceRequest,maint_0007,True,2026-03-04T15:06:00Z
+notif_0261,uid_0013,BookingConfirmed,Your booking for AF-0250 has been confirmed.,booking,booki_0009,True,2026-01-30T02:10:00Z
+notif_0262,uid_0045,OverdueReturn,Return for AF-0178 is overdue. Please return it as soon as possible.,allocation,alloc_0043,False,2026-03-14T13:16:00Z
+notif_0263,uid_0020,BookingReminder,Reminder: your booking for AF-0158 starts soon.,booking,booki_0014,True,2026-03-26T22:50:00Z
+notif_0264,uid_0015,AssetAssigned,A new asset has been allocated to you: AF-0127.,allocation,alloc_0029,False,2025-11-19T08:20:00Z
+notif_0265,uid_0014,OverdueReturn,Return for AF-0160 is overdue. Please return it as soon as possible.,allocation,alloc_0043,False,2026-05-11T17:13:00Z
+notif_0266,uid_0026,TransferApproved,Your transfer request for AF-0053 has been approved.,transferRequest,trans_0002,True,2026-05-26T08:37:00Z
+notif_0267,uid_0008,AssetAssigned,A new asset has been allocated to you: AF-0143.,allocation,alloc_0025,False,2026-06-05T23:32:00Z
+notif_0268,uid_0002,BookingReminder,Reminder: your booking for AF-0012 starts soon.,booking,booki_0023,True,2026-05-23T02:42:00Z
+notif_0269,uid_0012,BookingCancelled,Your booking for AF-0185 has been cancelled.,booking,booki_0023,True,2026-04-16T15:45:00Z
+notif_0270,uid_0017,MaintenanceRejected,Your maintenance request for AF-0216 was rejected.,maintenanceRequest,maint_0087,True,2025-11-21T05:59:00Z
+notif_0271,uid_0014,MaintenanceApproved,Your maintenance request for AF-0087 has been approved.,maintenanceRequest,maint_0048,False,2026-04-24T18:45:00Z
+notif_0272,uid_0034,MaintenanceRejected,Your maintenance request for AF-0241 was rejected.,maintenanceRequest,maint_0056,False,2025-11-03T13:04:00Z
+notif_0273,uid_0010,MaintenanceApproved,Your maintenance request for AF-0031 has been approved.,maintenanceRequest,maint_0025,True,2025-11-29T04:10:00Z
+notif_0274,uid_0024,TransferApproved,Your transfer request for AF-0178 has been approved.,transferRequest,trans_0082,True,2026-04-21T13:33:00Z
+notif_0275,uid_0040,AssetAssigned,A new asset has been allocated to you: AF-0196.,allocation,alloc_0069,True,2026-02-12T02:06:00Z
+notif_0276,uid_0016,MaintenanceRejected,Your maintenance request for AF-0084 was rejected.,maintenanceRequest,maint_0036,False,2026-06-28T12:10:00Z
+notif_0277,uid_0038,AuditDiscrepancyFlagged,Asset AF-0248 was flagged during an audit cycle.,auditItem,audit_0011,False,2025-11-27T17:47:00Z
+notif_0278,uid_0033,MaintenanceApproved,Your maintenance request for AF-0043 has been approved.,maintenanceRequest,maint_0066,True,2026-04-03T12:12:00Z
+notif_0279,uid_0012,AuditDiscrepancyFlagged,Asset AF-0119 was flagged during an audit cycle.,auditItem,audit_0068,False,2026-04-20T10:37:00Z
+notif_0280,uid_0018,OverdueReturn,Return for AF-0122 is overdue. Please return it as soon as possible.,allocation,alloc_0075,False,2026-02-13T20:20:00Z
+notif_0281,uid_0013,BookingConfirmed,Your booking for AF-0057 has been confirmed.,booking,booki_0028,True,2026-03-19T01:35:00Z
+notif_0282,uid_0011,TransferApproved,Your transfer request for AF-0147 has been approved.,transferRequest,trans_0071,True,2025-11-14T21:44:00Z
+notif_0283,uid_0029,MaintenanceApproved,Your maintenance request for AF-0076 has been approved.,maintenanceRequest,maint_0075,True,2026-03-01T21:46:00Z
+notif_0284,uid_0022,AuditDiscrepancyFlagged,Asset AF-0160 was flagged during an audit cycle.,auditItem,audit_0056,True,2026-03-24T18:31:00Z
+notif_0285,uid_0018,OverdueReturn,Return for AF-0082 is overdue. Please return it as soon as possible.,allocation,alloc_0057,True,2026-04-06T08:49:00Z
+notif_0286,uid_0006,MaintenanceApproved,Your maintenance request for AF-0092 has been approved.,maintenanceRequest,maint_0070,False,2026-04-27T16:28:00Z
+notif_0287,uid_0015,BookingCancelled,Your booking for AF-0238 has been cancelled.,booking,booki_0047,True,2026-06-17T05:56:00Z
+notif_0288,uid_0013,BookingConfirmed,Your booking for AF-0086 has been confirmed.,booking,booki_0039,False,2026-01-20T22:44:00Z
+notif_0289,uid_0046,BookingCancelled,Your booking for AF-0049 has been cancelled.,booking,booki_0070,False,2026-02-08T04:06:00Z
+notif_0290,uid_0020,AssetAssigned,A new asset has been allocated to you: AF-0198.,allocation,alloc_0052,False,2026-04-30T21:10:00Z
+notif_0291,uid_0042,AssetAssigned,A new asset has been allocated to you: AF-0121.,allocation,alloc_0051,True,2026-03-03T04:05:00Z
+notif_0292,uid_0015,BookingConfirmed,Your booking for AF-0122 has been confirmed.,booking,booki_0071,False,2026-03-01T14:10:00Z
+notif_0293,uid_0006,OverdueReturn,Return for AF-0088 is overdue. Please return it as soon as possible.,allocation,alloc_0090,True,2026-04-23T02:33:00Z
+notif_0294,uid_0036,OverdueReturn,Return for AF-0116 is overdue. Please return it as soon as possible.,allocation,alloc_0074,False,2026-07-04T21:52:00Z
+notif_0295,uid_0048,BookingCancelled,Your booking for AF-0242 has been cancelled.,booking,booki_0085,False,2026-07-09T17:09:00Z
+notif_0296,uid_0027,BookingReminder,Reminder: your booking for AF-0058 starts soon.,booking,booki_0052,False,2026-03-25T11:12:00Z
+notif_0297,uid_0021,AuditDiscrepancyFlagged,Asset AF-0077 was flagged during an audit cycle.,auditItem,audit_0005,False,2026-02-12T08:24:00Z
+notif_0298,uid_0022,MaintenanceRejected,Your maintenance request for AF-0244 was rejected.,maintenanceRequest,maint_0078,False,2026-02-16T12:09:00Z
+notif_0299,uid_0014,TransferApproved,Your transfer request for AF-0098 has been approved.,transferRequest,trans_0069,True,2025-11-11T20:56:00Z
+notif_0300,uid_0022,OverdueReturn,Return for AF-0028 is overdue. Please return it as soon as possible.,allocation,alloc_0039,True,2026-02-16T18:20:00Z

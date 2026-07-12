@@ -1,0 +1,5 @@
+serviceAccountKey.json
+*.csv
+*.json
+!package.json
+node_modules/
