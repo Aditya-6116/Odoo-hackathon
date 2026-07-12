@@ -1,3 +1,5 @@
+import appNavigation from "../constants/navigation";
+
 /**
  * -------------------------------------------------------
  * File: layouts/Sidebar.jsx
@@ -10,12 +12,21 @@
  * -------------------------------------------------------
  */
 
-function Sidebar() {
+function Sidebar({ activeItem }) {
     return (
-        <div>
-            {/* TODO */}
-            Sidebar Component
-        </div>
+        <aside className="dashboard-sidebar" aria-label="Main navigation">
+            <nav>
+                {appNavigation.map((item) => (
+                    <a
+                        className={item.label === activeItem ? "dashboard-nav-link active" : "dashboard-nav-link"}
+                        href={item.href}
+                        key={item.label}
+                    >
+                        {item.label}
+                    </a>
+                ))}
+            </nav>
+        </aside>
     );
 }
 

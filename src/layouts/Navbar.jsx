@@ -12,10 +12,11 @@
 
 function Navbar() {
     return (
-        <div>
-            {/* TODO */}
-            Navbar Component
-        </div>
+        <header className="dashboard-topbar">
+            <a className="dashboard-brand" href="/">
+                AssetFlow
+            </a>
+        </header>
     );
 }
 

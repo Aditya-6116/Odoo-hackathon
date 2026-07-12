@@ -1,3 +1,5 @@
+import DashboardLayout from "../../layouts/DashboardLayout";
+
 /**
  * -------------------------------------------------------
  * File: pages/dashboard/Dashboard.jsx
@@ -11,18 +13,6 @@
  */
 
 function Dashboard() {
-    const navItems = [
-        "Dashboard",
-        "Organization Setup",
-        "Assets",
-        "Allocation & Transfer",
-        "Resource Booking",
-        "Maintenance",
-        "Audit",
-        "Reports",
-        "Notifications",
-    ];
-
     const overviewItems = [
         { label: "Available", value: "128" },
         { label: "Allocated", value: "74" },
@@ -45,29 +35,7 @@ function Dashboard() {
     ];
 
     return (
-        <div className="dashboard-shell">
-            <header className="dashboard-topbar">
-                <a className="dashboard-brand" href="/">
-                    AssetFlow
-                </a>
-            </header>
-
-            <div className="dashboard-layout">
-                <aside className="dashboard-sidebar" aria-label="Main navigation">
-                    <nav>
-                        {navItems.map((item) => (
-                            <a
-                                className={item === "Dashboard" ? "dashboard-nav-link active" : "dashboard-nav-link"}
-                                href="#"
-                                key={item}
-                            >
-                                {item}
-                            </a>
-                        ))}
-                    </nav>
-                </aside>
-
-                <main className="dashboard-main">
+        <DashboardLayout activeItem="Dashboard">
                     <section className="overview-section" aria-labelledby="overview-heading">
                         <h1 id="overview-heading">Todays Overview</h1>
                         <div className="overview-grid">
@@ -120,9 +88,7 @@ function Dashboard() {
                             ))}
                         </div>
                     </section>
-                </main>
-            </div>
-        </div>
+        </DashboardLayout>
     );
 }
 

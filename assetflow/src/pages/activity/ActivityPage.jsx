@@ -1,154 +1,139 @@
-import React, { useState, useEffect } from 'react';
-import { Bell, Activity } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContext';
+import React, { useState } from 'react';
+import { Bell, CheckCheck, Package, Wrench, Calendar, ArrowLeftRight, AlertTriangle, ClipboardList } from 'lucide-react';
 import { useNotifications } from '../../contexts/NotificationContext';
-import { getActivityLogs } from '../../services/activityLogService';
-import Card, { CardHeader } from '../../components/ui/Card';
-import Spinner from '../../components/ui/Spinner';
+import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
-import { formatDistanceToNow, formatDateTime, capitalizeRole } from '../../utils/formatters';
+import { formatDistanceToNow } from '../../utils/formatters';
 
-const TABS = ['Notifications', 'Activity Log'];
+// Map notification types to filter categories
+const TYPE_CATEGORY = {
+  AssetAssigned:           'Alerts',
+  OverdueReturn:           'Alerts',
+  AuditDiscrepancyFlagged: 'Alerts',
+  MaintenanceApproved:     'Approvals',
+  MaintenanceRejected:     'Approvals',
+  TransferApproved:        'Approvals',
+  TransferRejected:        'Approvals',
+  BookingConfirmed:        'Bookings',
+  BookingCancelled:        'Bookings',
+  BookingReminder:         'Bookings',
+};
+
+const TABS = ['All', 'Alerts', 'Approvals', 'Bookings'];
+
+// Per-type icon config
+const TYPE_META = {
+  AssetAssigned:           { icon: Package,       color: 'text-blue-400',   bg: 'bg-blue-500/10' },
+  MaintenanceApproved:     { icon: CheckCheck,    color: 'text-green-400',  bg: 'bg-green-500/10' },
+  MaintenanceRejected:     { icon: Wrench,        color: 'text-red-400',    bg: 'bg-red-500/10' },
+  BookingConfirmed:        { icon: Calendar,      color: 'text-purple-400', bg: 'bg-purple-500/10' },
+  BookingCancelled:        { icon: Calendar,      color: 'text-red-400',    bg: 'bg-red-500/10' },
+  BookingReminder:         { icon: Calendar,      color: 'text-yellow-400', bg: 'bg-yellow-500/10' },
+  TransferApproved:        { icon: ArrowLeftRight,color: 'text-green-400',  bg: 'bg-green-500/10' },
+  TransferRejected:        { icon: ArrowLeftRight,color: 'text-red-400',    bg: 'bg-red-500/10' },
+  OverdueReturn:           { icon: AlertTriangle, color: 'text-orange-400', bg: 'bg-orange-500/10' },
+  AuditDiscrepancyFlagged: { icon: ClipboardList, color: 'text-red-400',    bg: 'bg-red-500/10' },
+};
 
 export default function ActivityPage() {
-  const [tab, setTab] = useState(0);
-  return (
-    <div className="space-y-5 animate-fade-in">
-      <div>
-        <h1 className="page-title">Activity & Logs</h1>
-        <p className="page-subtitle">Your notifications and the organisation-wide audit trail</p>
-      </div>
-      <div className="flex gap-1 bg-surface-900 border border-surface-700/50 rounded-xl p-1 w-fit">
-        {TABS.map((t, i) => (
-          <button key={t} onClick={() => setTab(i)}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150
-              ${tab === i ? 'bg-primary-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}>
-            {t}
-          </button>
-        ))}
-      </div>
-      {tab === 0 && <NotificationsTab />}
-      {tab === 1 && <ActivityLogTab />}
-    </div>
-  );
-}
-
-function NotificationsTab() {
+  const [activeTab, setActiveTab] = useState('All');
   const { notifications, unreadCount, markRead, markAllRead } = useNotifications();
 
-  const NOTIF_ICONS = {
-    AssetAssigned:           '📦',
-    MaintenanceApproved:     '✅',
-    MaintenanceRejected:     '❌',
-    BookingConfirmed:        '📅',
-    BookingCancelled:        '🚫',
-    BookingReminder:         '⏰',
-    TransferApproved:        '🔄',
-    OverdueReturn:           '⚠️',
-    AuditDiscrepancyFlagged: '🔍',
-  };
+  const filtered = activeTab === 'All'
+    ? notifications
+    : notifications.filter(n => (TYPE_CATEGORY[n.type] ?? 'Alerts') === activeTab);
 
   return (
-    <Card padding={false}>
-      <div className="flex items-center justify-between px-5 py-3.5 border-b border-surface-700/50">
-        <span className="text-sm font-semibold text-slate-200">
-          {unreadCount > 0 ? `${unreadCount} unread` : 'All caught up'}
-        </span>
+    <div className="space-y-5 animate-fade-in">
+      {/* Header */}
+      <div className="page-header">
+        <div>
+          <h1 className="page-title">Notifications</h1>
+          <p className="page-subtitle">Stay updated on asset activity across your organisation</p>
+        </div>
         {unreadCount > 0 && (
-          <button onClick={markAllRead} className="text-xs text-primary-400 hover:text-primary-300">
+          <button
+            onClick={markAllRead}
+            className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
+                       bg-primary-600/20 text-primary-400 hover:bg-primary-600/30 transition-colors"
+          >
+            <CheckCheck size={15} />
             Mark all read
           </button>
         )}
       </div>
-      {notifications.length === 0 ? (
-        <EmptyState icon={Bell} message="No notifications yet." />
-      ) : (
-        <ul className="divide-y divide-surface-700/40">
-          {notifications.map(n => (
-            <li key={n.id}
-              onClick={() => markRead(n.id)}
-              className={`flex items-start gap-3.5 px-5 py-4 cursor-pointer transition-colors
-                hover:bg-surface-700/20 ${!n.isRead ? 'bg-primary-900/10' : ''}`}
+
+      {/* Filter Tabs — matches mockup */}
+      <div className="flex gap-2">
+        {TABS.map(tab => {
+          const count = tab === 'All'
+            ? notifications.filter(n => !n.isRead).length
+            : notifications.filter(n => !n.isRead && (TYPE_CATEGORY[n.type] ?? 'Alerts') === tab).length;
+
+          return (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150 flex items-center gap-2
+                ${activeTab === tab
+                  ? 'bg-primary-600 text-white shadow-glow'
+                  : 'bg-surface-800 border border-surface-700/50 text-slate-400 hover:text-slate-200 hover:border-surface-600'
+                }`}
             >
-              <span className="text-xl shrink-0 mt-0.5">{NOTIF_ICONS[n.type] ?? '🔔'}</span>
-              <div className="flex-1 min-w-0">
-                <p className="text-sm text-slate-200 leading-snug">{n.message}</p>
-                <p className="text-xs text-slate-500 mt-1">{formatDistanceToNow(n.createdAt)}</p>
-              </div>
-              {!n.isRead && (
-                <div className="w-2 h-2 rounded-full bg-primary-500 mt-2 shrink-0" />
+              {tab}
+              {count > 0 && (
+                <span className={`text-xs px-1.5 py-0.5 rounded-full font-semibold
+                  ${activeTab === tab ? 'bg-white/20 text-white' : 'bg-primary-600/30 text-primary-400'}`}>
+                  {count}
+                </span>
               )}
-            </li>
-          ))}
-        </ul>
-      )}
-    </Card>
-  );
-}
+            </button>
+          );
+        })}
+      </div>
 
-function ActivityLogTab() {
-  const [logs, setLogs]   = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    getActivityLogs({ pageLimit: 200 }).then(d => { setLogs(d); setLoading(false); });
-  }, []);
-
-  const ACTION_LABELS = {
-    'asset.registered':    { icon: '📦', label: 'Asset Registered' },
-    'asset.allocated':     { icon: '➡️', label: 'Asset Allocated' },
-    'asset.returned':      { icon: '↩️', label: 'Asset Returned' },
-    'asset.updated':       { icon: '✏️', label: 'Asset Updated' },
-    'asset.Lost':          { icon: '🔴', label: 'Asset Lost' },
-    'asset.Retired':       { icon: '🗃️', label: 'Asset Retired' },
-    'maintenance.raised':  { icon: '🔧', label: 'Maintenance Raised' },
-    'maintenance.approved':{ icon: '✅', label: 'Maintenance Approved' },
-    'maintenance.rejected':{ icon: '❌', label: 'Maintenance Rejected' },
-    'maintenance.resolved':{ icon: '🎉', label: 'Maintenance Resolved' },
-    'booking.created':     { icon: '📅', label: 'Booking Created' },
-    'booking.cancelled':   { icon: '🚫', label: 'Booking Cancelled' },
-    'transfer.requested':  { icon: '🔄', label: 'Transfer Requested' },
-    'transfer.approved':   { icon: '✅', label: 'Transfer Approved' },
-    'transfer.rejected':   { icon: '❌', label: 'Transfer Rejected' },
-    'audit.cycle_created': { icon: '📋', label: 'Audit Cycle Created' },
-    'audit.cycle_closed':  { icon: '🔒', label: 'Audit Cycle Closed' },
-    'user.role_changed':   { icon: '👤', label: 'Role Changed' },
-  };
-
-  if (loading) return <div className="flex items-center justify-center py-16"><Spinner size="md" /></div>;
-
-  return (
-    <Card padding={false}>
-      {logs.length === 0 ? (
-        <EmptyState icon={Activity} message="No activity logged yet." />
-      ) : (
-        <ul className="divide-y divide-surface-700/40">
-          {logs.map(log => {
-            const meta = ACTION_LABELS[log.action] ?? { icon: '📝', label: log.action };
-            return (
-              <li key={log.id} className="flex items-start gap-3.5 px-5 py-3.5 hover:bg-surface-700/10 transition-colors">
-                <span className="text-base shrink-0 mt-0.5">{meta.icon}</span>
-                <div className="flex-1 min-w-0">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-sm font-medium text-slate-200">{meta.label}</span>
-                    {log.details?.assetTag && (
-                      <span className="font-mono text-primary-400 text-xs">{log.details.assetTag}</span>
-                    )}
-                    {log.details?.name && (
-                      <span className="text-slate-400 text-xs">{log.details.name}</span>
-                    )}
+      {/* Notification List */}
+      <Card padding={false}>
+        {filtered.length === 0 ? (
+          <EmptyState
+            icon={Bell}
+            message={activeTab === 'All' ? 'No notifications yet.' : `No ${activeTab.toLowerCase()} notifications.`}
+          />
+        ) : (
+          <ul className="divide-y divide-surface-700/40">
+            {filtered.map(n => {
+              const meta = TYPE_META[n.type] ?? { icon: Bell, color: 'text-slate-400', bg: 'bg-slate-500/10' };
+              const Icon = meta.icon;
+              return (
+                <li
+                  key={n.id}
+                  onClick={() => markRead(n.id)}
+                  className={`flex items-start gap-4 px-5 py-4 cursor-pointer transition-colors
+                    hover:bg-surface-700/20 ${!n.isRead ? 'bg-primary-900/10' : ''}`}
+                >
+                  {/* Icon badge */}
+                  <div className={`flex items-center justify-center w-9 h-9 rounded-xl shrink-0 mt-0.5 ${meta.bg}`}>
+                    <Icon size={16} className={meta.color} />
                   </div>
-                  <div className="flex items-center gap-3 mt-0.5">
-                    <span className="text-xs text-slate-500">{formatDateTime(log.timestamp)}</span>
-                    <span className="text-xs text-slate-600">•</span>
-                    <span className="text-xs text-slate-500 font-mono">{log.entityType}/{log.entityId?.slice(0,8)}</span>
+
+                  {/* Content */}
+                  <div className="flex-1 min-w-0">
+                    <p className={`text-sm leading-snug ${!n.isRead ? 'text-slate-100 font-medium' : 'text-slate-300'}`}>
+                      {n.message}
+                    </p>
+                    <p className="text-xs text-slate-500 mt-1">{formatDistanceToNow(n.createdAt)}</p>
                   </div>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-    </Card>
+
+                  {/* Unread dot */}
+                  {!n.isRead && (
+                    <div className="w-2 h-2 rounded-full bg-primary-500 mt-2.5 shrink-0" />
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </Card>
+    </div>
   );
 }

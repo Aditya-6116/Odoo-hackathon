@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import {
   LayoutDashboard, Building2, Package, ArrowLeftRight,
   Calendar, Wrench, ClipboardList, BarChart2,
-  Activity, ChevronLeft, ChevronRight, LogOut,
+  Bell, ChevronLeft, ChevronRight, LogOut,
   Layers,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
@@ -18,7 +18,7 @@ const NAV_ITEMS = [
   { path: '/maintenance',  label: 'Maintenance',          icon: Wrench,          roles: ['admin','asset_manager','department_head','employee'] },
   { path: '/audit',        label: 'Audit',                icon: ClipboardList,   roles: ['admin','asset_manager'] },
   { path: '/reports',      label: 'Reports',              icon: BarChart2,       roles: ['admin','asset_manager'] },
-  { path: '/activity',     label: 'Activity & Logs',      icon: Activity,        roles: ['admin','asset_manager','department_head','employee'] },
+  { path: '/activity',     label: 'Notifications',        icon: Bell,            roles: ['admin','asset_manager','department_head','employee'] },
 ];
 
 export default function Sidebar() {
