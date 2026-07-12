@@ -1,0 +1,23 @@
+{
+  "name": "odoo-hackathon",
+  "version": "1.0.0",
+  "description": "<!--  * -------------------------------------------------------  * File: README.md  * Purpose: Project documentation.  * Module: Documentation  *  * Description: Summarizes the AssetFlow scaffold, stack, modules, and next steps.  *  * TODO: Expand documentation as implementation details are added.  * -------------------------------------------------------  -->",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya-6116/Odoo-hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aditya-6116/Odoo-hackathon/issues"
+  },
+  "homepage": "https://github.com/Aditya-6116/Odoo-hackathon#readme"
+}
