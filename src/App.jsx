@@ -25,7 +25,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     {/* Public Routes */}
-                    <Route path="/" element={<Splash />} />
+                    <Route path="/" element={<Login />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/forgot-password" element={<ForgotPassword />} />
