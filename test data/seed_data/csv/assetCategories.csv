@@ -1,0 +1,13 @@
+id,name,customFields,status,createdAt
+cat_0001,Laptops & Computers,"[{""fieldKey"": ""warrantyMonths"", ""label"": ""Warranty (months)"", ""fieldType"": ""number"", ""required"": true}, {""fieldKey"": ""processor"", ""label"": ""Processor"", ""fieldType"": ""text"", ""required"": false}]",active,2024-08-10T14:45:00Z
+cat_0002,Monitors & Displays,"[{""fieldKey"": ""screenSizeInches"", ""label"": ""Screen Size (in)"", ""fieldType"": ""number"", ""required"": true}]",active,2024-08-10T14:22:00Z
+cat_0003,Mobile Devices,"[{""fieldKey"": ""imei"", ""label"": ""IMEI"", ""fieldType"": ""text"", ""required"": true}, {""fieldKey"": ""carrier"", ""label"": ""Carrier"", ""fieldType"": ""text"", ""required"": false}]",active,2024-08-11T07:21:00Z
+cat_0004,Furniture,"[{""fieldKey"": ""material"", ""label"": ""Material"", ""fieldType"": ""text"", ""required"": false}]",active,2024-08-11T06:34:00Z
+cat_0005,Vehicles,"[{""fieldKey"": ""plateNumber"", ""label"": ""Plate Number"", ""fieldType"": ""text"", ""required"": true}, {""fieldKey"": ""fuelType"", ""label"": ""Fuel Type"", ""fieldType"": ""text"", ""required"": true}]",active,2024-08-10T11:23:00Z
+cat_0006,Audio/Visual Equipment,"[{""fieldKey"": ""resolution"", ""label"": ""Resolution"", ""fieldType"": ""text"", ""required"": false}]",active,2024-08-10T14:27:00Z
+cat_0007,Networking Equipment,"[{""fieldKey"": ""portCount"", ""label"": ""Port Count"", ""fieldType"": ""number"", ""required"": false}]",active,2024-08-10T22:01:00Z
+cat_0008,Office Supplies Equipment,"[{""fieldKey"": ""brand"", ""label"": ""Brand"", ""fieldType"": ""text"", ""required"": false}]",active,2024-08-11T00:47:00Z
+cat_0009,Power Tools,"[{""fieldKey"": ""voltage"", ""label"": ""Voltage"", ""fieldType"": ""number"", ""required"": false}]",active,2024-08-10T11:15:00Z
+cat_0010,Meeting Room Resources,"[{""fieldKey"": ""capacity"", ""label"": ""Capacity"", ""fieldType"": ""number"", ""required"": true}, {""fieldKey"": ""hasProjector"", ""label"": ""Has Projector"", ""fieldType"": ""boolean"", ""required"": false}]",active,2024-08-10T22:45:00Z
+cat_0011,Software Licenses (Dongles/Keys),"[{""fieldKey"": ""licenseExpiry"", ""label"": ""License Expiry"", ""fieldType"": ""date"", ""required"": true}]",active,2024-08-11T00:35:00Z
+cat_0012,Safety Equipment,"[{""fieldKey"": ""lastInspectionDate"", ""label"": ""Last Inspection"", ""fieldType"": ""date"", ""required"": false}]",inactive,2024-08-11T04:18:00Z

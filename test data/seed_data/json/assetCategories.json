@@ -1,0 +1,194 @@
+[
+  {
+    "id": "cat_0001",
+    "name": "Laptops & Computers",
+    "customFields": [
+      {
+        "fieldKey": "warrantyMonths",
+        "label": "Warranty (months)",
+        "fieldType": "number",
+        "required": true
+      },
+      {
+        "fieldKey": "processor",
+        "label": "Processor",
+        "fieldType": "text",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T14:45:00Z"
+  },
+  {
+    "id": "cat_0002",
+    "name": "Monitors & Displays",
+    "customFields": [
+      {
+        "fieldKey": "screenSizeInches",
+        "label": "Screen Size (in)",
+        "fieldType": "number",
+        "required": true
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T14:22:00Z"
+  },
+  {
+    "id": "cat_0003",
+    "name": "Mobile Devices",
+    "customFields": [
+      {
+        "fieldKey": "imei",
+        "label": "IMEI",
+        "fieldType": "text",
+        "required": true
+      },
+      {
+        "fieldKey": "carrier",
+        "label": "Carrier",
+        "fieldType": "text",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-11T07:21:00Z"
+  },
+  {
+    "id": "cat_0004",
+    "name": "Furniture",
+    "customFields": [
+      {
+        "fieldKey": "material",
+        "label": "Material",
+        "fieldType": "text",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-11T06:34:00Z"
+  },
+  {
+    "id": "cat_0005",
+    "name": "Vehicles",
+    "customFields": [
+      {
+        "fieldKey": "plateNumber",
+        "label": "Plate Number",
+        "fieldType": "text",
+        "required": true
+      },
+      {
+        "fieldKey": "fuelType",
+        "label": "Fuel Type",
+        "fieldType": "text",
+        "required": true
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T11:23:00Z"
+  },
+  {
+    "id": "cat_0006",
+    "name": "Audio/Visual Equipment",
+    "customFields": [
+      {
+        "fieldKey": "resolution",
+        "label": "Resolution",
+        "fieldType": "text",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T14:27:00Z"
+  },
+  {
+    "id": "cat_0007",
+    "name": "Networking Equipment",
+    "customFields": [
+      {
+        "fieldKey": "portCount",
+        "label": "Port Count",
+        "fieldType": "number",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T22:01:00Z"
+  },
+  {
+    "id": "cat_0008",
+    "name": "Office Supplies Equipment",
+    "customFields": [
+      {
+        "fieldKey": "brand",
+        "label": "Brand",
+        "fieldType": "text",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-11T00:47:00Z"
+  },
+  {
+    "id": "cat_0009",
+    "name": "Power Tools",
+    "customFields": [
+      {
+        "fieldKey": "voltage",
+        "label": "Voltage",
+        "fieldType": "number",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T11:15:00Z"
+  },
+  {
+    "id": "cat_0010",
+    "name": "Meeting Room Resources",
+    "customFields": [
+      {
+        "fieldKey": "capacity",
+        "label": "Capacity",
+        "fieldType": "number",
+        "required": true
+      },
+      {
+        "fieldKey": "hasProjector",
+        "label": "Has Projector",
+        "fieldType": "boolean",
+        "required": false
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-10T22:45:00Z"
+  },
+  {
+    "id": "cat_0011",
+    "name": "Software Licenses (Dongles/Keys)",
+    "customFields": [
+      {
+        "fieldKey": "licenseExpiry",
+        "label": "License Expiry",
+        "fieldType": "date",
+        "required": true
+      }
+    ],
+    "status": "active",
+    "createdAt": "2024-08-11T00:35:00Z"
+  },
+  {
+    "id": "cat_0012",
+    "name": "Safety Equipment",
+    "customFields": [
+      {
+        "fieldKey": "lastInspectionDate",
+        "label": "Last Inspection",
+        "fieldType": "date",
+        "required": false
+      }
+    ],
+    "status": "inactive",
+    "createdAt": "2024-08-11T04:18:00Z"
+  }
+]

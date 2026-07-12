@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Aditya-6116/Odoo-hackathon/issues"
   },
-  "homepage": "https://github.com/Aditya-6116/Odoo-hackathon#readme"
+  "homepage": "https://github.com/Aditya-6116/Odoo-hackathon#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase-admin": "^14.1.0"
+  }
 }

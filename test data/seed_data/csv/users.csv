@@ -1,0 +1,51 @@
+uid,name,email,phone,departmentId,departmentName,role,status,createdAt,updatedAt
+uid_0001,Allison Hill,allison.hill@assetflow-demo.com,321.581.9600,dept_0006,Operations,admin,active,2025-09-01T04:47:00Z,2025-09-22T04:47:00Z
+uid_0002,Lance Hoffman,lance.hoffman@assetflow-demo.com,001-486-537-9402x654,dept_0006,Operations,asset_manager,active,2025-05-19T05:38:00Z,2025-06-26T05:38:00Z
+uid_0003,Gabrielle Davis,gabrielle.davis@assetflow-demo.com,855-394-0781,dept_0007,IT Support,asset_manager,active,2026-04-28T09:31:00Z,2026-06-26T09:31:00Z
+uid_0004,Sandra Montgomery,sandra.montgomery@assetflow-demo.com,(993)710-3413x164,dept_0010,Facilities,asset_manager,active,2024-11-23T23:07:00Z,2025-01-18T23:07:00Z
+uid_0005,Henry Santiago,henry.santiago@assetflow-demo.com,,dept_0006,Operations,asset_manager,active,2024-10-29T02:15:00Z,2024-12-10T02:15:00Z
+uid_0006,Melinda Jones,melinda.jones@assetflow-demo.com,+1-228-732-7648x3503,dept_0001,Engineering,department_head,active,2025-08-20T06:06:00Z,2025-08-26T06:06:00Z
+uid_0007,Austin Gentry,austin.gentry@assetflow-demo.com,001-553-676-7242,dept_0002,Sales,department_head,active,2025-03-04T12:07:00Z,2025-03-27T12:07:00Z
+uid_0008,Jessica Silva,jessica.silva@assetflow-demo.com,(332)887-1012x269,dept_0003,Marketing,department_head,active,2024-07-26T00:16:00Z,2024-09-05T00:16:00Z
+uid_0009,Zachary Rice,zachary.rice@assetflow-demo.com,+1-401-984-5146,dept_0004,Human Resources,department_head,active,2024-08-31T03:26:00Z,2024-09-10T03:26:00Z
+uid_0010,Nathan Cortez,nathan.cortez@assetflow-demo.com,728.914.8932x52880,dept_0005,Finance,department_head,active,2025-09-08T12:16:00Z,2025-10-21T12:16:00Z
+uid_0011,Timothy Koch,timothy.koch@assetflow-demo.com,430-639-1171x8227,dept_0006,Operations,department_head,active,2024-04-17T07:46:00Z,2024-06-07T07:46:00Z
+uid_0012,Lisa Brandt,lisa.brandt@assetflow-demo.com,+1-534-565-7871,dept_0007,IT Support,department_head,active,2025-09-11T06:47:00Z,2025-10-17T06:47:00Z
+uid_0013,Alex Spencer,alex.spencer@assetflow-demo.com,001-330-510-3105,dept_0008,Customer Success,department_head,active,2025-07-25T02:19:00Z,2025-09-19T02:19:00Z
+uid_0014,John Ryan,john.ryan@assetflow-demo.com,,dept_0009,Legal,department_head,active,2025-02-28T04:44:00Z,2025-04-16T04:44:00Z
+uid_0015,Sonya Johnston,sonya.johnston@assetflow-demo.com,876.931.1656,dept_0010,Facilities,department_head,active,2025-09-15T09:23:00Z,2025-10-22T09:23:00Z
+uid_0016,Amy Valdez,amy.valdez@assetflow-demo.com,+1-410-665-1333x8726,dept_0001,Engineering,employee,active,2025-10-31T04:28:00Z,2025-12-18T04:28:00Z
+uid_0017,Shannon Jones,shannon.jones@assetflow-demo.com,+1-910-980-1326,dept_0002,Sales,employee,inactive,2026-02-20T04:20:00Z,2026-04-04T04:20:00Z
+uid_0018,James Brown,james.brown@assetflow-demo.com,(206)247-4687x2343,dept_0003,Marketing,employee,active,2026-04-07T20:36:00Z,2026-05-06T20:36:00Z
+uid_0019,Amy Silva,amy.silva@assetflow-demo.com,582.208.1219x13619,dept_0004,Human Resources,employee,active,2024-11-23T08:17:00Z,2025-01-05T08:17:00Z
+uid_0020,Jennifer Silva,jennifer.silva@assetflow-demo.com,954.335.3462x47510,dept_0005,Finance,employee,active,2024-05-05T00:11:00Z,2024-05-12T00:11:00Z
+uid_0021,Daniel Baker,daniel.baker@assetflow-demo.com,(613)354-2784x980,dept_0006,Operations,employee,active,2026-01-01T19:00:00Z,2026-02-26T19:00:00Z
+uid_0022,Brandy Wilson,brandy.wilson@assetflow-demo.com,682-944-9353,dept_0007,IT Support,employee,active,2025-01-16T03:28:00Z,2025-03-12T03:28:00Z
+uid_0023,Terry Williams,terry.williams@assetflow-demo.com,+1-264-300-5242x7868,dept_0008,Customer Success,employee,active,2024-02-01T12:28:00Z,2024-02-10T12:28:00Z
+uid_0024,Stephen Mckee,stephen.mckee@assetflow-demo.com,+1-605-798-2620,dept_0009,Legal,employee,active,2025-12-28T15:11:00Z,2026-02-24T15:11:00Z
+uid_0025,Rebecca Valencia,rebecca.valencia@assetflow-demo.com,,dept_0010,Facilities,employee,inactive,2025-07-15T17:59:00Z,2025-08-07T17:59:00Z
+uid_0026,Christine Wright,christine.wright@assetflow-demo.com,,dept_0001,Engineering,employee,active,2024-02-11T23:45:00Z,2024-04-07T23:45:00Z
+uid_0027,Richard Henson,richard.henson@assetflow-demo.com,(392)832-2602x56342,dept_0002,Sales,employee,active,2026-03-24T06:14:00Z,2026-03-28T06:14:00Z
+uid_0028,Shannon Walker,shannon.walker@assetflow-demo.com,754.833.0365x414,dept_0003,Marketing,employee,active,2024-12-14T04:52:00Z,2025-02-12T04:52:00Z
+uid_0029,Sarah Rivera,sarah.rivera@assetflow-demo.com,8147294019,dept_0004,Human Resources,employee,active,2025-09-13T16:05:00Z,2025-09-26T16:05:00Z
+uid_0030,Emily Obrien,emily.obrien@assetflow-demo.com,316.793.4060x88356,dept_0005,Finance,employee,active,2024-04-29T09:16:00Z,2024-05-18T09:16:00Z
+uid_0031,Mary Martinez,mary.martinez@assetflow-demo.com,684-865-6482x3662,dept_0006,Operations,employee,active,2024-07-24T12:37:00Z,2024-08-26T12:37:00Z
+uid_0032,April Mitchell,april.mitchell@assetflow-demo.com,(799)357-7738x72148,dept_0007,IT Support,employee,active,2025-10-02T01:56:00Z,2025-11-08T01:56:00Z
+uid_0033,Nicole Chambers,nicole.chambers@assetflow-demo.com,,dept_0008,Customer Success,employee,active,2024-10-18T02:00:00Z,2024-11-27T02:00:00Z
+uid_0034,Curtis Johnson,curtis.johnson@assetflow-demo.com,979.817.6936,dept_0009,Legal,employee,inactive,2026-04-04T07:05:00Z,2026-05-06T07:05:00Z
+uid_0035,Matthew Smith,matthew.smith@assetflow-demo.com,001-716-932-8708x31727,dept_0010,Facilities,employee,active,2024-07-26T17:47:00Z,2024-09-10T17:47:00Z
+uid_0036,Michelle Wagner,michelle.wagner@assetflow-demo.com,+1-972-577-4348,dept_0001,Engineering,employee,active,2024-11-04T14:30:00Z,2024-12-04T14:30:00Z
+uid_0037,Billy Mitchell,billy.mitchell@assetflow-demo.com,855-881-2236x231,dept_0002,Sales,employee,active,2025-11-30T05:54:00Z,2025-12-22T05:54:00Z
+uid_0038,John Brown,john.brown@assetflow-demo.com,(569)909-6705x46688,dept_0003,Marketing,employee,active,2025-02-18T09:57:00Z,2025-03-31T09:57:00Z
+uid_0039,Jeffrey Johnson,jeffrey.johnson@assetflow-demo.com,462-972-9806x99016,dept_0004,Human Resources,employee,active,2025-04-25T09:39:00Z,2025-05-01T09:39:00Z
+uid_0040,David Murphy,david.murphy@assetflow-demo.com,,dept_0005,Finance,employee,active,2025-11-29T15:32:00Z,2025-12-10T15:32:00Z
+uid_0041,George Hobbs,george.hobbs@assetflow-demo.com,264-517-0805x310,dept_0006,Operations,employee,active,2025-09-30T06:32:00Z,2025-11-23T06:32:00Z
+uid_0042,Alex Hernandez,alex.hernandez@assetflow-demo.com,(371)493-7452,dept_0007,IT Support,employee,active,2026-04-21T12:26:00Z,2026-04-26T12:26:00Z
+uid_0043,Ashley Johnson,ashley.johnson@assetflow-demo.com,296-763-1931x4919,dept_0008,Customer Success,employee,active,2024-01-25T01:50:00Z,2024-02-24T01:50:00Z
+uid_0044,Mary Jones,mary.jones@assetflow-demo.com,+1-650-967-1657x2628,dept_0009,Legal,employee,active,2025-04-28T07:50:00Z,2025-05-22T07:50:00Z
+uid_0045,Roger Vargas,roger.vargas@assetflow-demo.com,431-947-3799x65075,dept_0010,Facilities,employee,active,2024-03-31T18:42:00Z,2024-05-16T18:42:00Z
+uid_0046,Robert Peterson,robert.peterson@assetflow-demo.com,+1-948-908-3136x783,dept_0001,Engineering,employee,active,2024-11-19T11:15:00Z,2024-12-01T11:15:00Z
+uid_0047,Alan Phillips,alan.phillips@assetflow-demo.com,(934)695-7885x6855,dept_0002,Sales,employee,active,2026-04-13T14:13:00Z,2026-05-30T14:13:00Z
+uid_0048,David Griffith,david.griffith@assetflow-demo.com,618-523-3749x89413,,,employee,active,2026-04-21T14:30:00Z,2026-06-14T14:30:00Z
+uid_0049,Eric Erickson,eric.erickson@assetflow-demo.com,(240)608-4271,,,employee,active,2026-04-14T16:55:00Z,2026-04-18T16:55:00Z
+uid_0050,Jeremiah Lopez,jeremiah.lopez@assetflow-demo.com,,,,employee,active,2024-07-21T01:35:00Z,2024-09-15T01:35:00Z

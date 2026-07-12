@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "auditItem_0001",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0072",
+    "assetTag": "AF-0072",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0002",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0159",
+    "assetTag": "AF-0159",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0003",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0161",
+    "assetTag": "AF-0161",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0004",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0143",
+    "assetTag": "AF-0143",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0005",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0210",
+    "assetTag": "AF-0210",
+    "auditorId": "uid_0002",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-14T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0006",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0212",
+    "assetTag": "AF-0212",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0007",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0054",
+    "assetTag": "AF-0054",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-15T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0008",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0013",
+    "assetTag": "AF-0013",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0009",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0048",
+    "assetTag": "AF-0048",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0010",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0038",
+    "assetTag": "AF-0038",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0011",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0015",
+    "assetTag": "AF-0015",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0012",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0168",
+    "assetTag": "AF-0168",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0013",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0090",
+    "assetTag": "AF-0090",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0014",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0010",
+    "assetTag": "AF-0010",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0015",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0241",
+    "assetTag": "AF-0241",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-15T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0016",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0219",
+    "assetTag": "AF-0219",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0017",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0009",
+    "assetTag": "AF-0009",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-25T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0018",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0171",
+    "assetTag": "AF-0171",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0019",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0148",
+    "assetTag": "AF-0148",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0020",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0215",
+    "assetTag": "AF-0215",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0021",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0155",
+    "assetTag": "AF-0155",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-14T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0022",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0077",
+    "assetTag": "AF-0077",
+    "auditorId": "uid_0002",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0023",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0085",
+    "assetTag": "AF-0085",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0024",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0023",
+    "assetTag": "AF-0023",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0025",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0243",
+    "assetTag": "AF-0243",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0026",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0028",
+    "assetTag": "AF-0028",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-25T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0027",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0107",
+    "assetTag": "AF-0107",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0028",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0046",
+    "assetTag": "AF-0046",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0029",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0042",
+    "assetTag": "AF-0042",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0030",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0173",
+    "assetTag": "AF-0173",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0031",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0073",
+    "assetTag": "AF-0073",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0032",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0157",
+    "assetTag": "AF-0157",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-21T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0033",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0170",
+    "assetTag": "AF-0170",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0034",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0178",
+    "assetTag": "AF-0178",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-21T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0035",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0180",
+    "assetTag": "AF-0180",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-20T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0036",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0153",
+    "assetTag": "AF-0153",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0037",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0147",
+    "assetTag": "AF-0147",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0038",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0202",
+    "assetTag": "AF-0202",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-18T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0039",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0144",
+    "assetTag": "AF-0144",
+    "auditorId": "uid_0002",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-24T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0040",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0223",
+    "assetTag": "AF-0223",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-15T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0041",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0117",
+    "assetTag": "AF-0117",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0042",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0192",
+    "assetTag": "AF-0192",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0043",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0149",
+    "assetTag": "AF-0149",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0044",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0093",
+    "assetTag": "AF-0093",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-24T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0045",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0237",
+    "assetTag": "AF-0237",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0046",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0024",
+    "assetTag": "AF-0024",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0047",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0197",
+    "assetTag": "AF-0197",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0048",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0229",
+    "assetTag": "AF-0229",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0049",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0083",
+    "assetTag": "AF-0083",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0050",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0095",
+    "assetTag": "AF-0095",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0051",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0098",
+    "assetTag": "AF-0098",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-18T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0052",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0018",
+    "assetTag": "AF-0018",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0053",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0195",
+    "assetTag": "AF-0195",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0054",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0110",
+    "assetTag": "AF-0110",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0055",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0141",
+    "assetTag": "AF-0141",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0056",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0017",
+    "assetTag": "AF-0017",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-15T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0057",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0075",
+    "assetTag": "AF-0075",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0058",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0121",
+    "assetTag": "AF-0121",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0059",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0035",
+    "assetTag": "AF-0035",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0060",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0032",
+    "assetTag": "AF-0032",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0061",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0217",
+    "assetTag": "AF-0217",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0062",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0071",
+    "assetTag": "AF-0071",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-26T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0063",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0228",
+    "assetTag": "AF-0228",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0064",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0135",
+    "assetTag": "AF-0135",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0065",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0106",
+    "assetTag": "AF-0106",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-13T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0066",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0187",
+    "assetTag": "AF-0187",
+    "auditorId": "uid_0002",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-16T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0067",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0244",
+    "assetTag": "AF-0244",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-20T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0068",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0179",
+    "assetTag": "AF-0179",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0069",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0184",
+    "assetTag": "AF-0184",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-19T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0070",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0235",
+    "assetTag": "AF-0235",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-25T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0071",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0240",
+    "assetTag": "AF-0240",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0072",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0225",
+    "assetTag": "AF-0225",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0073",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0214",
+    "assetTag": "AF-0214",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0074",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0162",
+    "assetTag": "AF-0162",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-17T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0075",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0136",
+    "assetTag": "AF-0136",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0076",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0227",
+    "assetTag": "AF-0227",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-18T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0077",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0124",
+    "assetTag": "AF-0124",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-25T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0078",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0230",
+    "assetTag": "AF-0230",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0079",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0074",
+    "assetTag": "AF-0074",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-26T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0080",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0204",
+    "assetTag": "AF-0204",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-14T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0081",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0156",
+    "assetTag": "AF-0156",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0082",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0082",
+    "assetTag": "AF-0082",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-27T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0083",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0067",
+    "assetTag": "AF-0067",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-20T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0084",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0185",
+    "assetTag": "AF-0185",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0085",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0232",
+    "assetTag": "AF-0232",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-28T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0086",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0160",
+    "assetTag": "AF-0160",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-23T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0087",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0091",
+    "assetTag": "AF-0091",
+    "auditorId": "uid_0002",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0088",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0034",
+    "assetTag": "AF-0034",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2025-12-21T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0089",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0158",
+    "assetTag": "AF-0158",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-14T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0090",
+    "auditCycleId": "audit_0001",
+    "assetId": "asset_0145",
+    "assetTag": "AF-0145",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2025-12-22T19:32:00Z"
+  },
+  {
+    "id": "auditItem_0091",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0220",
+    "assetTag": "AF-0220",
+    "auditorId": "uid_0004",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-03-22T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0092",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0066",
+    "assetTag": "AF-0066",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-25T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0093",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0004",
+    "assetTag": "AF-0004",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0094",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0190",
+    "assetTag": "AF-0190",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0095",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0029",
+    "assetTag": "AF-0029",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0096",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0155",
+    "assetTag": "AF-0155",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0097",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0045",
+    "assetTag": "AF-0045",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-23T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0098",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0233",
+    "assetTag": "AF-0233",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-13T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0099",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0152",
+    "assetTag": "AF-0152",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-24T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0100",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0247",
+    "assetTag": "AF-0247",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0101",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0039",
+    "assetTag": "AF-0039",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0102",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0169",
+    "assetTag": "AF-0169",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-25T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0103",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0115",
+    "assetTag": "AF-0115",
+    "auditorId": "uid_0004",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0104",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0095",
+    "assetTag": "AF-0095",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-22T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0105",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0207",
+    "assetTag": "AF-0207",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0106",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0244",
+    "assetTag": "AF-0244",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0107",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0067",
+    "assetTag": "AF-0067",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-25T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0108",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0201",
+    "assetTag": "AF-0201",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0109",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0180",
+    "assetTag": "AF-0180",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-28T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0110",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0061",
+    "assetTag": "AF-0061",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-18T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0111",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0125",
+    "assetTag": "AF-0125",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0112",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0047",
+    "assetTag": "AF-0047",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0113",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0205",
+    "assetTag": "AF-0205",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-27T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0114",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0136",
+    "assetTag": "AF-0136",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0115",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0221",
+    "assetTag": "AF-0221",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-25T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0116",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0009",
+    "assetTag": "AF-0009",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-28T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0117",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0088",
+    "assetTag": "AF-0088",
+    "auditorId": "uid_0004",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-03-20T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0118",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0022",
+    "assetTag": "AF-0022",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0119",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0038",
+    "assetTag": "AF-0038",
+    "auditorId": "uid_0011",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-23T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0120",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0153",
+    "assetTag": "AF-0153",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0121",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0211",
+    "assetTag": "AF-0211",
+    "auditorId": "uid_0004",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-24T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0122",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0040",
+    "assetTag": "AF-0040",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-15T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0123",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0215",
+    "assetTag": "AF-0215",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0124",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0127",
+    "assetTag": "AF-0127",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0125",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0193",
+    "assetTag": "AF-0193",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-24T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0126",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0106",
+    "assetTag": "AF-0106",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0127",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0198",
+    "assetTag": "AF-0198",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-13T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0128",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0099",
+    "assetTag": "AF-0099",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-25T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0129",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0231",
+    "assetTag": "AF-0231",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-28T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0130",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0170",
+    "assetTag": "AF-0170",
+    "auditorId": "uid_0011",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-03-13T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0131",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0113",
+    "assetTag": "AF-0113",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-23T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0132",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0186",
+    "assetTag": "AF-0186",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0133",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0164",
+    "assetTag": "AF-0164",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-17T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0134",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0043",
+    "assetTag": "AF-0043",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0135",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0054",
+    "assetTag": "AF-0054",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-28T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0136",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0148",
+    "assetTag": "AF-0148",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-17T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0137",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0188",
+    "assetTag": "AF-0188",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0138",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0089",
+    "assetTag": "AF-0089",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0139",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0014",
+    "assetTag": "AF-0014",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-15T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0140",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0165",
+    "assetTag": "AF-0165",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-23T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0141",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0068",
+    "assetTag": "AF-0068",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-23T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0142",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0194",
+    "assetTag": "AF-0194",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-18T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0143",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0030",
+    "assetTag": "AF-0030",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-26T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0144",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0202",
+    "assetTag": "AF-0202",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-27T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0145",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0236",
+    "assetTag": "AF-0236",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-16T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0146",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0119",
+    "assetTag": "AF-0119",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-18T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0147",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0103",
+    "assetTag": "AF-0103",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-13T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0148",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0122",
+    "assetTag": "AF-0122",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-26T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0149",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0078",
+    "assetTag": "AF-0078",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-17T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0150",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0216",
+    "assetTag": "AF-0216",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-26T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0151",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0137",
+    "assetTag": "AF-0137",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-18T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0152",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0060",
+    "assetTag": "AF-0060",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-22T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0153",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0098",
+    "assetTag": "AF-0098",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-19T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0154",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0175",
+    "assetTag": "AF-0175",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-24T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0155",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0181",
+    "assetTag": "AF-0181",
+    "auditorId": "uid_0004",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-03-27T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0156",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0100",
+    "assetTag": "AF-0100",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0157",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0191",
+    "assetTag": "AF-0191",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-28T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0158",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0200",
+    "assetTag": "AF-0200",
+    "auditorId": "uid_0004",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0159",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0222",
+    "assetTag": "AF-0222",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-21T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0160",
+    "auditCycleId": "audit_0002",
+    "assetId": "asset_0227",
+    "assetTag": "AF-0227",
+    "auditorId": "uid_0011",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-03-14T16:56:00Z"
+  },
+  {
+    "id": "auditItem_0161",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0030",
+    "assetTag": "AF-0030",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-09T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0162",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0019",
+    "assetTag": "AF-0019",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0163",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0230",
+    "assetTag": "AF-0230",
+    "auditorId": "uid_0009",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-06-08T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0164",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0061",
+    "assetTag": "AF-0061",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0165",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0185",
+    "assetTag": "AF-0185",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0166",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0114",
+    "assetTag": "AF-0114",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0167",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0152",
+    "assetTag": "AF-0152",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-07T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0168",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0149",
+    "assetTag": "AF-0149",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0169",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0084",
+    "assetTag": "AF-0084",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-08T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0170",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0108",
+    "assetTag": "AF-0108",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0171",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0051",
+    "assetTag": "AF-0051",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0172",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0192",
+    "assetTag": "AF-0192",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0173",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0174",
+    "assetTag": "AF-0174",
+    "auditorId": "uid_0002",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-06-02T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0174",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0248",
+    "assetTag": "AF-0248",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0175",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0242",
+    "assetTag": "AF-0242",
+    "auditorId": "uid_0009",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-06-16T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0176",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0059",
+    "assetTag": "AF-0059",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0177",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0200",
+    "assetTag": "AF-0200",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0178",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0029",
+    "assetTag": "AF-0029",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-14T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0179",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0236",
+    "assetTag": "AF-0236",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-08T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0180",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0235",
+    "assetTag": "AF-0235",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-10T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0181",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0026",
+    "assetTag": "AF-0026",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0182",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0247",
+    "assetTag": "AF-0247",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0183",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0189",
+    "assetTag": "AF-0189",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0184",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0106",
+    "assetTag": "AF-0106",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-15T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0185",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0223",
+    "assetTag": "AF-0223",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-13T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0186",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0052",
+    "assetTag": "AF-0052",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-10T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0187",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0097",
+    "assetTag": "AF-0097",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-03T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0188",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0057",
+    "assetTag": "AF-0057",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-12T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0189",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0249",
+    "assetTag": "AF-0249",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-15T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0190",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0121",
+    "assetTag": "AF-0121",
+    "auditorId": "uid_0002",
+    "result": "Missing",
+    "notes": "Not found at last known location during audit.",
+    "verifiedAt": "2026-06-03T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0191",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0150",
+    "assetTag": "AF-0150",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0192",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0125",
+    "assetTag": "AF-0125",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-08T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0193",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0014",
+    "assetTag": "AF-0014",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0194",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0112",
+    "assetTag": "AF-0112",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0195",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0038",
+    "assetTag": "AF-0038",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-14T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0196",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0056",
+    "assetTag": "AF-0056",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-15T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0197",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0157",
+    "assetTag": "AF-0157",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0198",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0117",
+    "assetTag": "AF-0117",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0199",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0046",
+    "assetTag": "AF-0046",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0200",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0100",
+    "assetTag": "AF-0100",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0201",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0096",
+    "assetTag": "AF-0096",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-03T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0202",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0035",
+    "assetTag": "AF-0035",
+    "auditorId": "uid_0009",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0203",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0118",
+    "assetTag": "AF-0118",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0204",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0246",
+    "assetTag": "AF-0246",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-04T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0205",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0050",
+    "assetTag": "AF-0050",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0206",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0162",
+    "assetTag": "AF-0162",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0207",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0092",
+    "assetTag": "AF-0092",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-06-16T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0208",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0070",
+    "assetTag": "AF-0070",
+    "auditorId": "uid_0002",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0209",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0225",
+    "assetTag": "AF-0225",
+    "auditorId": "uid_0002",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-01T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0210",
+    "auditCycleId": "audit_0003",
+    "assetId": "asset_0086",
+    "assetTag": "AF-0086",
+    "auditorId": "uid_0009",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-06-14T15:49:00Z"
+  },
+  {
+    "id": "auditItem_0211",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0152",
+    "assetTag": "AF-0152",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-04T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0212",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0171",
+    "assetTag": "AF-0171",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-15T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0213",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0179",
+    "assetTag": "AF-0179",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-11T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0214",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0136",
+    "assetTag": "AF-0136",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-06T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0215",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0216",
+    "assetTag": "AF-0216",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-13T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0216",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0141",
+    "assetTag": "AF-0141",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0217",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0114",
+    "assetTag": "AF-0114",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0218",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0118",
+    "assetTag": "AF-0118",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-10T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0219",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0078",
+    "assetTag": "AF-0078",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-15T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0220",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0146",
+    "assetTag": "AF-0146",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-02T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0221",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0034",
+    "assetTag": "AF-0034",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0222",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0230",
+    "assetTag": "AF-0230",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-15T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0223",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0203",
+    "assetTag": "AF-0203",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-08T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0224",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0079",
+    "assetTag": "AF-0079",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0225",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0044",
+    "assetTag": "AF-0044",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-03T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0226",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0238",
+    "assetTag": "AF-0238",
+    "auditorId": "uid_0007",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-07-11T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0227",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0067",
+    "assetTag": "AF-0067",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0228",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0059",
+    "assetTag": "AF-0059",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0229",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0124",
+    "assetTag": "AF-0124",
+    "auditorId": "uid_0007",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-07-12T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0230",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0096",
+    "assetTag": "AF-0096",
+    "auditorId": "uid_0014",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-07-10T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0231",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0074",
+    "assetTag": "AF-0074",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-15T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0232",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0198",
+    "assetTag": "AF-0198",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-14T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0233",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0217",
+    "assetTag": "AF-0217",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-14T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0234",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0013",
+    "assetTag": "AF-0013",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0235",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0038",
+    "assetTag": "AF-0038",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-16T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0236",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0091",
+    "assetTag": "AF-0091",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0237",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0073",
+    "assetTag": "AF-0073",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-03T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0238",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0117",
+    "assetTag": "AF-0117",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0239",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0043",
+    "assetTag": "AF-0043",
+    "auditorId": "uid_0007",
+    "result": "Damaged",
+    "notes": "Visible damage noted during physical inspection.",
+    "verifiedAt": "2026-07-05T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0240",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0159",
+    "assetTag": "AF-0159",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-10T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0241",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0042",
+    "assetTag": "AF-0042",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-10T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0242",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0183",
+    "assetTag": "AF-0183",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0243",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0138",
+    "assetTag": "AF-0138",
+    "auditorId": "uid_0014",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-05T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0244",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0239",
+    "assetTag": "AF-0239",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0245",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0047",
+    "assetTag": "AF-0047",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": "Confirmed present and matches records.",
+    "verifiedAt": "2026-07-14T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0246",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0045",
+    "assetTag": "AF-0045",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0247",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0182",
+    "assetTag": "AF-0182",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-16T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0248",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0178",
+    "assetTag": "AF-0178",
+    "auditorId": "uid_0007",
+    "result": "Verified",
+    "notes": null,
+    "verifiedAt": "2026-07-16T12:19:00Z"
+  },
+  {
+    "id": "auditItem_0249",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0249",
+    "assetTag": "AF-0249",
+    "auditorId": "uid_0007",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  },
+  {
+    "id": "auditItem_0250",
+    "auditCycleId": "audit_0004",
+    "assetId": "asset_0204",
+    "assetTag": "AF-0204",
+    "auditorId": "uid_0014",
+    "result": "Pending",
+    "notes": null,
+    "verifiedAt": null
+  }
+]
