@@ -14,6 +14,7 @@ import RegisterAsset from "./pages/assets/RegisterAsset";
 import Allocation from "./pages/allocation/Allocation";
 import Booking from "./pages/booking/Booking";
 import Maintenance from "./pages/maintenance/Maintenance";
+import Audit from "./pages/audit/Audit";
 import Reports from "./pages/reports/Reports";
 import Notifications from "./pages/notifications/Notifications";
 import Profile from "./pages/profile/Profile";
@@ -40,6 +41,7 @@ function App() {
                         <Route path="/allocation" element={<Allocation />} />
                         <Route path="/booking" element={<Booking />} />
                         <Route path="/maintenance" element={<Maintenance />} />
+                        <Route path="/audit" element={<Audit />} />
                         <Route path="/reports" element={<Reports />} />
                         <Route path="/notifications" element={<Notifications />} />
                         <Route path="/profile" element={<Profile />} />

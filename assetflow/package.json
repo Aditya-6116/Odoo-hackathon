@@ -7,11 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seed:test": "node scripts/seed-local-data.js --emulator",
+    "seed:test:wipe": "node scripts/seed-local-data.js --emulator --wipe"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "firebase": "^12.16.0",
+    "firebase-admin": "^13.6.0",
     "lucide-react": "^1.24.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
