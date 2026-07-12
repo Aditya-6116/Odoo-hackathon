@@ -1,0 +1,15 @@
+/**
+ * -------------------------------------------------------
+ * File: index.css
+ * Purpose: Global stylesheet entry.
+ * Module: Styles
+ *
+ * Description: Provides the Tailwind CSS entry directives for the application.
+ *
+ * TODO: Add global base styles when the design system is defined.
+ * -------------------------------------------------------
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
