@@ -23,10 +23,10 @@ const TABS = ['All', 'Alerts', 'Approvals', 'Bookings'];
 
 // Per-type icon config
 const TYPE_META = {
-  AssetAssigned:           { icon: Package,       color: 'text-blue-400',   bg: 'bg-blue-500/10' },
+  AssetAssigned:           { icon: Package,       color: 'text-primary-700', bg: 'bg-glass-soft' },
   MaintenanceApproved:     { icon: CheckCheck,    color: 'text-green-400',  bg: 'bg-green-500/10' },
   MaintenanceRejected:     { icon: Wrench,        color: 'text-red-400',    bg: 'bg-red-500/10' },
-  BookingConfirmed:        { icon: Calendar,      color: 'text-purple-400', bg: 'bg-purple-500/10' },
+  BookingConfirmed:        { icon: Calendar,      color: 'text-primary-700', bg: 'bg-glass-soft' },
   BookingCancelled:        { icon: Calendar,      color: 'text-red-400',    bg: 'bg-red-500/10' },
   BookingReminder:         { icon: Calendar,      color: 'text-yellow-400', bg: 'bg-yellow-500/10' },
   TransferApproved:        { icon: ArrowLeftRight,color: 'text-green-400',  bg: 'bg-green-500/10' },
@@ -54,8 +54,7 @@ export default function ActivityPage() {
         {unreadCount > 0 && (
           <button
             onClick={markAllRead}
-            className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
-                       bg-primary-600/20 text-primary-400 hover:bg-primary-600/30 transition-colors"
+            className="notification-action"
           >
             <CheckCheck size={15} />
             Mark all read
@@ -64,7 +63,7 @@ export default function ActivityPage() {
       </div>
 
       {/* Filter Tabs — matches mockup */}
-      <div className="flex gap-2">
+      <div className="segmented-control">
         {TABS.map(tab => {
           const count = tab === 'All'
             ? notifications.filter(n => !n.isRead).length
@@ -74,16 +73,12 @@ export default function ActivityPage() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150 flex items-center gap-2
-                ${activeTab === tab
-                  ? 'bg-primary-600 text-white shadow-glow'
-                  : 'bg-surface-800 border border-surface-700/50 text-slate-400 hover:text-slate-200 hover:border-surface-600'
-                }`}
+              className={`segmented-tab flex items-center gap-2 ${activeTab === tab ? 'active' : ''}`}
             >
               {tab}
               {count > 0 && (
                 <span className={`text-xs px-1.5 py-0.5 rounded-full font-semibold
-                  ${activeTab === tab ? 'bg-white/20 text-white' : 'bg-primary-600/30 text-primary-400'}`}>
+                  ${activeTab === tab ? 'bg-white/35 text-primary-900' : 'bg-primary-500/20 text-primary-700'}`}>
                   {count}
                 </span>
               )}

@@ -61,15 +61,15 @@ export default function DashboardPage() {
 
   const ACTION_MAP = {
     'asset.registered':   { label: 'Asset registered',    color: 'text-emerald-400' },
-    'asset.allocated':    { label: 'Asset allocated',     color: 'text-blue-400' },
+    'asset.allocated':    { label: 'Asset allocated',     color: 'text-primary-700' },
     'asset.returned':     { label: 'Asset returned',      color: 'text-slate-400' },
     'maintenance.raised': { label: 'Maintenance raised',  color: 'text-amber-400' },
-    'maintenance.approved':{ label: 'Maintenance approved',color: 'text-blue-400' },
+    'maintenance.approved':{ label: 'Maintenance approved',color: 'text-primary-700' },
     'maintenance.resolved':{ label: 'Maintenance resolved',color: 'text-emerald-400' },
-    'booking.created':    { label: 'Booking created',     color: 'text-purple-400' },
+    'booking.created':    { label: 'Booking created',     color: 'text-primary-700' },
     'transfer.requested': { label: 'Transfer requested',  color: 'text-amber-400' },
     'transfer.approved':  { label: 'Transfer approved',   color: 'text-emerald-400' },
-    'audit.cycle_created':{ label: 'Audit cycle started', color: 'text-blue-400' },
+    'audit.cycle_created':{ label: 'Audit cycle started', color: 'text-primary-700' },
     'audit.cycle_closed': { label: 'Audit cycle closed',  color: 'text-slate-400' },
   };
 
@@ -77,10 +77,10 @@ export default function DashboardPage() {
     <div className="space-y-6 animate-fade-in">
       {/* Welcome */}
       <div>
-        <h2 className="text-2xl font-bold text-slate-100">
+        <h2 className="text-2xl font-bold text-surface-850">
           Good {hour()}, {userProfile?.name?.split(' ')[0] ?? 'there'} 👋
         </h2>
-        <p className="text-slate-400 text-sm mt-1">Here's your asset overview for today.</p>
+        <p className="text-slate-500 text-sm mt-1">Here's your asset overview for today.</p>
       </div>
 
       {/* KPI grid */}

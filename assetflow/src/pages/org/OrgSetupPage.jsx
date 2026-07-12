@@ -33,13 +33,12 @@ export default function OrgSetupPage() {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 bg-surface-900 border border-surface-700/50 rounded-xl p-1 w-fit">
+      <div className="segmented-control">
         {TABS.map(t => (
           <button
             key={t.id}
             onClick={() => setTab(t.id)}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150
-              ${tab === t.id ? 'bg-primary-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`segmented-tab flex items-center gap-2 ${tab === t.id ? 'active' : ''}`}
           >
             <t.icon size={15} />
             {t.label}

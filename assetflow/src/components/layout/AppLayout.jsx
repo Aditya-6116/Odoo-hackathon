@@ -17,10 +17,10 @@ const PAGE_TITLES = {
 
 export default function AppLayout() {
   const { pathname } = useLocation();
-  const title = PAGE_TITLES[pathname] ?? 'Activotrack';
+  const title = PAGE_TITLES[pathname] ?? 'ActivoTrack';
 
   return (
-    <div className="flex h-screen overflow-hidden bg-surface-950">
+    <div className="flex h-screen overflow-hidden bg-app-glow">
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
         <TopBar pageTitle={title} />

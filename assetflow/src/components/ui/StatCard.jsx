@@ -2,19 +2,19 @@ import React from 'react';
 import clsx from 'clsx';
 
 const ACCENT_COLORS = {
-  blue:   'from-blue-500/10 to-blue-600/5 border-blue-800/30',
+  blue:   'from-primary-500/20 to-primary-600/5 border-glass-border',
   emerald:'from-emerald-500/10 to-emerald-600/5 border-emerald-800/30',
   amber:  'from-amber-500/10 to-amber-600/5 border-amber-800/30',
   red:    'from-red-500/10 to-red-600/5 border-red-800/30',
-  purple: 'from-purple-500/10 to-purple-600/5 border-purple-800/30',
+  purple: 'from-primary-400/20 to-primary-600/5 border-glass-border',
   slate:  'from-slate-500/10 to-slate-600/5 border-slate-700/30',
 };
 const ICON_COLORS = {
-  blue:   'bg-blue-900/50 text-blue-400',
+  blue:   'bg-glass-soft text-primary-700 shadow-glow',
   emerald:'bg-emerald-900/50 text-emerald-400',
   amber:  'bg-amber-900/50 text-amber-400',
   red:    'bg-red-900/50 text-red-400',
-  purple: 'bg-purple-900/50 text-purple-400',
+  purple: 'bg-glass-soft text-primary-700 shadow-glow',
   slate:  'bg-slate-700/50 text-slate-400',
 };
 
@@ -26,8 +26,8 @@ export default function StatCard({ label, value, icon: Icon, color = 'blue', tre
     )}>
       <div className="flex items-start justify-between">
         <div>
-          <p className="text-xs font-medium text-slate-400 uppercase tracking-wide">{label}</p>
-          <p className="text-3xl font-bold text-slate-100 mt-1.5 tabular-nums">
+          <p className="text-xs font-medium text-slate-500 uppercase tracking-wide">{label}</p>
+          <p className="text-3xl font-bold text-surface-850 mt-1.5 tabular-nums">
             {value ?? '—'}
             {suffix && <span className="text-base font-normal text-slate-400 ml-1">{suffix}</span>}
           </p>

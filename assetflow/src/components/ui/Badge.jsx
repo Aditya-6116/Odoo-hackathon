@@ -4,8 +4,8 @@ import clsx from 'clsx';
 const STATUS_STYLES = {
   // Asset status
   Available:         'bg-emerald-900/40 text-emerald-400 border border-emerald-800/50',
-  Allocated:         'bg-blue-900/40 text-blue-400 border border-blue-800/50',
-  Reserved:          'bg-purple-900/40 text-purple-400 border border-purple-800/50',
+  Allocated:         'bg-glass-soft text-primary-700 border border-glass-border',
+  Reserved:          'bg-glass-soft text-primary-700 border border-glass-border',
   'Under Maintenance':'bg-amber-900/40 text-amber-400 border border-amber-800/50',
   Lost:              'bg-red-900/40 text-red-400 border border-red-800/50',
   Retired:           'bg-slate-700/60 text-slate-400 border border-slate-600/50',
@@ -21,25 +21,25 @@ const STATUS_STYLES = {
   Critical:          'bg-red-900/40 text-red-400 border border-red-800/50',
   // Maintenance
   Pending:           'bg-slate-700/60 text-slate-300 border border-slate-600/50',
-  Approved:          'bg-blue-900/40 text-blue-400 border border-blue-800/50',
+  Approved:          'bg-glass-soft text-primary-700 border border-glass-border',
   Rejected:          'bg-red-900/40 text-red-400 border border-red-800/50',
-  'Technician Assigned':'bg-purple-900/40 text-purple-400 border border-purple-800/50',
+  'Technician Assigned':'bg-glass-soft text-primary-700 border border-glass-border',
   'In Progress':     'bg-amber-900/40 text-amber-400 border border-amber-800/50',
   Resolved:          'bg-emerald-900/40 text-emerald-400 border border-emerald-800/50',
   // Booking
-  Upcoming:          'bg-blue-900/40 text-blue-400 border border-blue-800/50',
+  Upcoming:          'bg-glass-soft text-primary-700 border border-glass-border',
   Ongoing:           'bg-amber-900/40 text-amber-400 border border-amber-800/50',
   Completed:         'bg-slate-700/60 text-slate-400 border border-slate-600/50',
   Cancelled:         'bg-red-900/40 text-red-400 border border-red-800/50',
   // Audit
-  Open:              'bg-blue-900/40 text-blue-400 border border-blue-800/50',
+  Open:              'bg-glass-soft text-primary-700 border border-glass-border',
   Closed:            'bg-slate-700/60 text-slate-400 border border-slate-600/50',
   Verified:          'bg-emerald-900/40 text-emerald-400 border border-emerald-800/50',
   Missing:           'bg-red-900/40 text-red-400 border border-red-800/50',
   Damaged:           'bg-orange-900/40 text-orange-400 border border-orange-800/50',
   // Roles
-  admin:             'bg-purple-900/40 text-purple-400 border border-purple-800/50',
-  asset_manager:     'bg-blue-900/40 text-blue-400 border border-blue-800/50',
+  admin:             'bg-glass-soft text-primary-700 border border-glass-border',
+  asset_manager:     'bg-glass-soft text-primary-700 border border-glass-border',
   department_head:   'bg-amber-900/40 text-amber-400 border border-amber-800/50',
   employee:          'bg-slate-700/60 text-slate-300 border border-slate-600/50',
 };

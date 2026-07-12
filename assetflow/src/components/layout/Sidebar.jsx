@@ -36,20 +36,22 @@ export default function Sidebar() {
   return (
     <aside
       className={clsx(
-        'flex flex-col h-screen bg-surface-900 border-r border-surface-700/50',
+        'flex flex-col h-screen bg-glass-strong border-r border-glass-border shadow-glass backdrop-blur-glass',
         'transition-all duration-300 shrink-0',
         collapsed ? 'w-[64px]' : 'w-[240px]',
       )}
     >
       {/* Logo */}
-      <div className="flex items-center gap-3 px-4 py-5 border-b border-surface-700/50">
-        <img src={brandLogo} alt="Activotrack" className="w-8 h-8 shrink-0 object-contain" />
+      <div className="flex items-center gap-3 px-4 py-5 border-b border-glass-border">
+        <div className="flex items-center justify-center w-8 h-8 bg-orange-glass bg-glass-orange border border-glass-border rounded-lg shadow-glow shrink-0">
+          <img src={brandLogo} alt="ActivoTrack" className="w-6 h-6 object-contain" />
+        </div>
         {!collapsed && (
-          <span className="text-base font-bold text-slate-100 tracking-tight">Activotrack</span>
+          <span className="text-base font-bold text-surface-850 tracking-tight">ActivoTrack</span>
         )}
         <button
           onClick={() => setCollapsed(c => !c)}
-          className="ml-auto text-slate-500 hover:text-slate-300 transition-colors"
+          className="ml-auto text-slate-500 hover:text-primary-700 transition-colors"
         >
           {collapsed ? <ChevronRight size={16} /> : <ChevronLeft size={16} />}
         </button>
@@ -73,10 +75,10 @@ export default function Sidebar() {
       </nav>
 
       {/* User + logout */}
-      <div className="px-2 py-3 border-t border-surface-700/50">
+      <div className="px-2 py-3 border-t border-glass-border">
         {!collapsed && userProfile && (
           <div className="px-3 py-2 mb-1">
-            <p className="text-sm font-medium text-slate-200 truncate">{userProfile.name}</p>
+            <p className="text-sm font-medium text-surface-850 truncate">{userProfile.name}</p>
             <p className="text-xs text-slate-500 capitalize truncate">{userProfile.role?.replace('_', ' ')}</p>
           </div>
         )}

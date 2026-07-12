@@ -2,11 +2,11 @@ import React from 'react';
 import clsx from 'clsx';
 
 const variants = {
-  primary:   'bg-primary-600 hover:bg-primary-500 text-white shadow-sm hover:shadow-glow',
-  secondary: 'bg-surface-700 hover:bg-surface-600 text-slate-200 border border-surface-600',
-  danger:    'bg-red-700 hover:bg-red-600 text-white',
-  ghost:     'hover:bg-surface-700/60 text-slate-400 hover:text-slate-200',
-  outline:   'border border-surface-600 hover:border-primary-500 text-slate-300 hover:text-primary-400',
+  primary:   'bg-orange-glass bg-glass-orange hover:bg-primary-500/30 text-primary-900 border border-glass-border shadow-glow hover:shadow-orange-glow backdrop-blur-glass',
+  secondary: 'bg-glass hover:bg-glass-soft text-primary-800 border border-glass-border shadow-glass backdrop-blur-glass',
+  danger:    'bg-red-700/80 hover:bg-red-600 text-white border border-red-500/50 shadow-sm',
+  ghost:     'hover:bg-glass-soft text-slate-500 hover:text-primary-800',
+  outline:   'border border-glass-border hover:border-primary-500 text-primary-800 hover:text-primary-700 bg-white/30 backdrop-blur-glass',
 };
 
 const sizes = {
@@ -31,7 +31,7 @@ export default function Button({
       disabled={disabled || loading}
       className={clsx(
         'inline-flex items-center justify-center gap-2 font-medium',
-        'transition-all duration-150 cursor-pointer',
+        'transition-all duration-150 cursor-pointer hover:-translate-y-0.5',
         'disabled:opacity-50 disabled:cursor-not-allowed',
         variants[variant],
         sizes[size],
