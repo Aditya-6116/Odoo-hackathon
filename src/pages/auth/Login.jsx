@@ -26,7 +26,7 @@ function Login() {
                 <section className="login-card" aria-label="Login">
                     <div className="login-panel">
                         <div className="login-header">
-                            <h1>AssetFlow - Login</h1>
+                            <h1>ActivoTrack - Login</h1>
                             <p className="login-eyebrow">Welcome back</p>
                         </div>
 

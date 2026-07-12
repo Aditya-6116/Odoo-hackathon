@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <header className="dashboard-topbar">
             <a className="dashboard-brand" href="/">
-                AssetFlow
+                ActivoTrack
             </a>
         </header>
     );
