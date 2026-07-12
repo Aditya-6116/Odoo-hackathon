@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Layers, Eye, EyeOff, AlertCircle } from 'lucide-react';
+import { Eye, EyeOff, AlertCircle } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import Button from '../../components/ui/Button';
+import brandLogo from '../../assets/activotrack-logo.png';
 
 export default function LoginPage() {
   const { login, signup } = useAuth();
@@ -58,10 +59,8 @@ export default function LoginPage() {
       <div className="w-full max-w-sm relative">
         {/* Brand */}
         <div className="flex flex-col items-center mb-8">
-          <div className="flex items-center justify-center w-14 h-14 bg-primary-600 rounded-2xl shadow-glow mb-4">
-            <Layers size={28} className="text-white" />
-          </div>
-          <h1 className="text-2xl font-bold text-slate-100">AssetFlow</h1>
+          <img src={brandLogo} alt="Activotrack" className="w-16 h-16 mb-4 object-contain" />
+          <h1 className="text-2xl font-bold text-slate-100">Activotrack</h1>
           <p className="text-sm text-slate-400 mt-1">Enterprise Asset Management</p>
         </div>
 

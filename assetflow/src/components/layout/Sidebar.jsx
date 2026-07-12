@@ -5,9 +5,9 @@ import {
   LayoutDashboard, Building2, Package, ArrowLeftRight,
   Calendar, Wrench, ClipboardList, BarChart2,
   Bell, ChevronLeft, ChevronRight, LogOut,
-  Layers,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
+import brandLogo from '../../assets/activotrack-logo.png';
 
 const NAV_ITEMS = [
   { path: '/dashboard',    label: 'Dashboard',            icon: LayoutDashboard, roles: ['admin','asset_manager','department_head','employee'] },
@@ -43,11 +43,9 @@ export default function Sidebar() {
     >
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-5 border-b border-surface-700/50">
-        <div className="flex items-center justify-center w-8 h-8 bg-primary-600 rounded-lg shrink-0">
-          <Layers size={16} className="text-white" />
-        </div>
+        <img src={brandLogo} alt="Activotrack" className="w-8 h-8 shrink-0 object-contain" />
         {!collapsed && (
-          <span className="text-base font-bold text-slate-100 tracking-tight">AssetFlow</span>
+          <span className="text-base font-bold text-slate-100 tracking-tight">Activotrack</span>
         )}
         <button
           onClick={() => setCollapsed(c => !c)}

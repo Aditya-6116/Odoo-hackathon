@@ -17,7 +17,7 @@ const PAGE_TITLES = {
 
 export default function AppLayout() {
   const { pathname } = useLocation();
-  const title = PAGE_TITLES[pathname] ?? 'AssetFlow';
+  const title = PAGE_TITLES[pathname] ?? 'Activotrack';
 
   return (
     <div className="flex h-screen overflow-hidden bg-surface-950">
