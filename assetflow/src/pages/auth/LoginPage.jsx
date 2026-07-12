@@ -49,24 +49,26 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-surface-950 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-app-glow flex items-center justify-center p-4">
       {/* Background gradient blobs */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-primary-600/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-primary-400/20 rounded-full blur-3xl" />
       </div>
 
       <div className="w-full max-w-sm relative">
         {/* Brand */}
         <div className="flex flex-col items-center mb-8">
-          <img src={brandLogo} alt="Activotrack" className="w-16 h-16 mb-4 object-contain" />
-          <h1 className="text-2xl font-bold text-slate-100">Activotrack</h1>
-          <p className="text-sm text-slate-400 mt-1">Enterprise Asset Management</p>
+          <div className="flex items-center justify-center w-14 h-14 bg-orange-glass bg-glass-orange border border-glass-border rounded-2xl shadow-glow mb-4 backdrop-blur-glass">
+            <img src={brandLogo} alt="ActivoTrack" className="w-10 h-10 object-contain" />
+          </div>
+          <h1 className="text-2xl font-bold text-surface-850">ActivoTrack</h1>
+          <p className="text-sm text-slate-500 mt-1">Enterprise Asset Management</p>
         </div>
 
         {/* Card */}
         <div className="glass-card p-7">
-          <h2 className="text-lg font-semibold text-slate-100 mb-5">
+          <h2 className="text-lg font-semibold text-surface-850 mb-5">
             {mode === 'login' ? 'Sign in to your account' : 'Create your account'}
           </h2>
 

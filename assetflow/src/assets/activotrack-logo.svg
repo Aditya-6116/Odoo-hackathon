@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">Activotrack logo</title>
+  <title id="title">ActivoTrack logo</title>
   <desc id="desc">Gradient A monogram with growth arrow.</desc>
   <defs>
     <linearGradient id="g" x1="24" y1="212" x2="224" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2f6cf6"/>
-      <stop offset="1" stop-color="#22d3a6"/>
+      <stop offset="0" stop-color="#ea580c"/>
+      <stop offset="1" stop-color="#fb923c"/>
     </linearGradient>
   </defs>
 
   <path d="M40 208L112 76C119 64 137 64 144 76L183 141" fill="none" stroke="url(#g)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M183 141L213 111L210 163" fill="none" stroke="url(#g)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M75 208H181" fill="none" stroke="url(#g)" stroke-width="22" stroke-linecap="round"/>
-  <circle cx="49" cy="148" r="10" fill="#2f6cf6"/>
-  <circle cx="127" cy="173" r="10" fill="#18c6a0"/>
+  <circle cx="49" cy="148" r="10" fill="#ea580c"/>
+  <circle cx="127" cy="173" r="10" fill="#fb923c"/>
 </svg>

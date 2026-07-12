@@ -31,11 +31,10 @@ export default function AllocationsPage() {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 bg-surface-900 border border-surface-700/50 rounded-xl p-1 w-fit">
+      <div className="segmented-control">
         {TABS.map((t, i) => (
           <button key={t} onClick={() => setTab(i)}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-150
-              ${tab === i ? 'bg-primary-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}>
+            className={`segmented-tab ${tab === i ? 'active' : ''}`}>
             {t}
           </button>
         ))}

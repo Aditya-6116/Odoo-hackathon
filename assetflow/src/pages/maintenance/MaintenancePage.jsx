@@ -16,8 +16,8 @@ import { formatDate } from '../../utils/formatters';
 
 const COLUMNS = [
   { id: 'Pending',             label: 'Pending',             color: 'text-slate-300' },
-  { id: 'Approved',            label: 'Approved',            color: 'text-blue-400' },
-  { id: 'Technician Assigned', label: 'Assigned',            color: 'text-purple-400' },
+  { id: 'Approved',            label: 'Approved',            color: 'text-primary-700' },
+  { id: 'Technician Assigned', label: 'Assigned',            color: 'text-primary-700' },
   { id: 'In Progress',         label: 'In Progress',         color: 'text-amber-400' },
   { id: 'Resolved',            label: 'Resolved',            color: 'text-emerald-400' },
 ];
