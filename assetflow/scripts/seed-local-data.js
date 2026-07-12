@@ -49,7 +49,7 @@ const valuesAfter = (flag) => {
   return values;
 };
 
-const useEmulator = hasFlag('--emulator') || Boolean(process.env.FIRESTORE_EMULATOR_HOST) || Boolean(process.env.FIREBASE_AUTH_EMULATOR_HOST);
+const useEmulator = hasFlag('--emulator');
 const wipe = hasFlag('--wipe');
 const projectId = process.env.FIREBASE_PROJECT_ID || process.env.GCLOUD_PROJECT || 'assetflow-demo';
 const authPassword = process.env.SEED_AUTH_PASSWORD || 'Test1234!';
@@ -116,6 +116,10 @@ async function wipeCollection(firestore, collectionName) {
 async function main() {
   if (!useEmulator && !serviceAccountPath) {
     throw new Error('Set GOOGLE_APPLICATION_CREDENTIALS or pass --service-account when importing to a real Firebase project.');
+  }
+
+  if (serviceAccountPath && useEmulator) {
+    throw new Error('Use either --service-account for a real Firebase project or --emulator for local emulators, not both.');
   }
 
   const appConfig = useEmulator
