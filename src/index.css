@@ -148,6 +148,207 @@ a {
     color: #284b63;
 }
 
+.dashboard-shell {
+    min-height: 100vh;
+    background: #f5f7fb;
+}
+
+.dashboard-topbar {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 28px;
+    background: #ffffff;
+    border-bottom: 1px solid #dce5e1;
+}
+
+.dashboard-brand {
+    color: #172033;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.dashboard-layout {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    min-height: calc(100vh - 64px);
+}
+
+.dashboard-sidebar {
+    background: #ffffff;
+    border-right: 1px solid #dce5e1;
+    padding: 24px 16px;
+}
+
+.dashboard-sidebar nav {
+    display: grid;
+    gap: 8px;
+}
+
+.dashboard-nav-link {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    border-radius: 8px;
+    color: #536070;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.dashboard-nav-link.active,
+.dashboard-nav-link:hover {
+    background: #eef3f1;
+    color: #284b63;
+}
+
+.dashboard-main {
+    display: grid;
+    align-content: start;
+    gap: 22px;
+    padding: 32px;
+}
+
+.overview-section,
+.dashboard-section {
+    background: #ffffff;
+    border: 1px solid #dce5e1;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.overview-section h1,
+.dashboard-section h2 {
+    margin: 0;
+    color: #172033;
+}
+
+.overview-section h1 {
+    font-size: 28px;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(140px, 1fr));
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.overview-card {
+    min-height: 112px;
+    display: grid;
+    align-content: space-between;
+    padding: 18px;
+    border: 1px solid #dce5e1;
+    border-radius: 8px;
+    background: #f9fbfa;
+}
+
+.overview-card p {
+    margin: 0;
+    color: #536070;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.overview-card strong {
+    color: #284b63;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.section-heading-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.section-heading-row span {
+    color: #6a7484;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.overdue-list,
+.activity-list {
+    display: grid;
+    gap: 12px;
+}
+
+.overdue-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 14px 16px;
+    border: 1px solid #edf2f0;
+    border-radius: 8px;
+}
+
+.overdue-item strong {
+    color: #273244;
+}
+
+.overdue-item p {
+    margin: 4px 0 0;
+    color: #6a7484;
+    font-size: 14px;
+}
+
+.overdue-item > span {
+    color: #9b2c2c;
+    font-size: 13px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.quick-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.quick-actions button {
+    min-height: 50px;
+    border: 0;
+    border-radius: 8px;
+    background: #284b63;
+    color: #ffffff;
+    font: inherit;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.activity-item {
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #edf2f0;
+}
+
+.activity-item:last-child {
+    border-bottom: 0;
+}
+
+.activity-item span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4f6f52;
+}
+
+.activity-item p {
+    margin: 0;
+    color: #273244;
+    font-weight: 700;
+}
+
 @media (max-width: 760px) {
     .auth-page {
         padding: 20px;
@@ -163,5 +364,40 @@ a {
 
     .login-header h1 {
         font-size: 28px;
+    }
+
+    .dashboard-topbar {
+        padding: 0 20px;
+    }
+
+    .dashboard-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-sidebar {
+        border-right: 0;
+        border-bottom: 1px solid #dce5e1;
+        overflow-x: auto;
+        padding: 12px;
+    }
+
+    .dashboard-sidebar nav {
+        display: flex;
+        width: max-content;
+    }
+
+    .dashboard-main {
+        padding: 20px;
+    }
+
+    .overview-grid,
+    .quick-actions {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading-row,
+    .overdue-item {
+        align-items: flex-start;
+        flex-direction: column;
     }
 }
