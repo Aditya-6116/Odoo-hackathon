@@ -65,20 +65,6 @@
         { "fieldPath": "isRead",    "order": "ASCENDING" },
         { "fieldPath": "createdAt", "order": "DESCENDING" }
       ]
-    },
-    {
-      "collectionGroup": "activityLogs",
-      "queryScope": "COLLECTION",
-      "fields": [
-        { "fieldPath": "timestamp", "order": "DESCENDING" }
-      ]
-    },
-    {
-      "collectionGroup": "discrepancyReports",
-      "queryScope": "COLLECTION",
-      "fields": [
-        { "fieldPath": "auditCycleId", "order": "ASCENDING" }
-      ]
     }
   ],
   "fieldOverrides": []
