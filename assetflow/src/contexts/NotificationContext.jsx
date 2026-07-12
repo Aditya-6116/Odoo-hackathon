@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import {
-  collection, query, where, orderBy, limit,
+  collection, query, where,
   onSnapshot, updateDoc, doc, writeBatch,
 } from 'firebase/firestore';
 import { db } from '../firebase';
@@ -19,15 +19,29 @@ export function NotificationProvider({ children }) {
     const q = query(
       collection(db, 'notifications'),
       where('userId', '==', user.uid),
-      orderBy('createdAt', 'desc'),
-      limit(50),
     );
 
-    const unsub = onSnapshot(q, (snap) => {
-      const docs = snap.docs.map(d => ({ id: d.id, ...d.data() }));
-      setNotifications(docs);
-      setUnreadCount(docs.filter(n => !n.isRead).length);
-    });
+    const unsub = onSnapshot(
+      q,
+      (snap) => {
+        const docs = snap.docs
+          .map(d => ({ id: d.id, ...d.data() }))
+          .sort((a, b) => {
+            const aTime = a.createdAt?.toMillis?.() ?? 0;
+            const bTime = b.createdAt?.toMillis?.() ?? 0;
+            return bTime - aTime;
+          })
+          .slice(0, 50);
+
+        setNotifications(docs);
+        setUnreadCount(docs.filter(n => !n.isRead).length);
+      },
+      (error) => {
+        console.error('Failed to subscribe to notifications:', error);
+        setNotifications([]);
+        setUnreadCount(0);
+      },
+    );
 
     return unsub;
   }, [user]);

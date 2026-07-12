@@ -25,6 +25,9 @@
 
   body {
     @apply bg-surface-950 text-slate-100;
+    background-image: radial-gradient(circle at 10% 20%, rgba(47, 108, 246, 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 90% 80%, rgba(34, 211, 166, 0.06) 0%, transparent 50%);
+    background-attachment: fixed;
     margin: 0;
     min-height: 100vh;
   }
@@ -41,31 +44,34 @@
   }
 
   input, textarea, select {
-    @apply bg-surface-800 border border-surface-700 rounded-lg px-3 py-2
+    @apply bg-surface-800/40 border border-surface-700/80 rounded-lg px-3 py-2
            text-slate-100 placeholder-slate-500 text-sm
            focus:border-primary-500 focus:ring-1 focus:ring-primary-500/40
-           transition-colors duration-150;
+           backdrop-blur-md transition-colors duration-150;
   }
 
-  select option { @apply bg-surface-800; }
+  select option { @apply bg-surface-900; }
 }
 
 /* ─── Component Utilities ────────────────────────────────── */
 @layer components {
-  /* Glass card */
+  /* Subtle White Frosted Glass Card */
   .glass-card {
-    @apply bg-surface-800/60 backdrop-blur-sm border border-surface-700/50
-           rounded-xl shadow-card;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.03) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    @apply rounded-xl shadow-glass;
   }
 
   /* Sidebar nav item */
   .nav-item {
     @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium
-           text-slate-400 hover:text-slate-100 hover:bg-surface-700/50
+           text-slate-400 hover:text-slate-100 hover:bg-surface-700/30
            transition-all duration-150 cursor-pointer;
   }
   .nav-item.active {
-    @apply text-primary-400 bg-primary-900/30 border border-primary-800/40;
+    @apply text-accent-400 bg-accent-950/20 border border-accent-900/30;
   }
 
   /* Status badge base */
@@ -73,16 +79,16 @@
     @apply inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold;
   }
 
-  /* Table */
+  /* Data Table */
   .data-table {
     @apply w-full text-sm;
   }
   .data-table th {
     @apply text-left text-xs font-semibold text-slate-400 uppercase tracking-wider
-           px-4 py-3 border-b border-surface-700;
+           px-4 py-3 border-b border-surface-700/60;
   }
   .data-table td {
-    @apply px-4 py-3.5 border-b border-surface-700/50 text-slate-200;
+    @apply px-4 py-3.5 border-b border-surface-700/40 text-slate-200;
   }
   .data-table tr:hover td {
     @apply bg-surface-700/20;
@@ -107,8 +113,11 @@
 
   /* Kanban column */
   .kanban-col {
-    @apply flex-1 min-w-[200px] max-w-xs bg-surface-900/60
-           rounded-xl border border-surface-700/40 overflow-hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    @apply flex-1 min-w-[200px] max-w-xs rounded-xl overflow-hidden;
   }
   .kanban-col-header {
     @apply px-3 py-2.5 text-xs font-semibold uppercase tracking-wider
@@ -120,7 +129,7 @@
   .form-label { @apply text-xs font-medium text-slate-400 uppercase tracking-wide; }
 
   /* Divider */
-  .divider { @apply border-t border-surface-700/50 my-4; }
+  .divider { @apply border-t border-surface-700/40 my-4; }
 
   /* Overlay backdrop */
   .modal-overlay {
@@ -128,13 +137,18 @@
            flex items-center justify-center p-4 animate-fade-in;
   }
   .modal-box {
-    @apply bg-surface-850 border border-surface-700 rounded-2xl shadow-glass
-           w-full max-w-lg animate-slide-in max-h-[90vh] overflow-y-auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    @apply rounded-2xl shadow-glass w-full max-w-lg animate-slide-in max-h-[90vh] overflow-y-auto;
   }
   .modal-header {
     @apply flex items-center justify-between px-6 pt-5 pb-4
-           border-b border-surface-700;
+           border-b border-surface-700/60;
   }
   .modal-body   { @apply px-6 py-4; }
   .modal-footer { @apply px-6 pb-5 pt-4 flex items-center justify-end gap-3; }
 }
+
+
